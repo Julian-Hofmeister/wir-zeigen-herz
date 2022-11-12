@@ -24,3 +24,17 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.center-horizontal {
+  justify-content: center;
+}
+
+.page-margin {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.space-big {
+  margin-top: 5rem;
+}

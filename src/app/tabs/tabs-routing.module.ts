@@ -7,28 +7,36 @@ const routes: Routes = [
     path: 'tabs',
     component: TabsPage,
     children: [
-      {
-        path: 'tab1',
-        loadChildren: () => import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+        {
+        path: 'tab-projects',
+        loadChildren: () => import('../tab-projects/tab-projects.module').then(m => m.TabProjectsPageModule)
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        path: 'tab-partner',
+        loadChildren: () => import('../tab-partner/tab-partner.module').then(m => m.TabPartnerPageModule)
       },
       {
-        path: 'tab3',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        path: 'tab-home',
+        loadChildren: () => import('../tab-home/tab-home.module').then(m => m.TabHomePageModule)
+      },
+      {
+        path: 'tab-team',
+        loadChildren: () => import('../tab-team/tab-team.module').then(m => m.TabTeamPageModule)
+      },
+      {
+        path: 'tab-news',
+        loadChildren: () => import('../tab-news/tab-news.module').then(m => m.TabNewsPageModule)
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/tab-home',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/tabs/tab-home',
     pathMatch: 'full'
   }
 ];

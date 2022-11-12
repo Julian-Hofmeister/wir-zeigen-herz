@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// @import '~material-design-icons/iconfont/material-icons.css';
 
 @Component({
   selector: 'app-tabs',
