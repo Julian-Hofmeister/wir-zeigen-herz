@@ -28,6 +28,13 @@
 
 .center-horizontal {
   justify-content: center;
+  text-align: center;
+}
+
+.center-vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .page-margin {
@@ -37,4 +44,34 @@
 
 .space-big {
   margin-top: 5rem;
+}
+
+.space-medium {
+  margin-top: 2.5rem;
+}
+
+.space-small {
+  margin-top: 1rem;
+}
+
+.icon {
+  height: 3rem;
+  //margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 1rem;
+
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 0
+}
+
+h4 {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--ion-color-medium-shade);
 }
