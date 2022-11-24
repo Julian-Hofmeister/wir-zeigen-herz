@@ -7,7 +7,9 @@ import { TabsPageRoutingModule } from './tabs-routing.module';
 
 import { TabsPage } from './tabs.page';
 import {TabHomePageModule} from '../tab-home/tab-home.module';
-import {MatIconModule} from "@angular/material/icon";
+import {MatIconModule} from '@angular/material/icon';
+import {ActionButtonComponent} from '../shared/action-button/action-button.component';
+import {ActionButtonModule} from '../shared/action-button/action-button.module';
 
 @NgModule({
   imports: [
@@ -16,7 +18,8 @@ import {MatIconModule} from "@angular/material/icon";
     FormsModule,
     TabsPageRoutingModule,
     TabHomePageModule,
-    MatIconModule
+    MatIconModule,
+    ActionButtonModule
   ],
   declarations: [TabsPage]
 })
