@@ -1,0 +1,42 @@
+.partner-card {
+  text-align: start;
+  border-radius: 20px;
+  background-color: white;
+  margin: .8rem;
+  margin-bottom: 1.2rem;
+  width: calc(100% - 1.6rem);
+
+  .main-row {
+    align-items: center;
+
+    ion-col {
+
+      align-items: center;
+      img {
+        border-radius: 40px 40px 0 0;
+        object-fit: cover;
+        max-height: 12.5rem;
+        width: 100%;
+        padding: .5rem;
+        margin-top: 4px;
+      }
+    }
+
+    h3 {
+      font-weight: 600;
+      font-family: "Poppins", serif;
+      font-size: 1.2rem;
+      padding: 0;
+      margin: 0;
+    }
+
+    span {
+      font-size: 1.8rem !important;
+      //color: var(--ion-color-primary);
+      margin-top: 5px;
+    }
+  }
+}
+
+
+

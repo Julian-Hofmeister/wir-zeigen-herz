@@ -1,0 +1,21 @@
+<div class="team-card card-shadow">
+  <ion-row class="main-row">
+      <img [src]="member.img" alt="">
+    <ion-col size="12" class="content-col">
+      <h3>{{member.firstName + " " + member.lastName}}</h3>
+      <p>{{member.description}}</p>
+      <ion-row class="link-row">
+        <a  *ngIf="member.phoneNumber" href="tel:{{member.phoneNumber}}">
+          <span class="material-icons-outlined">call</span>
+        </a>
+        <a  *ngIf="member.mail" href="mailto:{{member.mail}}">
+          <span class="material-icons-outlined">mail</span>
+        </a>
+        <a *ngIf="member.website" href="{{member.website}}">
+          <span class="material-icons-outlined">public</span>
+        </a>
+      </ion-row>
+    </ion-col>
+  </ion-row>
+
+</div>

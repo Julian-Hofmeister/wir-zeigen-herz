@@ -1,0 +1,51 @@
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="center-horizontal page-margin">
+        <div class="space-big"></div>
+
+        <h1>Unsere Partner</h1>
+        <ion-row class="center-vertical">
+           <h1>Mit</h1>
+          <img class="icon" src="/assets/imgs/icon.png" alt="">
+        </ion-row>
+
+        <h4>Jetzt anderen helfen, ohne selbst Geld zu spenden</h4>
+
+        <ion-row class="center-vertical">
+          <p class="link-btn" >Wie funktioniert das?</p>
+          <span class="material-icons-outlined arrow-icon">arrow_outward</span>
+        </ion-row>
+
+        <div class="space-medium"></div>
+        <ion-searchbar  (ionInput)="filterList($event)" placeholder="Suchen"></ion-searchbar>
+        <ion-row class="align-end">
+          <ion-list>
+            <ion-item lines="none">
+              <ion-select placeholder="Filter" [multiple]="true" >
+                <ion-select-option value="apples">Apples</ion-select-option>
+                <ion-select-option value="oranges">Oranges</ion-select-option>
+                <ion-select-option value="bananas">Bananas</ion-select-option>
+              </ion-select>
+            </ion-item>
+          </ion-list>
+        </ion-row>
+      </ion-col>
+
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div *ngIf="!searchTerm">
+          <ion-list *ngFor="let partner of partner">
+            <app-partner-card [partner]="partner"></app-partner-card>
+          </ion-list>
+        </div>
+        <div *ngIf="searchTerm">
+          <ion-list *ngFor="let partner of filteredPartner">
+            <app-partner-card [partner]="partner"></app-partner-card>
+          </ion-list>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

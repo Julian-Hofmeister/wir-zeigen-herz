@@ -1,0 +1,65 @@
+import {Component, Input, OnInit} from '@angular/core';
+import {Partner} from '../partner.interface';
+
+@Component({
+  selector: 'app-partner-card',
+  templateUrl: './partner-card.component.html',
+  styleUrls: ['./partner-card.component.scss'],
+})
+export class PartnerCardComponent implements OnInit {
+
+  //#region [ BINDINGS ] //////////////////////////////////////////////////////////////////////////
+
+  @Input() partner: Partner;
+
+  //#endregion
+
+  //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ MEMBERS ] ///////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
+
+  constructor()
+  {
+  }
+
+  //#endregion
+
+  //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
+
+  ngOnInit()
+  {
+  }
+
+  //#endregion
+
+  //#region [ EMITTER ] ///////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ RECEIVER ] ///////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
+
+  openLink(){
+    window.open(this.partner.link);
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  //#endregion
+
+  //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
+
+  // ----------------------------------------------------------------------------------------------
+
+  //#endregion
+
+}

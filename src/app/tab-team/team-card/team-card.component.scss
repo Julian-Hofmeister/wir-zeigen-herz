@@ -1,0 +1,46 @@
+.team-card {
+  text-align: start;
+  border-radius: 40px;
+  background-color: white;
+  margin: .8rem;
+  margin-bottom: 1.2rem;
+  padding: 0;
+
+
+  img {
+    border-radius: 40px 40px 0 0;
+    object-fit: cover;
+    max-height: 100%;
+    width: 100%;
+  }
+}
+
+.content-col{
+padding: 1rem;
+}
+
+h3 {
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  font-size: 1.2rem;
+}
+
+p {
+  font-weight: 400;
+  font-family: "Poppins", serif;
+  margin-top: 0;
+}
+
+span {
+  font-size: 1.5rem !important;
+  color: var(--ion-color-primary);
+  margin-right: 2rem;
+}
+
+.main-row {
+  flex-direction: column;
+}
+
+.link-row {
+  justify-content: flex-start;
+}
