@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ModalController} from "@ionic/angular";
+import {ExplainModalComponent} from "../shared/explain-modal/explain-modal.component";
 
 @Component({
   selector: 'app-tab-home',
@@ -21,17 +23,17 @@ export class TabHomePage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-    constructor()
-    {
-    }
+  constructor(private modalCtrl: ModalController)
+  {
+  }
 
   //#endregion
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-    ngOnInit()
-    {
-    }
+  ngOnInit()
+  {
+  }
 
   //#endregion
 
@@ -49,9 +51,14 @@ export class TabHomePage implements OnInit {
     console.log('partner');
   }
 
-  openExplainModal() {
-    console.log('explain');
-  }
+
+  async openExplainModal() {
+    const modal = await this.modalCtrl.create({
+      component: ExplainModalComponent,
+    });
+
+    modal.present().then();
+}
 
   // ----------------------------------------------------------------------------------------------
 

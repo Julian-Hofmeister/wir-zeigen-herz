@@ -8,7 +8,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
 
+
+const firebaseConfig = {
+  apiKey: 'AIzaSyDgRqHk09ZPFwcCRK2GsVpxKJizdUc6PCw',
+  authDomain: 'wir-zeigen-herz.firebaseapp.com',
+  projectId: 'wir-zeigen-herz',
+  storageBucket: 'wir-zeigen-herz.appspot.com',
+  messagingSenderId: '360631606900',
+  appId: '1:360631606900:web:1654b6cf0c99c05b4cbb21',
+  measurementId: 'G-Y4DWGNCV3F'
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 @NgModule({
   declarations: [AppComponent, ],
