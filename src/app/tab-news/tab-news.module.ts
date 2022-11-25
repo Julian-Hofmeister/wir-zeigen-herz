@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { TabNewsPageRoutingModule } from './tab-news-routing.module';
 
 import { TabNewsPage } from './tab-news.page';
+import {NewsCardComponent} from "./news-card/news-card.component";
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { TabNewsPage } from './tab-news.page';
     IonicModule,
     TabNewsPageRoutingModule
   ],
-  declarations: [TabNewsPage]
+    declarations: [TabNewsPage, NewsCardComponent]
 })
 export class TabNewsPageModule {}
