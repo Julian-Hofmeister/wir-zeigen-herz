@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Project} from './project.interface';
+import {Observable} from "rxjs";
+import {ProjectsService} from "./projects.service";
 
 @Component({
   selector: 'app-tab-projects',
@@ -16,11 +18,15 @@ export class TabProjectsPage implements OnInit {
 
   projects: Project[] = [
     {
+      id: '11111',
       title: 'Weltweit Wälder Schützen',
       description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...',
       img: '/assets/imgs/forest.jpg',
     }
   ];
+
+  loadedProjects$: Observable<Project[]>;
+
   //#endregion
 
   //#region [ MEMBERS ] ///////////////////////////////////////////////////////////////////////////
@@ -29,7 +35,7 @@ export class TabProjectsPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor()
+  constructor(private projectsService: ProjectsService)
   {
   }
 
@@ -39,6 +45,7 @@ export class TabProjectsPage implements OnInit {
 
   ngOnInit()
   {
+    this.loadedProjects$ = this.projectsService.getProjects();
   }
 
   //#endregion
