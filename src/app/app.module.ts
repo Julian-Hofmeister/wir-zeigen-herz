@@ -14,6 +14,7 @@ import {initializeApp, provideFirebaseApp} from '@angular/fire/app';
 import {connectFirestoreEmulator, getFirestore, provideFirestore} from '@angular/fire/firestore';
 import {connectStorageEmulator, getStorage, provideStorage} from '@angular/fire/storage';
 import {Auth, connectAuthEmulator, getAuth, provideAuth} from '@angular/fire/auth';
+import {environment} from "../environments/environment";
 
 
 
