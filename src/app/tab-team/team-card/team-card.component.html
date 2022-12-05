@@ -2,12 +2,10 @@
   <ion-row class="main-row">
       <img [src]="member.img" alt="">
     <ion-col size="12" class="content-col">
-      <h3>{{member.firstName + " " + member.lastName}}</h3>
+      <h3>{{member.name}}</h3>
+      <p>{{member.subtitle}}</p>
       <p>{{member.description}}</p>
       <ion-row class="link-row">
-        <a  *ngIf="member.phoneNumber" href="tel:{{member.phoneNumber}}">
-          <span class="material-icons-outlined">call</span>
-        </a>
         <a  *ngIf="member.mail" href="mailto:{{member.mail}}">
           <span class="material-icons-outlined">mail</span>
         </a>

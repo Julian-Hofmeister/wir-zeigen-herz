@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Project} from './project.interface';
-import {Observable} from "rxjs";
-import {ProjectsService} from "./projects.service";
+import {Observable} from 'rxjs';
+import {FirebaseService} from '../shared/firebase.service';
+
 
 @Component({
   selector: 'app-tab-projects',
@@ -16,15 +17,6 @@ export class TabProjectsPage implements OnInit {
 
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
-  projects: Project[] = [
-    {
-      id: '11111',
-      title: 'Weltweit Wälder Schützen',
-      description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...',
-      img: '/assets/imgs/forest.jpg',
-    }
-  ];
-
   loadedProjects$: Observable<Project[]>;
 
   //#endregion
@@ -35,7 +27,7 @@ export class TabProjectsPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(private projectsService: ProjectsService)
+  constructor(public fsService: FirebaseService)
   {
   }
 
@@ -43,9 +35,9 @@ export class TabProjectsPage implements OnInit {
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  ngOnInit()
+  async ngOnInit()
   {
-    this.loadedProjects$ = this.projectsService.getProjects();
+    this.loadedProjects$ = await this.fsService.get('projects') as Observable<Project[]>;
   }
 
   //#endregion

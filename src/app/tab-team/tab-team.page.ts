@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {TeamMember} from './team-member.interface';
+import {Observable} from "rxjs";
+import {Project} from "../tab-projects/project.interface";
+import {FirebaseService} from "../shared/firebase.service";
 
 @Component({
   selector: 'app-tab-team',
@@ -15,16 +18,8 @@ export class TabTeamPage implements OnInit {
 
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
-  teamMembers: TeamMember[] = [
-    {
-      firstName: 'Vorname',
-      lastName: 'Nachname',
-      description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...',
-      img: '/assets/imgs/teamMember.png',
-      mail: 'email@test.de',
-      phoneNumber: '+49 1234 56789012',
-    }
-  ];
+  loadedMembers$: Observable<TeamMember[]>;
+
 
   //#endregion
 
@@ -34,7 +29,7 @@ export class TabTeamPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor()
+  constructor(public fsService: FirebaseService)
   {
   }
 
@@ -42,8 +37,9 @@ export class TabTeamPage implements OnInit {
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  ngOnInit()
+  async ngOnInit()
   {
+    this.loadedMembers$ = await this.fsService.get('team') as Observable<TeamMember[]>;
   }
 
   //#endregion

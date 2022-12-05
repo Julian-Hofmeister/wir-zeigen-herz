@@ -8,12 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { getAnalytics } from 'firebase/analytics';
-
-import {initializeApp, provideFirebaseApp} from '@angular/fire/app';
-import {connectFirestoreEmulator, getFirestore, provideFirestore} from '@angular/fire/firestore';
-import {connectStorageEmulator, getStorage, provideStorage} from '@angular/fire/storage';
-import {Auth, connectAuthEmulator, getAuth, provideAuth} from '@angular/fire/auth';
+import {AngularFireModule} from '@angular/fire/compat';
 import {environment} from "../environments/environment";
 
 
@@ -29,15 +24,12 @@ const firebaseConfig = {
   measurementId: 'G-Y4DWGNCV3F'
 };
 
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+
 
 @NgModule({
   declarations: [AppComponent, ],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, BrowserAnimationsModule,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideAuth(() => getAuth()),
-    provideFirestore(() => getFirestore()),
+    AngularFireModule.initializeApp(environment.firebase, 'angularfs'),
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],

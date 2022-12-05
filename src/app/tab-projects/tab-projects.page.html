@@ -10,7 +10,7 @@
           <img class="icon" src="/assets/imgs/icon.png" alt="">
         </ion-row>
 
-        <ion-list *ngFor="let project of projects">
+        <ion-list *ngFor="let project of loadedProjects$ | async">
             <app-project-card [project]="project"></app-project-card>
         </ion-list>
       </ion-col>
