@@ -20,31 +20,36 @@
         <div class="space-medium"></div>
         <ion-searchbar  (ionInput)="filterList($event)" placeholder="Suchen"></ion-searchbar>
         <ion-row class="align-end">
-          <ion-list>
             <ion-item lines="none">
-              <ion-select placeholder="Filter" [multiple]="true" >
-                <ion-select-option value="apples">Apples</ion-select-option>
-                <ion-select-option value="oranges">Oranges</ion-select-option>
-                <ion-select-option value="bananas">Bananas</ion-select-option>
+              <ion-select placeholder="Filter" (ionChange)="filterCategories($event)" #selectCategory>
+                <ion-list  *ngFor="let option of loadedCategories" >
+
+                <ion-select-option [value]="option.name">{{option.name}}</ion-select-option>
+                </ion-list>
+
               </ion-select>
             </ion-item>
-          </ion-list>
+          <span *ngIf="filter" class="material-icons-outlined arrow-icon" (click)="onClearCategoryFilter()">clear</span>
+
         </ion-row>
       </ion-col>
 
     </ion-row>
     <ion-row>
       <ion-col>
-        <div *ngIf="!searchTerm">
+        <div *ngIf="!searchTerm && !filter">
           <ion-list *ngFor="let partner of loadedPartner$ | async">
             <app-partner-card [partner]="partner"></app-partner-card>
           </ion-list>
         </div>
-        <div *ngIf="searchTerm">
+
+        <div *ngIf="searchTerm || filter">
           <ion-list *ngFor="let partner of filteredPartner">
             <app-partner-card [partner]="partner"></app-partner-card>
           </ion-list>
         </div>
+
+
       </ion-col>
     </ion-row>
   </ion-grid>

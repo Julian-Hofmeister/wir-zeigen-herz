@@ -47,6 +47,10 @@ export class NewsCardComponent implements OnInit {
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
+  openLink(){
+    window.open(this.news.link);
+  }
+
   // ----------------------------------------------------------------------------------------------
 
   //#endregion

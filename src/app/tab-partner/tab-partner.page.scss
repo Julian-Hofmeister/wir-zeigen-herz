@@ -28,6 +28,12 @@ border: 2px var(--ion-color-primary) solid;
 
 .align-end {
   justify-content: flex-end;
+  align-items: center;
+  span {
+    margin: 0;
+    padding: 0;
+margin-bottom: .3rem;
+  }
 }
 
 ion-select {

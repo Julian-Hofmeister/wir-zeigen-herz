@@ -6,8 +6,8 @@
 
     <h3>{{news.title}}</h3>
     <p>{{news.body}}</p>
-    <ion-row class="align-right">
-      <ion-row class="center-vertical align-right">
+    <ion-row class="align-right" (click)="openLink()">
+      <ion-row *ngIf="news.link"  class="center-vertical align-right">
         <a>Mehr Lesen</a>
         <span class="material-icons-outlined">
 arrow_outward

@@ -5,6 +5,7 @@
   margin: .8rem;
   margin-bottom: 1.2rem;
   padding: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 12px;
 
 
   img {
@@ -44,7 +45,8 @@ p {
 span {
   font-size: 1.5rem !important;
   color: var(--ion-color-primary);
-  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-right: .5rem;
 }
 
 .main-row {
@@ -52,5 +54,5 @@ span {
 }
 
 .link-row {
-  justify-content: flex-start;
+  justify-content: flex-end;
 }

@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
 import {Partner} from './partner.interface';
 import {Observable, Subscription} from 'rxjs';
 import {FirebaseService} from '../shared/firebase.service';
-import {PartnerService} from "./partner.service";
+import {PartnerService} from './partner.service';
+import {categories, Category} from './categories';
 
 @Component({
   selector: 'app-tab-partner',
@@ -14,6 +15,8 @@ export class TabPartnerPage implements OnInit {
 
   //#region [ BINDINGS ] //////////////////////////////////////////////////////////////////////////
 
+  @ViewChild('selectCategory') categoryFilter: HTMLIonSelectElement;
+
   //#endregion
 
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
@@ -21,7 +24,12 @@ export class TabPartnerPage implements OnInit {
   searchTerm = '';
   filteredPartner: Partner[] = [];
 
+  filter: Category = undefined;
+
+
   loadedPartner$: Observable<Partner[]>;
+
+  loadedCategories = categories;
 
   //#endregion
 
@@ -69,6 +77,30 @@ export class TabPartnerPage implements OnInit {
 
     partnerSub.unsubscribe();
   }
+
+
+  // ----------------------------------------------------------------------------------------------
+
+  filterCategories(evt: any) {
+    this.filter = evt.detail.value;
+
+    const partnerSub: Subscription = this.loadedPartner$.subscribe(data => {
+      const partner = data as Partner[];
+
+      this.filteredPartner = this.partnerService.filterCategories(this.filter, partner);
+
+    });
+
+    partnerSub.unsubscribe();
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  onClearCategoryFilter(){
+    this.filter = undefined;
+    this.categoryFilter.value = undefined;
+  }
+
   // ----------------------------------------------------------------------------------------------
 
   //#endregion

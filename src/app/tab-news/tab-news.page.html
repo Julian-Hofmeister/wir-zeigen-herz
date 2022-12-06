@@ -10,9 +10,18 @@
           <img class="icon" src="/assets/imgs/icon.png" alt="">
         </ion-row>
 
-        <ion-list *ngFor="let news of loadedNews$ | async">
-          <app-news-card [news]="news"></app-news-card>
-        </ion-list>
+        <div *ngIf="loadedNews$">
+          <ion-list *ngFor="let news of loadedNews$ | async">
+            <app-news-card [news]="news"></app-news-card>
+          </ion-list>
+        </div>
+
+
+        <div *ngIf="!loadedNews$">
+          <ion-spinner color="primary"></ion-spinner>
+        </div>
+
+
       </ion-col>
     </ion-row>
   </ion-grid>
