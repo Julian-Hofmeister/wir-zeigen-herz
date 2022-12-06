@@ -36,7 +36,7 @@
     <ion-row>
       <ion-col>
         <div *ngIf="!searchTerm">
-          <ion-list *ngFor="let partner of partner">
+          <ion-list *ngFor="let partner of loadedPartner$ | async">
             <app-partner-card [partner]="partner"></app-partner-card>
           </ion-list>
         </div>

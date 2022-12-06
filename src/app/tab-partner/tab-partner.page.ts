@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Partner} from './partner.interface';
+import {Observable, Subscription} from 'rxjs';
+import {FirebaseService} from '../shared/firebase.service';
+import {PartnerService} from "./partner.service";
 
 @Component({
   selector: 'app-tab-partner',
@@ -18,13 +21,8 @@ export class TabPartnerPage implements OnInit {
   searchTerm = '';
   filteredPartner: Partner[] = [];
 
-  partner: Partner[] = [
-    {
-      name: 'Amazon',
-      logoImg: '/assets/imgs/partner-logo.png',
-      link: 'https://www.amazon.de',
-    }
-  ];
+  loadedPartner$: Observable<Partner[]>;
+
   //#endregion
 
   //#region [ MEMBERS ] ///////////////////////////////////////////////////////////////////////////
@@ -33,7 +31,7 @@ export class TabPartnerPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor()
+  constructor(public fsService: FirebaseService, public partnerService: PartnerService)
   {
   }
 
@@ -41,8 +39,9 @@ export class TabPartnerPage implements OnInit {
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  ngOnInit()
+  async ngOnInit()
   {
+    this.loadedPartner$ = await this.fsService.get('partner') as Observable<Partner[]>;
   }
 
   //#endregion
@@ -58,21 +57,17 @@ export class TabPartnerPage implements OnInit {
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
   filterList(evt: any) {
-
     this.searchTerm = evt.srcElement.value;
 
     if (!this.searchTerm) {return;}
 
+    const partnerSub: Subscription = this.loadedPartner$.subscribe(data => {
+      const partner = data as Partner[];
 
-    this.filteredPartner = this.partner.filter((currentPartner) => {
-      if (currentPartner.name && this.searchTerm) {
-        return (
-          currentPartner.name
-            .toLowerCase()
-            .indexOf(this.searchTerm.toLowerCase()) > -1
-        );
-      }
+     this.filteredPartner = this.partnerService.filterList(this.searchTerm, partner);
     });
+
+    partnerSub.unsubscribe();
   }
   // ----------------------------------------------------------------------------------------------
 

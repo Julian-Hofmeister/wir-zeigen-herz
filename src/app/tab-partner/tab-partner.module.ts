@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { TabPartnerPageRoutingModule } from './tab-partner-routing.module';
 
 import { TabPartnerPage } from './tab-partner.page';
-import {PartnerCardComponent} from "./partner-card/partner-card.component";
+import {PartnerCardComponent} from './partner-card/partner-card.component';
 
 @NgModule({
   imports: [

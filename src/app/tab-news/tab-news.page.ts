@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {Project} from "../tab-projects/project.interface";
 import {News} from "./news.interface";
+import {FirebaseService} from "../shared/firebase.service";
+import {Observable} from "rxjs";
+import {TeamMember} from "../tab-team/team-member.interface";
 
 @Component({
   selector: 'app-tab-news',
@@ -14,14 +17,8 @@ export class TabNewsPage implements OnInit {
 
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
-  news: News[] = [
-    {
-      title: 'Weltweit Wälder Schützen',
-      body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...',
-      img: '/assets/imgs/forest.jpg',
-      link: '',
-    }
-  ];
+  loadedNews$: Observable<News[]>;
+
   //#endregion
 
   //#region [ MEMBERS ] ///////////////////////////////////////////////////////////////////////////
@@ -30,16 +27,18 @@ export class TabNewsPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor()
+  constructor(public fsService: FirebaseService)
   {
   }
+
 
   //#endregion
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  ngOnInit()
+  async ngOnInit()
   {
+    this.loadedNews$ = await this.fsService.get('news') as Observable<News[]>;
   }
 
   //#endregion

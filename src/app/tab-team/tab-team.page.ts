@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {TeamMember} from './team-member.interface';
-import {Observable} from "rxjs";
-import {Project} from "../tab-projects/project.interface";
-import {FirebaseService} from "../shared/firebase.service";
+import {Observable} from 'rxjs';
+import {FirebaseService} from '../shared/firebase.service';
 
 @Component({
   selector: 'app-tab-team',

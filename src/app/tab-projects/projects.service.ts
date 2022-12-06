@@ -15,13 +15,11 @@ import {FirebaseService} from '../shared/firebase.service';
 export class ProjectsService {
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
-  projectList: Observable<Project[]>;
-
   //#endregion
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(public afs: AngularFirestore, public fsService: FirebaseService) {
+  constructor() {
   }
 
   //#endregion

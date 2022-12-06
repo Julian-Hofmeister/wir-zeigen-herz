@@ -81,6 +81,48 @@
   src: url('./assets/fonts/Poppins-Black.ttf');
 }
 
+//--------------------------------
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Lato-Regular.ttf');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: normal;
+  src: url('./assets/fonts/Lato-Italic.ttf');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./assets/fonts/Lato-Thin.ttf');
+}
+@font-face {
+  font-family: 'Latop';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./assets/fonts/Lato-Black.ttf');
+}
+
+
 
 .center-horizontal {
   justify-content: center;
