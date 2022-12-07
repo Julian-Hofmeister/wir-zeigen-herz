@@ -42,12 +42,25 @@ p {
   margin-top: 0;
 }
 
-span {
-  font-size: 1.5rem !important;
-  color: var(--ion-color-primary);
-  margin-left: 2rem;
-  margin-right: .5rem;
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+
+  span {
+    font-size: 1.5rem !important;
+    color: var(--ion-color-primary);
+    margin-left: 2rem;
+    margin-right: .5rem;
+  }
+
+  p {
+    margin: 0;
+    padding:0;
+  }
 }
+
 
 .main-row {
   flex-direction: column;
