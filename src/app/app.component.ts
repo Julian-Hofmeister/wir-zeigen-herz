@@ -1,10 +1,59 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {AuthenticationService} from "./shared/authentication.service";
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
-export class AppComponent {
-  constructor() {}
+export class AppComponent implements OnInit{
+  //#region [ BINDINGS ] //////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ MEMBERS ] ///////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
+
+  constructor(public authService: AuthenticationService)
+  {
+  }
+
+  //#endregion
+
+  //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
+
+  ngOnInit()
+  {
+   this.authService.autoAuthentication().then();
+  }
+
+  //#endregion
+
+  //#region [ EMITTER ] ///////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ RECEIVER ] ///////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
+
+  // ----------------------------------------------------------------------------------------------
+
+  //#endregion
+
+  //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
+
+  // ----------------------------------------------------------------------------------------------
+
+  //#endregion
 }
+

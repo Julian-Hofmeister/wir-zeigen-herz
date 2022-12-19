@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {getAuth, signInAnonymously} from '@angular/fire/auth';
+import {AngularFireAuth} from '@angular/fire/compat/auth';
 // @import '~material-design-icons/iconfont/material-icons.css';
 
 @Component({
@@ -6,8 +8,57 @@ import { Component } from '@angular/core';
   templateUrl: 'tabs.page.html',
   styleUrls: ['tabs.page.scss']
 })
-export class TabsPage {
+export class TabsPage implements OnInit{
 
-  constructor() {}
+  //#region [ BINDINGS ] //////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ MEMBERS ] ///////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
+
+  constructor(
+    private fireauth: AngularFireAuth
+  )
+  {
+  }
+
+  //#endregion
+
+  //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
+
+  ngOnInit() {
+  }
+
+  //#endregion
+
+  //#region [ EMITTER ] ///////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ RECEIVER ] ///////////////////////////////////////////////////////////////////////////
+
+  //#endregion
+
+  //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
+
+  // ----------------------------------------------------------------------------------------------
+
+  //#endregion
+
+  //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
+
+
+
+  // ----------------------------------------------------------------------------------------------
+
+  //#endregion
 
 }

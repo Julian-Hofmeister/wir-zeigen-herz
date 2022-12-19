@@ -1,5 +1,9 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Project} from '../project.interface';
+import {ActivatedRoute} from '@angular/router';
+import {ProjectsService} from '../projects.service';
+import {FirebaseService} from '../../shared/firebase.service';
+import {Preferences} from '@capacitor/preferences';
 
 @Component({
   selector: 'app-project-card',
@@ -24,7 +28,7 @@ export class ProjectCardComponent implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor()
+  constructor(public projectService: ProjectsService, public firebaseService: FirebaseService)
   {
   }
 
@@ -49,7 +53,15 @@ export class ProjectCardComponent implements OnInit {
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
   likeProject() {
-    this.project.isLiked =! this.project.isLiked;
+     this.firebaseService.likeProject(this.project.id, !this.project.isLiked).then();
+
+     this.project.isLiked = !this.project.isLiked;
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  openProjectPage() {
+    this.projectService.selectProject(this.project);
   }
 
   // ----------------------------------------------------------------------------------------------

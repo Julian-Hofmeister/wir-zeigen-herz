@@ -1,12 +1,10 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Project} from './project.interface';
-
-import { Firestore, collectionData, collection } from '@angular/fire/firestore';
-import { Observable } from 'rxjs';
-import {AngularFirestore} from '@angular/fire/compat/firestore';
-import {map, shareReplay} from 'rxjs/operators';
+import {Observable} from 'rxjs';
 import {FirebaseService} from '../shared/firebase.service';
-
+import {User} from '../shared/user.interface';
+import {map, shareReplay} from 'rxjs/operators';
+import {AngularFirestore} from '@angular/fire/compat/firestore';
 
 
 @Injectable({
@@ -15,22 +13,63 @@ import {FirebaseService} from '../shared/firebase.service';
 export class ProjectsService {
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
+  selectedProject: Project ;
+
+  projectList: Observable<Project[]>;
+
+
   //#endregion
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor() {
+  constructor(public fsService: FirebaseService, public afs: AngularFirestore) {
   }
 
   //#endregion
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
+  async getProjects() {
+    const user: User = await this.fsService.getUser();
+
+    console.log(user);
+
+    const collection = this.afs.collection('projects');
+
+    this.projectList = collection.snapshotChanges().pipe(
+      map((changes) =>
+        changes.map((item) => {
+          const data = item.payload.doc.data() as Project;
+          data.id = item.payload.doc.id;
+
+          data.isLiked = user.likedProjects.includes(data.id);
+
+          return data;
+        })
+      ),
+      shareReplay(1)
+    );
+    return this.projectList;
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  selectProject(project: Project) {
+    this.selectedProject = project;
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  getSelectedProject(): Project {
+    return this.selectedProject;
+  }
+
   // ----------------------------------------------------------------------------------------------
 
   //#endregion
 
   //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
+
 
   // ----------------------------------------------------------------------------------------------
 

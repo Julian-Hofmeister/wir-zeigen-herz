@@ -6,4 +6,5 @@ export interface Project  {
   votes?: number;
   isLiked?: boolean;
   link?: string;
+  likes?: string[];
 }

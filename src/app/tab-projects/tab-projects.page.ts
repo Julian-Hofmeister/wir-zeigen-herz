@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {Project} from './project.interface';
-import {Observable} from 'rxjs';
+import {Observable, Subscription} from 'rxjs';
 import {FirebaseService} from '../shared/firebase.service';
+import {ProjectsService} from './projects.service';
+
 
 
 @Component({
@@ -18,6 +20,7 @@ export class TabProjectsPage implements OnInit {
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
   loadedProjects$: Observable<Project[]>;
+  loadedProjects: Project[];
 
   //#endregion
 
@@ -27,7 +30,7 @@ export class TabProjectsPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(public fsService: FirebaseService)
+  constructor(public fsService: FirebaseService, public projectsService: ProjectsService)
   {
   }
 
@@ -37,7 +40,7 @@ export class TabProjectsPage implements OnInit {
 
   async ngOnInit()
   {
-    this.loadedProjects$ = await this.fsService.get('projects') as Observable<Project[]>;
+    this.loadedProjects$ = await this.projectsService.getProjects() as Observable<Project[]>;
   }
 
   //#endregion
