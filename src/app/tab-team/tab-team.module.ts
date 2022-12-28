@@ -8,14 +8,16 @@ import { TabTeamPageRoutingModule } from './tab-team-routing.module';
 
 import { TabTeamPage } from './tab-team.page';
 import {TeamCardComponent} from './team-card/team-card.component';
+import {TabProjectsPageModule} from "../tab-projects/tab-projects.module";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    TabTeamPageRoutingModule
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        TabTeamPageRoutingModule,
+        TabProjectsPageModule
+    ],
   declarations: [TabTeamPage, TeamCardComponent]
 })
 export class TabTeamPageModule {}

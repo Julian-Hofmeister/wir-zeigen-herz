@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ModalController} from "@ionic/angular";
+import {ModalController, ToastController} from "@ionic/angular";
 import {ExplainModalComponent} from "../shared/explain-modal/explain-modal.component";
 
 @Component({
@@ -23,7 +23,7 @@ export class TabHomePage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(private modalCtrl: ModalController)
+  constructor(private modalCtrl: ModalController, private toastController: ToastController)
   {
   }
 
@@ -52,6 +52,8 @@ export class TabHomePage implements OnInit {
   }
 
 
+  // ----------------------------------------------------------------------------------------------
+
   async openExplainModal() {
     const modal = await this.modalCtrl.create({
       component: ExplainModalComponent,
@@ -59,6 +61,15 @@ export class TabHomePage implements OnInit {
 
     modal.present().then();
 }
+  // ----------------------------------------------------------------------------------------------
+
+  copyText() {
+    navigator.clipboard.writeText('Hello').then(
+      () => {
+        this.presentToast().then();
+      }
+    );
+  }
 
   // ----------------------------------------------------------------------------------------------
 
@@ -66,6 +77,16 @@ export class TabHomePage implements OnInit {
 
   //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
 
+  async presentToast() {
+    const toast = await this.toastController.create({
+      message: 'Nachricht Kopiert',
+      duration: 1500,
+      position: 'bottom',
+      color: 'medium'
+    });
+
+    await toast.present();
+  }
   // ----------------------------------------------------------------------------------------------
 
   //#endregion

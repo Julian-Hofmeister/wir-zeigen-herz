@@ -1,5 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {AuthenticationService} from "./shared/authentication.service";
+import {AuthenticationService} from './shared/authentication.service';
+
+import { TranslateService } from '@ngx-translate/core'; // add this
+
 
 @Component({
   selector: 'app-root',
@@ -21,8 +24,9 @@ export class AppComponent implements OnInit{
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(public authService: AuthenticationService)
+  constructor(public authService: AuthenticationService, private translate: TranslateService)
   {
+    this.initializeApp();
   }
 
   //#endregion
@@ -45,6 +49,10 @@ export class AppComponent implements OnInit{
   //#endregion
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
+
+  initializeApp() {
+    this.translate.setDefaultLang('en'); // add this
+  }
 
   // ----------------------------------------------------------------------------------------------
 

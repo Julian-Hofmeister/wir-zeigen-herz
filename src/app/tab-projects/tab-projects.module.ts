@@ -9,15 +9,20 @@ import { TabProjectsPageRoutingModule } from './tab-projects-routing.module';
 import { TabProjectsPage } from './tab-projects.page';
 import {ProjectCardComponent} from './project-card/project-card.component';
 import {ActionButtonModule} from '../shared/action-button/action-button.module';
+import {PageHeaderComponent} from "../shared/page-header/page-header.component";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    TabProjectsPageRoutingModule,
-    ActionButtonModule
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        TabProjectsPageRoutingModule,
+        ActionButtonModule
+    ],
+  exports: [
+    ProjectCardComponent,
+    PageHeaderComponent
   ],
-  declarations: [TabProjectsPage, ProjectCardComponent ]
+  declarations: [TabProjectsPage, ProjectCardComponent, PageHeaderComponent]
 })
 export class TabProjectsPageModule {}

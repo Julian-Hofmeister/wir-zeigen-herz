@@ -3,8 +3,66 @@
   margin: 0;
 }
 
+p {
+  color: var(--ion-color-dark-tint);
+  line-height: 1.5rem;
+}
+
 ion-toolbar {
   padding-left: 1rem;
   padding-right: .5rem;
+}
+
+
+.content-col {
+  margin: 1rem;
+  h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+
+  strong {
+    color: var(--ion-color-primary);
+    margin-top: 1.5rem;
+  }
+
+  .share {
+    position: relative;
+    background-color: var(--ion-color-primary);
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem 0;
+
+    span {
+      color: var(--ion-color-light);
+    }
+    .material-icons-outlined {
+      margin-top: 1rem;
+      text-align: end;
+    }
+  }
+
+  .below-share {
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 2rem;
+    p{
+      margin: 0;
+    }
+  }
+
+  //.share::before {
+  //  content: "";
+  //  position: absolute;
+  //  left: 0;
+  //  bottom: 0;
+  //  height: 100%;
+  //  width: .5rem;
+  //  background-color: var(--ion-color-primary);
+  //}
 }
 

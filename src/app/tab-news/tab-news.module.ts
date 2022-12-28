@@ -8,13 +8,15 @@ import { TabNewsPageRoutingModule } from './tab-news-routing.module';
 
 import { TabNewsPage } from './tab-news.page';
 import {NewsCardComponent} from "./news-card/news-card.component";
+import {TabProjectsPageModule} from "../tab-projects/tab-projects.module";
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    TabNewsPageRoutingModule
+    TabNewsPageRoutingModule,
+    TabProjectsPageModule
   ],
     declarations: [TabNewsPage, NewsCardComponent]
 })

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {TeamMember} from './team-member.interface';
 import {Observable} from 'rxjs';
 import {FirebaseService} from '../shared/firebase.service';
+import {team} from './team-data';
 
 @Component({
   selector: 'app-tab-team',
@@ -18,6 +19,8 @@ export class TabTeamPage implements OnInit {
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
   loadedMembers$: Observable<TeamMember[]>;
+
+  members: TeamMember[] = team;
 
 
   //#endregion

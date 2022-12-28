@@ -2,13 +2,7 @@
   <ion-grid>
     <ion-row>
       <ion-col class="center-horizontal ">
-        <div class="space-big"></div>
-
-        <h1>Hilfsprojekte</h1>
-        <ion-row class="center-vertical">
-          <h1>Mit</h1>
-          <img class="icon" src="/assets/imgs/icon.png" alt="">
-        </ion-row>
+        <app-page-header title="Hilfsprojekte"></app-page-header>
 
         <div *ngIf="loadedProjects$">
           <ion-list *ngFor="let project of loadedProjects$ | async">

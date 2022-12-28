@@ -7,13 +7,13 @@
       <p>{{member.description}}</p>
       <ion-row class="link-row">
         <a  *ngIf="member.mail" href="mailto:{{member.mail}}">
+          <p>E-mail schreiben</p>
           <span class="material-icons-outlined">mail</span>
-          <p>E-mail</p>
         </a>
-        <a *ngIf="member.website" href="{{member.website}}">
-          <span class="material-icons-outlined">public</span>
-          <p>Webseite</p>
-        </a>
+<!--        <a *ngIf="member.website" href="{{member.website}}">-->
+<!--          <span class="material-icons-outlined">public</span>-->
+<!--          <p>Webseite</p>-->
+<!--        </a>-->
       </ion-row>
     </ion-col>
   </ion-row>

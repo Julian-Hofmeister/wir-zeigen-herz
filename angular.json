@@ -3,6 +3,10 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "i18n": {
+      "sourceLocale": "de-DE",
+      "locale": {"en-US":  "src/assets/translation/en.xlf"}
+    },
     "app": {
       "root": "",
       "sourceRoot": "src",
@@ -13,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": ["en-US"],
             "outputPath": "www",
             "index": "src/index.html",
             "main": "src/main.ts",

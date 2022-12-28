@@ -2,13 +2,7 @@
   <ion-grid>
     <ion-row>
       <ion-col class="center-horizontal ">
-        <div class="space-big"></div>
-
-        <h1>Aktuelle News</h1>
-        <ion-row class="center-vertical">
-          <h1>Mit</h1>
-          <img class="icon" src="/assets/imgs/icon.png" alt="">
-        </ion-row>
+       <app-page-header title="Aktuelle News"></app-page-header>
 
         <div *ngIf="loadedNews$">
           <ion-list *ngFor="let news of loadedNews$ | async">

@@ -8,15 +8,17 @@ import { TabHomePageRoutingModule } from './tab-home-routing.module';
 
 import { TabHomePage } from './tab-home.page';
 import {ActionButtonModule} from '../shared/action-button/action-button.module';
+import {TabProjectsPageModule} from "../tab-projects/tab-projects.module";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    TabHomePageRoutingModule,
-ActionButtonModule
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        TabHomePageRoutingModule,
+        ActionButtonModule,
+        TabProjectsPageModule
+    ],
   declarations: [TabHomePage]
 })
 export class TabHomePageModule {}

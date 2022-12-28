@@ -8,17 +8,10 @@
   <ion-grid>
     <ion-row>
       <ion-col class="center-horizontal ">
-        <div class="space-big"></div>
-
-        <h1>Unser Team</h1>
-        <ion-row class="center-vertical">
-          <h1>Mit</h1>
-          <img class="icon" src="/assets/imgs/icon.png" alt="">
-        </ion-row>
-
-        <ion-list *ngFor="let member of loadedMembers$ | async">
-          <app-team-card [member]="member"></app-team-card>
-        </ion-list>
+        <app-page-header title="Unser Team"></app-page-header>
+          <ion-list *ngFor="let member of members">
+            <app-team-card [member]="member"></app-team-card>
+          </ion-list>
       </ion-col>
     </ion-row>
   </ion-grid>
