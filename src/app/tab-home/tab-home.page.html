@@ -20,20 +20,34 @@
       <app-action-button [text]="'homePage.partnerBtn' | translate" routerLink="/tabs/tab-partner"></app-action-button>
       <p class="link-btn" (click)="openExplainModal()">{{'homePage.explainBtn' | translate}}</p>
     </div>
+    <p class="aboutus">{{'homePage.aboutUs' | translate}}</p>
+
+    <h4>Aktuelle News</h4>
+    <ion-list *ngFor="let news of news">
+      <app-news-card [news]="news"></app-news-card>
+    </ion-list>
+
     <img class="child-img" src="/assets/imgs/child.png" alt="">
 
     <div class="round-container-reverse">
-      <div class="upper-container-reverse"></div>
-      <div class="lower-container-reverse">      </div>
-      <div class="on-top">
-        <p>{{'homePage.aboutUs' | translate}}</p>
-        <p  class="text-list">{{'homePage.aboutUsList' | translate}}</p>
+      <div class="upper-container-reverse">
       </div>
+      <div class="lower-container-reverse">
+        <h4>{{'homePage.ourVisionTitle' | translate}}</h4>
+        <p>{{'homePage.ourVision' | translate}}</p>
+        <app-action-button color="light" [text]="'homePage.teamBtn' | translate" routerLink="/team"></app-action-button>
+      </div>
+<!--      <div class="on-top">-->
+<!--&lt;!&ndash;        <p>{{'homePage.aboutUs' | translate}}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;        <p  class="text-list">{{'homePage.aboutUsList' | translate}}</p>&ndash;&gt;-->
+<!--        <h4>{{'homePage.ourVisionTitle' | translate}}</h4>-->
+<!--        <p>{{'homePage.ourVision' | translate}}</p>-->
+<!--      </div>-->
     </div>
-    <div class="content-container">
-      <h4>{{'homePage.ourVisionTitle' | translate}}</h4>
-      <p>{{'homePage.ourVision' | translate}}</p>
-    </div>
+<!--    <div class="content-container">-->
+<!--      <h4>{{'homePage.ourVisionTitle' | translate}}</h4>-->
+<!--      <p>{{'homePage.ourVision' | translate}}</p>-->
+<!--    </div>-->
 
     <div class="img-container">
         <h4>{{'homePage.weAreThereTitle' | translate}}</h4>
@@ -44,9 +58,10 @@
 <!--        <li>Soziale Entscheidung</li>-->
 <!--      </ul>-->
       <app-action-button [text]="'homePage.shareBtn' | translate" class="share-btn" (click)="copyText()"></app-action-button>
+
     </div>
 
-    <img src="assets/imgs/wir-sind-dabei.jpg" class="logo-2" alt="">
+<!--    <img src="assets/imgs/wir-sind-dabei.jpg" class="logo-2" alt="">-->
 
   </ion-grid>
 </ion-content>

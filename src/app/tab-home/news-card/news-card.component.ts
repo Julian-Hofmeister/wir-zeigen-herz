@@ -1,17 +1,15 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {News} from "../news.interface";
 
 @Component({
-  selector: 'app-action-button',
-  templateUrl: './action-button.component.html',
-  styleUrls: ['./action-button.component.scss'],
+  selector: 'app-news-card',
+  templateUrl: './news-card.component.html',
+  styleUrls: ['./news-card.component.scss'],
 })
-export class ActionButtonComponent implements OnInit {
-
+export class NewsCardComponent implements OnInit {
   //#region [ BINDINGS ] //////////////////////////////////////////////////////////////////////////
 
-  @Input() text = 'Text';
-
-  @Input() color: string
+  @Input() news: News;
 
   //#endregion
 
@@ -25,15 +23,17 @@ export class ActionButtonComponent implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-    constructor() {
-    }
+  constructor()
+  {
+  }
 
   //#endregion
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-    ngOnInit() {
-    }
+  ngOnInit()
+  {
+  }
 
   //#endregion
 
@@ -47,6 +47,10 @@ export class ActionButtonComponent implements OnInit {
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
+  openLink(){
+    window.open(this.news.link);
+  }
+
   // ----------------------------------------------------------------------------------------------
 
   //#endregion
@@ -56,4 +60,6 @@ export class ActionButtonComponent implements OnInit {
   // ----------------------------------------------------------------------------------------------
 
   //#endregion
+
 }
+

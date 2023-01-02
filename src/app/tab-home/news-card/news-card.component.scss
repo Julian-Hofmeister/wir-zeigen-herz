@@ -1,0 +1,47 @@
+.news-card {
+  text-align: start;
+  border-radius: 40px;
+  background-color: white;
+  margin: 1rem 2rem 2rem;
+
+
+  img {
+    border-radius: 40px 40px 0 0;
+    object-fit: cover;
+    max-height: 14rem;
+    width: 100%;
+  }
+}
+
+.align-right {
+  justify-content: flex-end;
+}
+
+.small-margin{
+  padding: 1rem;
+  padding-top: 0;
+}
+
+h3 {
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  font-size: 1.2rem;
+}
+
+p {
+  font-weight: 400;
+  font-family: "Lato", serif;
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+ion-icon {
+  font-size: 1.5rem !important;
+  margin-top:4px;
+  color: var(--ion-color-primary)
+}
+
+span {
+  color: var(--ion-color-primary);
+  margin-left: 5px;
+}

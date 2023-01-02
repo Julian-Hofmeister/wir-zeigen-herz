@@ -5,6 +5,7 @@ import {TranslateService} from "@ngx-translate/core";
 
 import en from "../../assets/i18n/en.json";
 import de from "../../assets/i18n/de.json";
+import {News} from "../tab-news/news.interface";
 
 @Component({
   selector: 'app-tab-home',
@@ -18,6 +19,8 @@ export class TabHomePage implements OnInit {
   //#endregion
 
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
+
+  news: News[];
 
   language: string = this.translateService.currentLang;
 
@@ -39,6 +42,11 @@ export class TabHomePage implements OnInit {
 
   ngOnInit()
   {
+      if (this.language === "en") {
+        this.news = en.newsPage.news
+      } else {
+        this.news = de.newsPage.news
+      }
   }
 
   //#endregion
@@ -52,6 +60,12 @@ export class TabHomePage implements OnInit {
   //#endregion
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
+
+  // ----------------------------------------------------------------------------------------------
+
+  openLogoLink() {
+    window.open('https://wirzeigenherz.eu/wp-content/uploads/2022/10/und-wir-600x523.jpg');
+  }
 
   // ----------------------------------------------------------------------------------------------
 

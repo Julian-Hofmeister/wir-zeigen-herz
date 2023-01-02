@@ -13,6 +13,7 @@ import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {createTranslateLoader} from "../app.module";
 import {HttpClient} from "@angular/common/http";
 import {ExplainModalModule} from "../shared/explain-modal/explain-modal.module";
+import {NewsCardComponent} from "./news-card/news-card.component";
 
 @NgModule({
     imports: [
@@ -25,6 +26,7 @@ import {ExplainModalModule} from "../shared/explain-modal/explain-modal.module";
         TabProjectsPageModule,
         TranslateModule,
 
+
       TranslateModule.forChild({
         loader: {
           provide: TranslateLoader,
@@ -33,6 +35,6 @@ import {ExplainModalModule} from "../shared/explain-modal/explain-modal.module";
         }
       })
     ],
-  declarations: [TabHomePage]
+    declarations: [TabHomePage, NewsCardComponent]
 })
 export class TabHomePageModule {}
