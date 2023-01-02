@@ -2,16 +2,11 @@
   <ion-grid>
     <ion-row>
       <ion-col class="center-horizontal ">
-        <app-page-header title="Hilfsprojekte"></app-page-header>
+        <app-page-header [title]="'projectPage.pageName' | translate"></app-page-header>
 
-        <div *ngIf="loadedProjects$">
-          <ion-list *ngFor="let project of loadedProjects$ | async">
+        <ion-list *ngFor="let project of projects">
             <app-project-card [project]="project"></app-project-card>
           </ion-list>
-        </div>
-        <div *ngIf="!loadedProjects$">
-          <ion-spinner color="primary"></ion-spinner>
-        </div>
       </ion-col>
     </ion-row>
   </ion-grid>

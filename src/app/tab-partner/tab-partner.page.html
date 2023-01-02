@@ -2,22 +2,22 @@
   <ion-grid>
     <ion-row>
       <ion-col class="center-horizontal page-margin">
-        <app-page-header title="Unsere Partner"></app-page-header>
+        <app-page-header [title]="'partnerPage.pageName' | translate"></app-page-header>
 
 
-        <h4>Jetzt anderen helfen, ohne selbst Geld zu spenden</h4>
+<!--        <h4>Jetzt anderen helfen, ohne selbst Geld zu spenden</h4>-->
 
-        <ion-row class="center-vertical">
-          <p class="link-btn" >Wie funktioniert das?</p>
-          <span class="material-icons-outlined arrow-icon">arrow_outward</span>
-        </ion-row>
+<!--        <ion-row class="center-vertical">-->
+<!--          <p class="link-btn" >Wie funktioniert das?</p>-->
+<!--          <span class="material-icons-outlined arrow-icon">arrow_outward</span>-->
+<!--        </ion-row>-->
 
         <div class="space-medium"></div>
-        <ion-searchbar  (ionInput)="filterList($event)" placeholder="Suchen"></ion-searchbar>
+        <ion-searchbar  (ionInput)="filterList($event)" [placeholder]="'partnerPage.search' | translate"></ion-searchbar>
         <ion-row class="align-end">
             <ion-item lines="none">
-              <ion-select placeholder="Filter" (ionChange)="filterCategories($event)" #selectCategory>
-                <ion-list  *ngFor="let option of loadedCategories" >
+              <ion-select [placeholder]="'partnerPage.filter' | translate" (ionChange)="filterCategories($event)" #selectCategory>
+                <ion-list  *ngFor="let option of categories" >
 
                 <ion-select-option [value]="option.name">{{option.name}}</ion-select-option>
                 </ion-list>
@@ -33,7 +33,7 @@
     <ion-row>
       <ion-col>
         <div *ngIf="!searchTerm && !filter">
-          <ion-list *ngFor="let partner of loadedPartner$ | async">
+          <ion-list *ngFor="let partner of partner">
             <app-partner-card [partner]="partner"></app-partner-card>
           </ion-list>
         </div>
@@ -43,7 +43,6 @@
             <app-partner-card [partner]="partner"></app-partner-card>
           </ion-list>
         </div>
-
 
       </ion-col>
     </ion-row>

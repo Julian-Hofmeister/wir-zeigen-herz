@@ -1,9 +1,10 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
 import {Partner} from './partner.interface';
-import {Observable, Subscription} from 'rxjs';
-import {FirebaseService} from '../shared/firebase.service';
 import {PartnerService} from './partner.service';
-import {categories, Category} from './categories';
+import {Category} from './categories';
+import en from "../../assets/i18n/en.json";
+import de from "../../assets/i18n/de.json";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-tab-partner',
@@ -26,10 +27,10 @@ export class TabPartnerPage implements OnInit {
 
   filter: Category = undefined;
 
+  partner: Partner[];
+  categories: Category[];
 
-  loadedPartner$: Observable<Partner[]>;
-
-  loadedCategories = categories;
+  language: string = this.translateService.currentLang;
 
   //#endregion
 
@@ -39,7 +40,7 @@ export class TabPartnerPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(public fsService: FirebaseService, public partnerService: PartnerService)
+  constructor(private translateService: TranslateService, public partnerService: PartnerService)
   {
   }
 
@@ -47,9 +48,14 @@ export class TabPartnerPage implements OnInit {
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  async ngOnInit()
-  {
-    this.loadedPartner$ = await this.fsService.get('partner') as Observable<Partner[]>;
+  ngOnInit() {
+    if (this.language === "en") {
+      this.partner = en.partnerPage.partner
+      this.categories = en.partnerPage.categories
+    } else {
+      this.partner = de.partnerPage.partner
+      this.categories = de.partnerPage.categories
+    }
   }
 
   //#endregion
@@ -69,13 +75,7 @@ export class TabPartnerPage implements OnInit {
 
     if (!this.searchTerm) {return;}
 
-    const partnerSub: Subscription = this.loadedPartner$.subscribe(data => {
-      const partner = data as Partner[];
-
-     this.filteredPartner = this.partnerService.filterList(this.searchTerm, partner);
-    });
-
-    partnerSub.unsubscribe();
+    this.filteredPartner = this.partnerService.filterList(this.searchTerm, this.partner);
   }
 
 
@@ -84,14 +84,8 @@ export class TabPartnerPage implements OnInit {
   filterCategories(evt: any) {
     this.filter = evt.detail.value;
 
-    const partnerSub: Subscription = this.loadedPartner$.subscribe(data => {
-      const partner = data as Partner[];
+    this.filteredPartner = this.partnerService.filterCategories(this.filter, this.partner);
 
-      this.filteredPartner = this.partnerService.filterCategories(this.filter, partner);
-
-    });
-
-    partnerSub.unsubscribe();
   }
 
   // ----------------------------------------------------------------------------------------------

@@ -51,12 +51,14 @@ export class AppComponent implements OnInit{
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
   initializeApp() {
-    this.translate.setDefaultLang('en'); // add this
+    this.translate.setDefaultLang('de'); // add this
+    this.translate.use('de'); //--> I didn't had this line before
+    // this.translate.use(this.translate.getBrowserLang()); //--> I didn't had this line before
   }
 
   // ----------------------------------------------------------------------------------------------
 
-  //#endregion
+  //#endregions
 
   //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
 

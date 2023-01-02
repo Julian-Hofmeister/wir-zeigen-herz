@@ -8,7 +8,8 @@
   <ion-grid>
     <ion-row>
       <ion-col class="center-horizontal ">
-        <app-page-header title="Unser Team"></app-page-header>
+        <app-page-header [title]="'teamPage.pageName' | translate"></app-page-header>
+
           <ion-list *ngFor="let member of members">
             <app-team-card [member]="member"></app-team-card>
           </ion-list>

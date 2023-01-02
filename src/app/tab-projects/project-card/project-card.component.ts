@@ -38,6 +38,11 @@ export class ProjectCardComponent implements OnInit {
 
   ngOnInit()
   {
+    Preferences.get({key: this.project.title}).then(
+      value => {
+        this.project.isLiked = value.value === "true";
+      }
+    );
   }
 
   //#endregion
@@ -52,13 +57,6 @@ export class ProjectCardComponent implements OnInit {
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
-  likeProject() {
-     this.firebaseService.likeProject(this.project.id, !this.project.isLiked).then();
-
-     this.project.isLiked = !this.project.isLiked;
-  }
-
-  // ----------------------------------------------------------------------------------------------
 
   openProjectPage() {
     this.projectService.selectProject(this.project);
@@ -66,9 +64,27 @@ export class ProjectCardComponent implements OnInit {
 
   // ----------------------------------------------------------------------------------------------
 
+  likeProject() {
+    this.saveLike(!this.project.isLiked).then();
+
+    this.firebaseService.likeProject(!this.project.isLiked, this.project).then()
+
+    this.project.isLiked = !this.project.isLiked;
+  }
+
+
+  // ----------------------------------------------------------------------------------------------
+
   //#endregion
 
   //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
+
+  async saveLike(addLike: boolean) {
+    await Preferences.set({
+      key: this.project.title,
+      value: addLike.toString(),
+    });
+  }
 
   // ----------------------------------------------------------------------------------------------
 

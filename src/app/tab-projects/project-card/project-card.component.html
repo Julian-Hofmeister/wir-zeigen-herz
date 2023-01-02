@@ -13,7 +13,7 @@
          <ion-icon  *ngIf="!project.isLiked" name="heart-outline"></ion-icon>
        </div>
      </ion-button>
-      <app-action-button text="Mehr Lesen" routerLink="project" [state]="{ project: project }"  (click)="openProjectPage()" ></app-action-button>
+      <app-action-button [text]="'projectPage.projectCardBtnText' | translate" routerLink="project" [state]="{ project: project }"  (click)="openProjectPage()" ></app-action-button>
     </ion-row>
 
   </div>

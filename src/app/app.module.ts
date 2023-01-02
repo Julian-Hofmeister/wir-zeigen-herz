@@ -19,7 +19,9 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
-
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/firestore';
+import 'firebase/compat/auth';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyDgRqHk09ZPFwcCRK2GsVpxKJizdUc6PCw',
@@ -31,6 +33,12 @@ const firebaseConfig = {
   measurementId: 'G-Y4DWGNCV3F'
 };
 
+firebase.initializeApp(firebaseConfig);
+
+export const firestore = firebase.firestore();
+
+
+export default firebase;
 
 export const createTranslateLoader = (http: HttpClient) => new TranslateHttpLoader(http, './assets/i18n/', '.json');
 

@@ -1,8 +1,8 @@
 export interface Project  {
-  id: string;
+  id?: string;
   title: string;
   description: string;
-  author: string;
+  author?: string;
   img: string;
   votes?: number;
   isLiked?: boolean;

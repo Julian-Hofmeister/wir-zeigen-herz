@@ -4,6 +4,9 @@ import {News} from "./news.interface";
 import {FirebaseService} from "../shared/firebase.service";
 import {Observable} from "rxjs";
 import {TeamMember} from "../tab-team/team-member.interface";
+import en from "../../assets/i18n/en.json";
+import de from "../../assets/i18n/de.json";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-tab-news',
@@ -17,7 +20,9 @@ export class TabNewsPage implements OnInit {
 
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
-  loadedNews$: Observable<News[]>;
+  news: News[];
+
+  language: string = this.translateService.currentLang;
 
   //#endregion
 
@@ -27,8 +32,7 @@ export class TabNewsPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(public fsService: FirebaseService)
-  {
+  constructor(private translateService: TranslateService) {
   }
 
 
@@ -38,7 +42,11 @@ export class TabNewsPage implements OnInit {
 
   async ngOnInit()
   {
-    this.loadedNews$ = await this.fsService.get('news') as Observable<News[]>;
+    if (this.language === "en") {
+      this.news = en.newsPage.news
+    } else {
+      this.news = de.newsPage.news
+    }
   }
 
   //#endregion

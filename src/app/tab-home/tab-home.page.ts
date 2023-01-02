@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import {ModalController, ToastController} from "@ionic/angular";
 import {ExplainModalComponent} from "../shared/explain-modal/explain-modal.component";
+import {TranslateService} from "@ngx-translate/core";
+
+import en from "../../assets/i18n/en.json";
+import de from "../../assets/i18n/de.json";
 
 @Component({
   selector: 'app-tab-home',
@@ -15,6 +19,8 @@ export class TabHomePage implements OnInit {
 
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
+  language: string = this.translateService.currentLang;
+
   //#endregion
 
   //#region [ MEMBERS ] ///////////////////////////////////////////////////////////////////////////
@@ -23,7 +29,7 @@ export class TabHomePage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(private modalCtrl: ModalController, private toastController: ToastController)
+  constructor(private modalCtrl: ModalController, private toastController: ToastController, private translateService: TranslateService)
   {
   }
 
@@ -47,16 +53,12 @@ export class TabHomePage implements OnInit {
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
-  navToPartner() {
-    console.log('partner');
-  }
-
-
   // ----------------------------------------------------------------------------------------------
 
   async openExplainModal() {
     const modal = await this.modalCtrl.create({
       component: ExplainModalComponent,
+
     });
 
     modal.present().then();
@@ -64,11 +66,21 @@ export class TabHomePage implements OnInit {
   // ----------------------------------------------------------------------------------------------
 
   copyText() {
-    navigator.clipboard.writeText('Hello').then(
+
+    const text = this.language === "en" ? de.homePage.shareMessage : en.homePage.shareMessage;
+
+    navigator.clipboard.writeText(text).then(
       () => {
         this.presentToast().then();
       }
     );
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  switchLanguage() {
+    const lang = this.translateService.currentLang === "de" ? "en" : "de";
+    this.translateService.use(lang);
   }
 
   // ----------------------------------------------------------------------------------------------

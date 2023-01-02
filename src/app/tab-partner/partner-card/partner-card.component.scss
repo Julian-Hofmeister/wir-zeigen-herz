@@ -2,21 +2,26 @@
   text-align: start;
   border-radius: 20px;
   background-color: white;
-  margin: .8rem;
-  margin-bottom: 1.2rem;
+  margin: .8rem .8rem 1.2rem;
   width: calc(100% - 1.6rem);
+  height: 60px;
+  color: var(--ion-color-light);
+
+
 
   .main-row {
+    height: 100%;
     align-items: center;
 
     ion-col {
+      margin: 0;
+      justify-content: center;
 
-      align-items: center;
+
       img {
-        border-radius: 40px 40px 0 0;
+        border-radius: 10px 10px 0 0;
         object-fit: cover;
-        max-height: 12.5rem;
-        width: 100%;
+        max-height: 46px;
         padding: .5rem;
         margin-top: 4px;
       }
@@ -28,13 +33,16 @@
       font-size: 1.2rem;
       padding: 0;
       margin: 0;
+      color: var(--ion-color-dark);
+
     }
 
     span {
       font-size: 1.8rem !important;
-      //color: var(--ion-color-primary);
+      color: var(--ion-color-dark);
       margin-top: 5px;
     }
+
   }
 }
 

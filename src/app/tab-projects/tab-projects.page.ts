@@ -3,6 +3,9 @@ import {Project} from './project.interface';
 import {Observable, Subscription} from 'rxjs';
 import {FirebaseService} from '../shared/firebase.service';
 import {ProjectsService} from './projects.service';
+import {TranslateService} from "@ngx-translate/core";
+import en from "../../assets/i18n/en.json";
+import de from "../../assets/i18n/de.json";
 
 
 
@@ -19,8 +22,10 @@ export class TabProjectsPage implements OnInit {
 
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
-  loadedProjects$: Observable<Project[]>;
-  loadedProjects: Project[];
+  projects: Project[];
+
+  language: string = this.translateService.currentLang;
+
 
   //#endregion
 
@@ -30,7 +35,7 @@ export class TabProjectsPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(public fsService: FirebaseService, public projectsService: ProjectsService)
+  constructor(public fsService: FirebaseService, public projectsService: ProjectsService, private translateService: TranslateService)
   {
   }
 
@@ -38,9 +43,12 @@ export class TabProjectsPage implements OnInit {
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  async ngOnInit()
-  {
-    this.loadedProjects$ = await this.projectsService.getProjects() as Observable<Project[]>;
+  ngOnInit() {
+    if (this.language === "en") {
+      this.projects = en.projectPage.projects;
+    } else {
+      this.projects = de.projectPage.projects;
+    }
   }
 
   //#endregion

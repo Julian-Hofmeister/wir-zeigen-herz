@@ -9,6 +9,7 @@ import { TabPartnerPageRoutingModule } from './tab-partner-routing.module';
 import { TabPartnerPage } from './tab-partner.page';
 import {PartnerCardComponent} from './partner-card/partner-card.component';
 import {TabProjectsPageModule} from "../tab-projects/tab-projects.module";
+import {TranslateModule} from "@ngx-translate/core";
 
 @NgModule({
     imports: [
@@ -16,7 +17,8 @@ import {TabProjectsPageModule} from "../tab-projects/tab-projects.module";
         FormsModule,
         IonicModule,
         TabPartnerPageRoutingModule,
-        TabProjectsPageModule
+        TabProjectsPageModule,
+        TranslateModule
     ],
     declarations: [TabPartnerPage, PartnerCardComponent]
 })

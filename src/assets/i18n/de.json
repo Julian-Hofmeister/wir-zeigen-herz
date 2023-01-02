@@ -1,0 +1,385 @@
+{
+  "homePage": {
+    "monthlyDonation": "15.872€",
+    "monthlyDonationText": "/ Diesen Monat",
+    "translationBtn": "EN \uD83C\uDDEC\uD83C\uDDE7",
+    "partnerBtn": "Partnerprogramme",
+    "explainBtn": "Wie funktioniert das?",
+    "aboutUs": "Unsere gemeinnützige „Wir zeigen Herz Community“ steht für eine unabhängige und kostenlose Plattform, wo jeder Mensch mit Herz Gutes Tun kann und dass ohne Zeit zu investieren oder Geld zu spenden. Wir engagieren uns für lokale und nationale Projekte sämtlicher Themen und geben jedem Mitglied eine Stimme, um für das Spendenprojekt seiner Wahl abzustimmen.",
+    "aboutUsList": "- Kinder und Jugendhilfe \n - Not und Katastrophenhilfe \n - Krankheit und Behinderung \n - Umwelt und Naturschutz \n - Kultur und Denkmalpflege \n - Tierschutz",
+    "ourVisionTitle": "Unsere Vision",
+    "ourVision": "Wir alle haben ein großes Ziel. Wir wollen die größte gemeinnützige Spendenplattform in Europa werden. Das tun wir dank eurer Mithilfe und durch interessante Partnerprogramme von Unternehmen mit den größten online Shops. In den vergangenen Jahren ist der Umsatz dieser Unternehmen kontinuierlich gestiegen und belief sich zuletzt auf rund 86,7 Milliarden Euro. \n\n  Die 100 umsatzstärksten Online-Shops in Deutschland setzten im Jahr 2021 gemeinsam rund 58 Milliarden Euro um. Nur gemeinsam sind wir stark. Auf den Punkt gebracht, werden wir das Leben für viele etwas lebenswerter machen. Um das zu erreichen, bedarf es nur 2 einfacher Schritte. Diese findest du unter dem Punkt „Jetzt Gutes Tun“. Sei auch du ab sofort der Grund, wieso nicht nur heute jemand lächelt.",
+    "weAreThereTitle": "Und wir sind mit dabei",
+    "weAreThere": "Werde Botschafter für unsere Wir zeigen Herz Community. Du hast die Kraft viel zu bewegen. Lade alle ein, sich kostenlos zu engagieren. Zusammen kannst du die Welt in eine andere Richtung bewegen und nachhaltig sehr viel Gutes tun. Wenn du unser Video „Gutes tun durch schmerzfreies Geben“ an alle die du kennst weiterleitest, kannst du unser Logo „Und wir sind mit dabei“ auf deiner Webseite einbauen. \n\n Dieses Logo steht für Kindeswohl und Kinderrechte. Um Menschen in Not das kurz- und mittelfristige Überleben zu ermöglichen. Hilfe für schwerkranke Menschen, oder Menschen mit einer Behinderung. Das Leben und Wohlbefinden von Tieren zu sichern. Kampf für den Schutz unserer Natur und Umwelt – damit die Erde für uns alle bewohnbar bleibt. Erhaltung und Instandsetzung von Kulturdenkmalen. Für die Integrität des Sports zu kämpfen und seine Bedeutung für ein friedliches und soziales Zusammenleben in unserer Gesellschaft hervorzuheben.",
+    "shareBtn": "Jetzt Video teilen",
+    "shareMessage": "Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei. https://vimeo.com/770214670"
+  },
+  "teamPage": {
+    "tabName": "Team",
+    "pageName": "Unser Team",
+    "teamCardBtnText": "E-mail schreiben",
+    "members": [
+      {
+        "description": "Design und Erstellung von visuellen Produkten und Werbemitteln. Ich bin seit über 25 Jahren Mediengestalterin mit Leib und Seele und seit 2019 zertifizierte Zentangle®-Lehrerin.",
+        "img": "/assets/imgs/team/LogoSchoenfelder.jpg",
+        "mail": "info@schoenfelder-anja.de",
+        "name": "Anja Schönfelder",
+        "subtitle": "Mediengestalterin",
+        "website": "https://schoenfelderdesign.de/"
+      },
+      {
+        "description": "Rechtsanwalt/Fachanwalt für Steuerrecht Prof. Dr. Florian Haase ist als Partner im Bereich Steuerrecht am Standort Hamburg tätig. Die Tätigkeitsschwerpunkte von Prof. Dr. Florian Haase liegen in der Steuerstrukturberatung bei internationalen M&A-Transaktionen, Umstrukturierungen, Konzernreorganisationen, Unternehmenssanierungen, Private Equity- und Immobilientransaktionen sowie komplexen Finanzierungen, in der Konzernsteuerplanung und im internationalen und europäischen Steuerrecht.",
+        "img": "/assets/imgs/team/LogoRoedl.jpg",
+        "mail": "florian.haase@roedl.com",
+        "name": "Prof. Dr. Florian Haase",
+        "subtitle": "Rechts- & Fachanwalt für Steuerrecht",
+        "website": "https://www.roedl.de/"
+      },
+      {
+        "description": "Wir bieten Lösungen für Hindernisse, die dem täglichen Betrieb Ihres Unternehmens begegnen. Unsere Mission ist es, animierte Lösungen aus verschiedenen Studios für Ihr Unternehmen, Ihr Produkt und Ihre Dienstleistung anzubieten.",
+        "img": "/assets/imgs/team/LogoAllesAnimation.jpg",
+        "mail": "allesanimation@gmail.com",
+        "name": "Alles Animation - Gregoria",
+        "subtitle": "Profi für günstige animierte Videos"
+      }
+    ]
+  },
+  "newsPage": {
+    "tabName": "News",
+    "pageName": "Aktuelle News",
+    "news": [
+      {
+        "body": "Betterplace.org ist Deutschlands größte Spendenplattform. 120 Unternehmenspartner tun seit 14 Jahren schon Gutes. Stand heute hat Betterplace.org 47.262 Projekte in 185 Länder gestartet und dabei ca. 198 Millionen € an Spenden gesammelt. Betterplace.org ist gemeinnützig und arbeitet nicht profitorientiert. Transparenz ist eine der Grundideen von Betterplace.org. Alle sozialen Projekte die über Betterplace.org Spenden sammeln, werden aufgefordert der Gemeinschaft zu sagen, wie diese Spenden verwendet werden.",
+        "img": "/assets/imgs/news/betterplace.png",
+        "title": "Vorstellung von Betterplace.org"
+      }
+    ]
+  },
+  "projectPage": {
+    "tabName": "Projects",
+    "pageName": "Hilfsprojekte",
+    "projectCardBtnText": "Mehr Lesen",
+    "projects": [
+      {
+        "description": "Wenn ein Kind an Krebs erkrankt, gerät das Leben der gesamten Familie aus den Fugen.\n\nDer Förderkreis krebskranke Kinder e.V. Stuttgart hilft seit 1982 unbürokratisch und schnell Familien mit krebskranken Kindern und Jugendlichen in Stuttgart und der Region in dieser schwierigen Lebenssituation.\n\nDie Versorgung der jungen Patienten im Krankenhaus optimieren wir durch die umfangreicheFörderung der kinderonkologischen Station am Olgahospital Stuttgart. Der Förderkreis hilft bei allem, was den Klinikalltag erleichtert: Spielzeug und Bücher, Kinderzeitschriften im Wartezimmer, Tannenbaum und Geschenke zu Weihnachten und und und. Für eine optimale Pflege finanziert der Förderkreis Fortbildungen des Personals und zusätzliche pädagogische Fachkräfte wie eine Erzieherin.Um Diagnostik und Therapie zu optimieren, finanziert der Förderkreis imKrebs-Forschungsbereichumfangreich das Molekularbiologische Labor unddie CWS-Studienzentrale am Stuttgarter Olgahospital sowie das Liquid-Biopsy-Projekt.\n\nMit dem Blauen Haus bietet der Verein zudem Familien krebskranker Kinder einZuhause auf Zeit, in dem Eltern und Geschwister während der Behandlung der jungen Patienten in unmittelbarer Nähe zum Olgahospital wohnen und Kraft tanken können. Seit 2019 steht im Blauen Haus auch dien:ipo Beratungsstellemit Gruppenangeboten und Einzelberatungen den Familien nach Ende der Intensiv-Therapie bei allen Themen der Nachsorge mit Rat und Tat zur Seite.\n\nUnsere direkte finanzielle Förderungfür Familien erleichtert den Alltag bei Verdienstausfall oder Zusatzkosten durch die Erkrankung und springt immer dort ein, wo Hilfe in der Familie am nötigsten ist.",
+        "img": "/assets/imgs/projects/cancer.jpg",
+        "title": "HILFE FÜR KREBSKRANKE KINDER",
+        "id": "d5X6nskQ0fp7EjyS730M"
+      },
+      {
+        "description": "Heftige Überschwemmungen, eingestürzte Häuser, Vermisste und Tote: Unwetter haben in der Nacht von den 14. auf den 15. Juli 2021 in NRW und Rheinland-Pfalz fürchterliche Zerstörung hinterlassen.\n\nAuch einJahr nach der Katastrophe ist die Zerstörung vielerorts noch sichtbar. Doch es hat sich auch viel getan. Dank eurer Spenden konnten unsere Bündnisorganisationen vielfältige Hilfe leisten. Und die Hilfe geht weiter, solange es nötig ist.\n\nSo hilft unser Bündnis nach dem Hochwasser:\n\n– Wir bieten Menschen in Tiny Häusern und Mobilheimen ein sicheres Zuhause für den Übergang\n\n– Wir beraten Betroffene in Fluthilfebüros zu behördlichen und versicherungstechnischen Fragen\n\n– Wir sorgen mithilfe eines Hebammenmobils dafür, dass schwangere und stillende Frauen betreut werden\n\n– Wir unterstützen soziale Einrichtungen für Senior/innen, organisieren Fahrdienste und Seniorennachmittage\n\n– Wir helfen Kindern und Jugendlichen, etwas Abstand zu den schrecklichen Erlebnissen zu gewinnen und organisieren dafür Freizeitprogramme\n\n– Wir helfen betroffenen Haushalten, Vereinen, sozialen Einrichtungen, Kitas und Schulen finanziellWir stehen Kindern und Erwachsenen mit psychosozialer Hilfe zur Seite\n\n– Wir stellen Bautrockner, Hochdruckreiniger und Werkzeuge zur Verfügung.\n\n– …und viele weitere Hilfsmaßnahmen.\n\nHerzlichen Dank, dass du unsere Hilfe für die betroffenen Menschen unterstützt!\n\nDie hier definierten Bedarfe sind Beispielbedarfe, die immer wieder dringend benötigt werden. Wir garantieren Dir, dass deine Spende den Hilfsprojekten in den betroffenen Regionen Deutschlands zugute kommt und hilft.",
+        "img": "/assets/imgs/projects/hochwasser.jpg",
+        "title": "HOCHWASSER IN DEUTSCHLAND",
+        "id": "lMOpS6FcX3EFxUXHybxz"
+      },
+      {
+        "description": "Klimaschützer, Heimat unzähliger Tier-und Pflanzenarten, Lebensgrundlage für Millionen Menschen:Für unser Überleben sind die Wälder der Welt unverzichtbar. Doch nie zuvor in der Geschichte unserer Erde sind die Wälder so bedroht wie jetzt. 30 Fußballfelder an Wald gehen pro Minute verloren. Unfassbare 21 Hektar. Vor allem in den artenreichen und für das Klima bedeutenden Tropen ist die massive Zerstörung dramatisch.Ursache für den gigantischen Raubbau: der wachsende Bedarf an Holz, Fleisch, Futtermitteln und Palmöl. Illegaler Holzeinschlag und -handel gelten als drittwichtigstes Geschäftsfeld organisierter Kriminalität. Wenn wir jetzt nicht handeln, werden auch die letzten großen, intakten Waldgebiete zerstört.Nur gemeinsam können wir den dramatischen Waldverlust stoppen und unsere Welt für unsere Kinder und Enkel bewahren!\n\nDer WWF setzt sich weltweit dafür ein, bestehende Wälder zu schützen, neue Bäume zu pflanzen und die Artenvielfalt dieser Lebensräumen zu bewahren. Das erreichen wir mit unserem Einsatz und unserem Know-how in denProjekten vor Ort, mit dem Wirken auf politischer Ebene und immer in Einklang mit den Interessen der indigenen Bevölkerung vor Ort. Und mit deiner Hilfe!\n\nHinweis: Überschüssige Spendenerträge werden in anderen dringenden Naturschutzprojekten des WWF eingesetzt.",
+        "img": "/assets/imgs/projects/forest.jpg",
+        "title": "WÄLDER WELTWEIT SCHÜTZEN",
+        "id": "wrspc8OAfk1LeN6m619E"
+      },
+      {
+        "description": "Kirche ist heute für viele junge Menschen nicht mehr attraktiv. Auf der anderen Seite werden jährlich Milliarden für spirituelle Dienstleistungen ausgegeben. Wie passt das zusammen? Gibt es also doch eine Sehnsucht nach Sinn und Tiefe im Leben?\n\nWir von ALL FOR ONE\n\nwollen Kirche für junge Menschenmachen. Sie sollen erleben, dass der Glaube etwas Bereicherndes ist. Wir nutzen die Sprache, die Symbole und die Kommunikationskanäle, die Jugendlichen und jungen Erwachsenen entsprechen. So haben wir mit Events, Glaubenskursen, Gebetsabenden, Connect Groups und Konzertfahrtenseit 2016 weit über 20.000 Menschen erreicht.\n\nHelfen Sie uns, hilfst du uns dabei,bis 2022 weitere 40.000 zu erreichen?\n\nVielen Dank im Voraus und Gottes reichen Segen!",
+        "img": "/assets/imgs/projects/kids.jpg",
+        "title": "CHRISTLICHES NETZWERK",
+        "id": "xkM4d9zxxtgDTarEIULC"
+      }
+    ]
+  },
+  "partnerPage": {
+    "tabName": "Partner",
+    "pageName": "Unsere Partner",
+    "search": "Suchen",
+    "filter": "Filter",
+    "partner":  [
+      {
+        "category": "Marketing und Werbung",
+        "link": "https://go.fiverr.com/visit/?bta=619583&brand=fb",
+        "logoImg": "/assets/imgs/partner/fiverr.png",
+        "name": "Fiverr"
+      },
+      {
+        "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+        "link": "https://Newchic.vip/13sH7",
+        "logoImg": "/assets/imgs/partner/newchic.png",
+        "name": "NewChic"
+      },
+      {
+        "category": "Marketing und Werbung",
+        "link": "https://elopage.com/users/sign_up?epid=1755",
+        "logoImg": "/assets/imgs/partner/elopage.png",
+        "name": "Elopage"
+      },
+      {
+        "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+        "link": "https://www.bullionvaultaffiliate.com/herzzeigen/de",
+        "logoImg": "/assets/imgs/partner/bullionvault.png",
+        "name": "Bullionvault"
+      },
+      {
+        "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+        "link": "https://ad.admitad.com/g/hzlo6dpe2b5403f454b41b24ab9504/",
+        "logoImg": "/assets/imgs/partner/h&m.png",
+        "name": "H&M"
+      },
+      {
+        "category": "Universalhändler und Generalisten",
+        "link": "https://alitems.co/g/1e8d1144945403f454b416525dc3e8/",
+        "logoImg": "/assets/imgs/partner/alibaba.png",
+        "name": "Alibaba"
+      },
+      {
+        "category": "Technik, Elektronik, Foto & Computer",
+        "link": "https://ndirect.ppro.de/click/cE0F",
+        "logoImg": "/assets/imgs/partner/Waipu-tv.png",
+        "name": "Waipu TV"
+      },
+      {
+        "category": "Universalhändler und Generalisten",
+        "link": "https://partner.qvc.de/tc.php?t=124147C1537000000D&subid=&deeplink=https%3A%2F%2Fwirzeigenherz.eu%2F",
+        "logoImg": "/assets/imgs/partner/qvc.png",
+        "name": "QVC"
+      },
+      {
+        "category": "Gesundheit und Pharmazie",
+        "link": "https://t.adcell.com/click.php?bid=327222-104045",
+        "logoImg": "/assets/imgs/partner/hempamed.jpg",
+        "name": "Hempamed CBD"
+      },
+      {
+        "category": "Technik, Elektronik, Foto & Computer",
+        "link": "https://www.awin1.com/cread.php?awinmid=11657&awinaffid=1219038&ued=https%3A%2F%2Fwww.cyberport.de%2F",
+        "logoImg": "/assets/imgs/partner/cyberport.png",
+        "name": "Cyberport"
+      },
+      {
+        "category": "Baumarkt, Werkzeuge und Baustoffe",
+        "link": "https://www.awin1.com/cread.php?awinmid=11513&awinaffid=1219038&ued=https%3A%2F%2Fwww.hagebau.de%2F",
+        "logoImg": "/assets/imgs/partner/hagebau.png",
+        "name": "Hagebau"
+      },
+      {
+        "category": "Technik, Elektronik, Foto & Computer",
+        "link": "https://www.awin1.com/cread.php?awinmid=9312&awinaffid=1219038&ued=https%3A%2F%2Fwww.medion.com%2Fat%2Fshop",
+        "logoImg": "/assets/imgs/partner/medion.png",
+        "name": "Medion"
+      },
+      {
+        "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+        "link": "https://www.awin1.com/cread.php?awinmid=15055&awinaffid=1219038&ued=https%3A%2F%2Fwww.snipes.com%2F",
+        "logoImg": "/assets/imgs/partner/snipes.webp",
+        "name": "Snipes"
+      },
+      {
+        "category": "Haustiere und Tierbedarf",
+        "link": "https://www.awin1.com/cread.php?awinmid=14757&awinaffid=1219038&ued=https%3A%2F%2Fwww.fressnapf.de%2F",
+        "logoImg": "/assets/imgs/partner/fressnapf.png",
+        "name": "Fressnapf"
+      },
+      {
+        "category": "Universalhändler und Generalisten",
+        "link": "https://www.ebay.de/?mkcid=1&mkrid=707-53477-19255-0&siteid=77&campid=5338961654&customid=3901391&toolid=10001&mkevt=1",
+        "logoImg": "/assets/imgs/partner/ebay.png",
+        "name": "Ebay"
+      },
+      {
+        "category": "Geld, Finanzen, Recht, Steuern und Versicherung",
+        "link": "https://a.check24.net/misc/click.php?aid=18&pid=247538&target_url=https%3A%2F%2Fwww.check24.net%2F%3Fpid%3D247538",
+        "logoImg": "/assets/imgs/partner/check24.png",
+        "name": "Check24"
+      },
+      {
+        "category": "Geld, Finanzen, Recht, Steuern und Versicherung",
+        "link": "https://a.partner-versicherung.de/click.php?partner_id=135964&ad_id=1174&target_url=https://www.tarifcheck-partnerprogramm.de?pr=135964",
+        "logoImg": "/assets/imgs/partner/tarifcheck.jpg",
+        "name": "Tarifcheck"
+      },
+      {
+        "category": "Geld, Finanzen, Recht, Steuern und Versicherung",
+        "link": "https://partner.verivox.de/go.cgi?pid=4232&wmid=166&cpid=1&prid=1&subid=&target=multiproduct_2019-09",
+        "logoImg": "/assets/imgs/partner/verivox.png",
+        "name": "Verivox"
+      },
+      {
+        "category": "Geld, Finanzen, Recht, Steuern und Versicherung",
+        "link": "https://kreditvergleich.smava.de/coop/antrag?refId=BmZQZcGjJQQ1",
+        "logoImg": "/assets/imgs/partner/smava.png",
+        "name": "Smava"
+      },
+      {
+        "category": "Versorgung und Energie",
+        "link": "https://www.awin1.com/cread.php?awinmid=11794&awinaffid=1219038",
+        "logoImg": "/assets/imgs/partner/ewe.png",
+        "name": "EWE"
+      },
+      {
+        "category": "Reisen, Hotels und Tourismus",
+        "link": "https://www.awin1.com/cread.php?awinmid=14964&awinaffid=1219038",
+        "logoImg": "/assets/imgs/partner/db.png",
+        "name": "Deutsche Bahn"
+      },
+      {
+        "category": "Outdoor und Camping",
+        "link": "https://www.globetrotter.de/?utm_source=PTID13012969",
+        "logoImg": "/assets/imgs/partner/globetrotter.png",
+        "name": "Globetrotter"
+      },
+      {
+        "category": "Smart Home",
+        "link": "https://www.awin1.com/cread.php?awinmid=7619&awinaffid=1219038&ued=https%3A%2F%2Fwww.lampenwelt.de%2F",
+        "logoImg": "/assets/imgs/partner/hempamed.jpg",
+        "name": "Lampenwelt"
+      },
+      {
+        "category": "Telefonie, Internet und Hosting",
+        "link": "https://1und1-partner.de/shop/mein-shop.html?ps_id=P850158455",
+        "logoImg": "/assets/imgs/partner/1und1.png",
+        "name": "1und1"
+      },
+      {
+        "category": "Telefonie, Internet und Hosting",
+        "link": "https://0100198772.telekom-profis.de",
+        "logoImg": "/assets/imgs/partner/telekom.png",
+        "name": "Telekom"
+      },
+      {
+        "category": "Technik, Elektronik, Foto & Computer",
+        "link": "https://www.awin1.com/cread.php?awinmid=14433&awinaffid=1219038&ued=https%3A%2F%2Fwww.euronics.de%2F",
+        "logoImg": "/assets/imgs/partner/euronics.png",
+        "name": "Euronics"
+      },
+      {
+        "category": "Technik, Elektronik, Foto & Computer",
+        "link": "https://www.awin1.com/cread.php?awinmid=15965&awinaffid=1219038&ued=https%3A%2F%2Fwww.pollin.de%2F",
+        "logoImg": "/assets/imgs/partner/pollin.png",
+        "name": "Pollin"
+      },
+      {
+        "category": "Garten, Pflanzen und Gartentechnik",
+        "link": "https://www.awin1.com/cread.php?awinmid=25092&awinaffid=1219038&ued=https%3A%2F%2Fwww.fleurop.de%2F",
+        "logoImg": "/assets/imgs/partner/fleurop.png",
+        "name": "Fleurop"
+      },
+      {
+        "category": "Babys, Kinder und Spielzeug",
+        "link": "https://www.awin1.com/cread.php?awinmid=14965&awinaffid=1219038&ued=https%3A%2F%2Fwww.tausendkind.de%2F",
+        "logoImg": "/assets/imgs/partner/tausendkind.webp",
+        "name": "Tausendkind"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Ausbildung, Weiterbildung, E-Learning"
+      },
+      {
+        "name": "Auto, Motorrad, Wohnmobil und Automobilität"
+      },
+      {
+        "name": "Babys, Kinder und Spielzeug"
+      },
+      {
+        "name": "Baumarkt, Werkzeuge und Baustoffe"
+      },
+      {
+        "name": "Beauty und Drogerie"
+      },
+      {
+        "name": "Bücher, Zeitschriften, Hörbücher und E-Books"
+      },
+      {
+        "name": "Büro und Homeoffice"
+      },
+      {
+        "name": "Events und Tickets"
+      },
+      {
+        "name": "Fahrräder, Scooter, Roller, E-Bikes, Radsport"
+      },
+      {
+        "name": "Filme, Serien, Musik und Spiele"
+      },
+      {
+        "name": "Garten, Pflanzen und Gartentechnik"
+      },
+      {
+        "name": "Gastronomie & Hotelleriebedarf"
+      },
+      {
+        "name": "Geld, Finanzen, Recht, Steuern und Versicherung"
+      },
+      {
+        "name": "Gesundheit und Pharmazie"
+      },
+      {
+        "name": "Haustiere und Tierbedarf"
+      },
+      {
+        "name": "Immobilien und Grundstücke"
+      },
+      {
+        "name": "Kunst und Handwerk"
+      },
+      {
+        "name": "Lebensmittel und Getränke"
+      },
+      {
+        "name": "Marketing und Werbung"
+      },
+      {
+        "name": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires"
+      },
+      {
+        "name": "Outdoor und Camping"
+      },
+      {
+        "name": "Reisen, Hotels und Tourismus"
+      },
+      {
+        "name": "Smart Home"
+      },
+      {
+        "name": "Sport und Fitness"
+      },
+      {
+        "name": "Technik, Elektronik, Foto & Computer"
+      },
+      {
+        "name": "Telefonie, Internet und Hosting"
+      },
+      {
+        "name": "Universalhändler und Generalisten"
+      },
+      {
+        "name": "Verleih und Vermietung"
+      },
+      {
+        "name": "Versorgung und Energie"
+      },
+      {
+        "name": "Wohnen, Möbel, Küche, Bad, Schlafzimmer und Haushalt"
+      }
+
+    ]
+  },
+  "explainPage": {
+    "pageName": "Wie es funktioniert",
+    "close": "Schließen",
+    "mainHeadline": "Wie du mit nur 2 einfachen Schritten sehr viel Gutes tun kannst.",
+    "firstStep": "1. Leite einmalig unser YouTube Video „Gutes tun durch schmerzfreies Geben“ an alle weiter. Nutze dafür alle deine Social-Media-Kanäle, sowie die Broadcast Liste von WhatsApp, um innerhalb kürzester Zeit jeden zu erreichen. Weiter unten findest du für Android und Iphone jeweils eine kurze Anleitung. Kopiere dann einfach den folgenden Inhalt, um unser Video zu teilen. Vielen Dank!",
+    "copyMessage": "Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei. https://vimeo.com/770214670",
+    "copyCall": "Zum kopieren klicken",
+    "secondStep": "2. Gehe danach zum Menüpunkt Top Partnerprogramme. Dort kannst du alle aktuellen und interessanten Partnerprogramme einsehen.",
+    "broadcastAndroid": "Kurzanleitung Android WhatsApp Broadcast-Liste erstellen",
+    "android1": "1. Öffnen Sie WhatsApp auf Ihrem Android-Smartphone. Tippen Sie auf die drei vertikalen Punkte oben rechts in der Chat-Übersicht.",
+    "android2": "2. Wählen Sie im Menü \"Neuer Broadcast\" aus.",
+    "android3": "3. Suchen Sie aus Ihrer Kontaktliste die gewünschten Empfänger aus. Markierte Personen erkennen Sie am dunkelgrünen Häkchen neben dem Bild. Tippen Sie abschließend auf den grünen Haken unten rechts.",
+    "android4": "4. Jetzt können Sie die Nachricht kopieren und weiterleiten. Die Broadcast-Liste befindet sich in Ihrer Chat-Übersicht bei Ihren anderen Gesprächen.",
+    "broadcastIos": "Kurzanleitung iPhone WhatsApp Broadcast-Liste erstellen",
+    "ios1": "1. Öffnen Sie WhatsApp auf Ihrem iPhone und tippen Sie oben links in der Chat-Übersicht auf \"Broadcasts\".",
+    "ios2": "2. Tippen Sie unten auf \"Neue Liste\".",
+    "ios3": "3. Markieren Sie die gewünschten Personen. Bei markierten Personen erscheint ein blaues Häkchen. Tippen Sie dann auf \"Erstellen\".",
+    "ios4": "4. Die Broadcast-Liste wurde erstellt und befindet sich unter \"Broadcast-Listen\" und Sie können jetzt die Nachricht kopieren und weiterleiten."
+  }
+
+
+}

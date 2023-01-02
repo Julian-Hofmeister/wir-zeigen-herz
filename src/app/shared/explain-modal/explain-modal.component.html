@@ -1,9 +1,9 @@
 
 <ion-header>
   <ion-toolbar>
-        <ion-title>Wie es funktioniert</ion-title>
+        <ion-title>{{"explainPage.pageName" | translate}}</ion-title>
       <ion-buttons slot="end">
-        <ion-button (click)="onClose()">Close</ion-button>
+        <ion-button (click)="onClose()">{{"explainPage.close" | translate}}</ion-button>
       </ion-buttons>
   </ion-toolbar>
 </ion-header>
@@ -12,33 +12,30 @@
   <ion-grid>
     <ion-row>
       <ion-col class="content-col">
-        <h2>Wie du mit nur 2 einfachen Schritten sehr viel Gutes tun kannst.</h2>
+        <h2>{{"explainPage.mainHeadline" | translate}}</h2>
 
-        <p>1. Leite einmalig unser YouTube Video „Gutes tun durch schmerzfreies Geben“ an alle weiter. Nutze dafür alle deine Social-Media-Kanäle, sowie die Broadcast Liste von WhatsApp, um innerhalb kürzester Zeit jeden zu erreichen. Weiter unten findest du für Android und Iphone jeweils eine kurze Anleitung. Kopiere dann einfach den folgenden Inhalt, um unser Video zu teilen. Vielen Dank
-        </p>
+        <p>{{"explainPage.firstStep" | translate}}</p>
 
         <div class="share" (click)="copyText()">
-          <span>Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei. https://vimeo.com/770214670</span>
+          <span>{{"explainPage.copyMessage" | translate}}</span>
         </div>
-        <ion-row class="below-share"(click)="copyText()">
-          <p>Zum kopieren klicken</p>
+        <ion-row class="below-share" (click)="copyText()">
+          <p>{{"explainPage.copyCall" | translate}}</p>
           <span class="material-icons-outlined">copy</span>
         </ion-row>
 
 
-        <p>2. Gehe danach zum Menüpunkt Top Partnerprogramme. Dort kannst du alle aktuellen und interessanten Partnerprogramme einsehen.</p>
-        <p><strong>Kurzanleitung Android WhatsApp Broadcast-Liste erstellen</strong></p>
-        <p>1. Öffnen Sie WhatsApp auf Ihrem Android-Smartphone. Tippen Sie auf die drei vertikalen Punkte oben rechts in der Chat-Übersicht.</p>
-        <p>2. Wählen Sie im Menü "Neuer Broadcast" aus.</p>
-        <p>3. Suchen Sie aus Ihrer Kontaktliste die gewünschten Empfänger aus. Markierte Personen erkennen Sie am dunkelgrünen Häkchen neben dem Bild. Tippen Sie abschließend auf den grünen Haken unten rechts.</p>
-        <p>4. Jetzt können Sie die Nachricht kopieren und weiterleiten. Die Broadcast-Liste befindet sich in Ihrer Chat-Übersicht bei Ihren anderen Gesprächen.</p>
-          <p><strong>Kurzanleitung iPhone WhatsApp Broadcast-Liste erstellen</strong></p>
-        <p>1. Öffnen Sie WhatsApp auf Ihrem iPhone und tippen Sie oben links in der Chat-Übersicht auf "Broadcasts".</p>
-        <p>2. Tippen Sie unten auf "Neue Liste".</p>
-        <p>3. Markieren Sie die gewünschten Personen. Bei markierten Personen erscheint ein blaues Häkchen. Tippen Sie dann auf "Erstellen".</p>
-        <p>4. Die Broadcast-Liste wurde erstellt und befindet sich unter "Broadcast-Listen" und Sie können jetzt die Nachricht kopieren und weiterleiten.</p>
-
-
+        <p>{{"explainPage.secondStep" | translate}}</p>
+        <p><strong>{{"explainPage.broadcastAndroid" | translate}}</strong></p>
+        <p>{{"explainPage.android1" | translate}}</p>
+        <p>{{"explainPage.android2" | translate}}</p>
+        <p>{{"explainPage.android3" | translate}}</p>
+        <p>{{"explainPage.android4" | translate}}</p>
+          <p><strong>{{"explainPage.broadcastIos" | translate}}</strong></p>
+        <p>{{"explainPage.ios1" | translate}}</p>
+        <p>{{"explainPage.ios2" | translate}}</p>
+        <p>{{"explainPage.ios3" | translate}}</p>
+        <p>{{"explainPage.ios4" | translate}}</p>
       </ion-col>
     </ion-row>
   </ion-grid>

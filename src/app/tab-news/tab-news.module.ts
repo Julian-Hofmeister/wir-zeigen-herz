@@ -9,15 +9,17 @@ import { TabNewsPageRoutingModule } from './tab-news-routing.module';
 import { TabNewsPage } from './tab-news.page';
 import {NewsCardComponent} from "./news-card/news-card.component";
 import {TabProjectsPageModule} from "../tab-projects/tab-projects.module";
+import {TranslateModule} from "@ngx-translate/core";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    TabNewsPageRoutingModule,
-    TabProjectsPageModule
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        TabNewsPageRoutingModule,
+        TabProjectsPageModule,
+        TranslateModule
+    ],
     declarations: [TabNewsPage, NewsCardComponent]
 })
 export class TabNewsPageModule {}

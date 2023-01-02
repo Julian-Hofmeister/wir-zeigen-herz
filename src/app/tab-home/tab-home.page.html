@@ -1,127 +1,52 @@
-<!--<ion-content>-->
-<!--  <ion-grid>-->
-<!--    <ion-row>-->
-<!--      <ion-col class="center-horizontal page-margin">-->
-<!--        <div class="space-big"></div>-->
-<!--        <img src="/assets/imgs/logo.png" alt="">-->
-<!--        <h4>„Das Gebot der Nächstenliebe geht uns alle an“</h4>-->
-<!--        <div class="space-medium"></div>-->
-
-<!--        <app-action-button text="Partnerprogramme" (click)="navToPartner()"></app-action-button>-->
-<!--        <p class="link-btn" (click)="openExplainModal()">Wie funktioniert das?</p>-->
-
-<!--        <div>-->
-<!--          <img class="child-img"src="/assets/imgs/child.png" alt="">-->
-<!--          <div class="tilted-container">-->
-
-<!--          </div>-->
-<!--        </div>-->
-<!--      </ion-col>-->
-<!--    </ion-row>-->
-<!--  </ion-grid>-->
-<!--</ion-content>-->
-
-
 <ion-content>
   <ion-grid>
     <div class="round-container">
       <div class="upper-container">
         <img src="/assets/imgs/logo_white.png" alt=""/>
-        <h2>15.872€</h2>
+        <ion-row>
+          <ion-row>
+            <h2 data-text="">{{'homePage.monthlyDonation' | translate}}</h2>
+            <p>{{'homePage.monthlyDonationText' | translate}}</p>
+          </ion-row>
+          <div class="translation-box" (click)="switchLanguage()">
+            <p>{{"homePage.translationBtn" | translate}}</p>
+          </div>
+        </ion-row>
+
       </div>
       <div class="lower-container"></div>
     </div>
     <div class="btn-col">
-      <app-action-button text="Partnerprogramme" routerLink="/tabs/tab-partner"></app-action-button>
-      <p class="link-btn" (click)="openExplainModal()" i18n>Wie funktioniert das?</p>
+      <app-action-button [text]="'homePage.partnerBtn' | translate" routerLink="/tabs/tab-partner"></app-action-button>
+      <p class="link-btn" (click)="openExplainModal()">{{'homePage.explainBtn' | translate}}</p>
     </div>
-    <img class="child-img"src="/assets/imgs/child.png" alt="">
+    <img class="child-img" src="/assets/imgs/child.png" alt="">
 
     <div class="round-container-reverse">
       <div class="upper-container-reverse"></div>
       <div class="lower-container-reverse">      </div>
       <div class="on-top">
-        <p i18n>
-          Unsere gemeinnützige „Wir zeigen Herz Community“ steht für eine unabhängige und kostenlose Plattform, wo jeder Mensch mit Herz Gutes Tun kann und dass ohne Zeit zu investieren oder Geld zu spenden. Wir engagieren uns für lokale und nationale Projekte sämtlicher Themen und geben jedem Mitglied eine Stimme, um für das Spendenprojekt seiner Wahl abzustimmen.
-        </p>
-      <ul>
-       <li i18n>Kinder und Jugendhilfe</li>
-       <li i18n>Not und Katastrophenhilfe</li>
-       <li i18n>Krankheit und Behinderung</li>
-       <li i18n>Umwelt und Naturschutz</li>
-       <li i18n>Kultur und Denkmalpflege</li>
-       <li i18n>Tierschutz</li>
-       <li i18n>Kinder und Jugendhilfe</li>
-      </ul>
+        <p>{{'homePage.aboutUs' | translate}}</p>
+        <p  class="text-list">{{'homePage.aboutUsList' | translate}}</p>
       </div>
     </div>
     <div class="content-container">
-
-      <h4 i18n>Unsere Vision</h4>
-      <p i18n>Wir alle haben ein großes Ziel. Wir wollen die größte gemeinnützige Spendenplattform in Europa werden. Das tun wir dank eurer Mithilfe und durch interessante Partnerprogramme von Unternehmen mit den größten online Shops. In den vergangenen Jahren ist der Umsatz dieser Unternehmen kontinuierlich gestiegen und belief sich zuletzt auf rund 86,7 Milliarden Euro. <br/><br/>
-
-        Die 100 umsatzstärksten Online-Shops in Deutschland setzten im Jahr 2021 gemeinsam rund 58 Milliarden Euro um. Nur gemeinsam sind wir stark. Auf den Punkt gebracht, werden wir das Leben für viele etwas lebenswerter machen. Um das zu erreichen, bedarf es nur 2 einfacher Schritte. Diese findest du unter dem Punkt „Jetzt Gutes Tun“. Sei auch du ab sofort der Grund, wieso nicht nur heute jemand lächelt.</p>
-
+      <h4>{{'homePage.ourVisionTitle' | translate}}</h4>
+      <p>{{'homePage.ourVision' | translate}}</p>
     </div>
 
     <div class="img-container">
-
-        <h4 i18n>Und wir sind mit Dabei</h4>
-        <p i18n>Werde Botschafter für unsere Wir zeigen Herz Community. Du hast die Kraft viel zu bewegen. Lade alle ein, sich kostenlos zu engagieren. Zusammen kannst du die Welt in eine andere Richtung bewegen und nachhaltig sehr viel Gutes tun. Wenn du unser Video „Gutes tun durch schmerzfreies Geben“ an alle die du kennst weiterleitest, kannst du unser Logo „Und wir sind mit dabei“ auf deiner Webseite einbauen. <br/><br/>
-
-          Dieses Logo steht für Kindeswohl und Kinderrechte. Um Menschen in Not das kurz- und mittelfristige Überleben zu ermöglichen. Hilfe für schwerkranke Menschen, oder Menschen mit einer Behinderung. Das Leben und Wohlbefinden von Tieren zu sichern. Kampf für den Schutz unserer Natur und Umwelt – damit die Erde für uns alle bewohnbar bleibt. Erhaltung und Instandsetzung von Kulturdenkmalen. Für die Integrität des Sports zu kämpfen und seine Bedeutung für ein friedliches und soziales Zusammenleben in unserer Gesellschaft hervorzuheben.</p>
-
+        <h4>{{'homePage.weAreThereTitle' | translate}}</h4>
+        <p>{{'homePage.weAreThere' | translate}}</p>
 <!--      <ul>-->
 <!--        <li>Positives Markenimage</li>-->
 <!--        <li>Employer Brandings</li>-->
 <!--        <li>Soziale Entscheidung</li>-->
 <!--      </ul>-->
-      <app-action-button text="Jetzt Video teilen" class="share-btn" (click)="copyText()"></app-action-button>
-
+      <app-action-button [text]="'homePage.shareBtn' | translate" class="share-btn" (click)="copyText()"></app-action-button>
     </div>
 
-    <img src="assets/imgs/wir-sind-dabei.jpg" class="logo-2">
+    <img src="assets/imgs/wir-sind-dabei.jpg" class="logo-2" alt="">
 
-
-    <select  id="region" name="region">
-      <option value="Detmold">Detmold</option>
-      <option value="Oberbayern">Oberbayern</option>
-      <option value="Unterfranken">Unterfranken</option>
-      <option value="Braunschweig">Braunschweig</option>
-      <option value="Tuebingen">Tuebingen</option>
-      <option value="Mecklenburg-Vorpommern">Mecklenburg-Vorpommern</option>
-      <option value="Rheinhessen-Pfalz">Rheinhessen-Pfalz</option>
-      <option value="Leipzig">Leipzig</option>
-      <option value="Oberpfalz">Oberpfalz</option>
-      <option value="Koeln">Koeln</option>
-      <option value="Schwaben">Schwaben</option>
-      <option value="Kassel">Kassel</option>
-      <option value="Koblenz">Koblenz</option>
-      <option value="Saarland">Saarland</option>
-      <option value="Hannover">Hannover</option>
-      <option value="Trier">Trier</option>
-      <option value="Freiburg">Freiburg</option>
-      <option value="Hamburg">Hamburg</option>
-      <option value="Giessen">Giessen</option>
-      <option value="Brandenburg">Brandenburg</option>
-      <option value="Weser-Ems">Weser-Ems</option>
-      <option value="Karlsruhe">Karlsruhe</option>
-      <option value="Muenster">Muenster</option>
-      <option value="Mittelfranken">Mittelfranken</option>
-      <option value="Thueringen">Thueringen</option>
-      <option value="Arnsberg">Arnsberg</option>
-      <option value="Schleswig-Holstein">Schleswig-Holstein</option>
-      <option value="Stuttgart">Stuttgart</option>
-      <option value="Duesseldorf">Duesseldorf</option>
-      <option value="Oberfranken">Oberfranken</option>
-      <option value="Niederbayern">Niederbayern</option>
-      <option value="Darmstadt">Darmstadt</option>
-      <option value="Berlin">Berlin</option>
-      <option value="Dresden">Dresden</option>
-      <option value="Sachsen-Anhalt">Sachsen-Anhalt</option>
-      <option value="Chemnitz">Chemnitz</option>
-      <option value="Lueneburg">Lueneburg</option>
-      <option value="Bremen">Bremen</option>
-    </select>
   </ion-grid>
 </ion-content>

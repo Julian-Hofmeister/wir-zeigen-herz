@@ -2,19 +2,12 @@
   <ion-grid>
     <ion-row>
       <ion-col class="center-horizontal ">
-       <app-page-header title="Aktuelle News"></app-page-header>
+        <app-page-header [title]="'newsPage.pageName' | translate"></app-page-header>
 
-        <div *ngIf="loadedNews$">
-          <ion-list *ngFor="let news of loadedNews$ | async">
+
+          <ion-list *ngFor="let news of news">
             <app-news-card [news]="news"></app-news-card>
           </ion-list>
-        </div>
-
-
-        <div *ngIf="!loadedNews$">
-          <ion-spinner color="primary"></ion-spinner>
-        </div>
-
 
       </ion-col>
     </ion-row>

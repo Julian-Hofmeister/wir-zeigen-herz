@@ -10,6 +10,7 @@ import { TabProjectsPage } from './tab-projects.page';
 import {ProjectCardComponent} from './project-card/project-card.component';
 import {ActionButtonModule} from '../shared/action-button/action-button.module';
 import {PageHeaderComponent} from "../shared/page-header/page-header.component";
+import {TranslateModule} from "@ngx-translate/core";
 
 @NgModule({
     imports: [
@@ -17,7 +18,8 @@ import {PageHeaderComponent} from "../shared/page-header/page-header.component";
         FormsModule,
         IonicModule,
         TabProjectsPageRoutingModule,
-        ActionButtonModule
+        ActionButtonModule,
+        TranslateModule
     ],
   exports: [
     ProjectCardComponent,

@@ -1,8 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {TeamMember} from './team-member.interface';
 import {Observable} from 'rxjs';
 import {FirebaseService} from '../shared/firebase.service';
-import {team} from './team-data';
+
+
+import {TranslateService} from '@ngx-translate/core';
+import de from 'src/assets/i18n/de.json';
+import en from 'src/assets/i18n/en.json';
+
 
 @Component({
   selector: 'app-tab-team',
@@ -18,10 +23,9 @@ export class TabTeamPage implements OnInit {
 
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
-  loadedMembers$: Observable<TeamMember[]>;
+  members: TeamMember[];
 
-  members: TeamMember[] = team;
-
+  language: string = this.translateService.currentLang;
 
   //#endregion
 
@@ -31,17 +35,19 @@ export class TabTeamPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(public fsService: FirebaseService)
-  {
+  constructor(private translateService: TranslateService) {
   }
 
   //#endregion
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  async ngOnInit()
-  {
-    this.loadedMembers$ = await this.fsService.get('team') as Observable<TeamMember[]>;
+  ngOnInit() {
+    if (this.language === "en") {
+      this.members = en.teamPage.members
+    } else {
+      this.members = de.teamPage.members
+    }
   }
 
   //#endregion
