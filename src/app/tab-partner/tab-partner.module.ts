@@ -7,9 +7,10 @@ import { IonicModule } from '@ionic/angular';
 import { TabPartnerPageRoutingModule } from './tab-partner-routing.module';
 
 import { TabPartnerPage } from './tab-partner.page';
-import {PartnerCardComponent} from './partner-card/partner-card.component';
 import {TabProjectsPageModule} from "../tab-projects/tab-projects.module";
 import {TranslateModule} from "@ngx-translate/core";
+import {PartnerCardModule} from "../shared/partner-card/partner-card.module";
+import {ActionButtonModule} from "../shared/action-button/action-button.module";
 
 @NgModule({
     imports: [
@@ -18,8 +19,10 @@ import {TranslateModule} from "@ngx-translate/core";
         IonicModule,
         TabPartnerPageRoutingModule,
         TabProjectsPageModule,
-        TranslateModule
+        TranslateModule,
+        PartnerCardModule,
+        ActionButtonModule
     ],
-    declarations: [TabPartnerPage, PartnerCardComponent]
+    declarations: [TabPartnerPage]
 })
 export class TabPartnerPageModule {}

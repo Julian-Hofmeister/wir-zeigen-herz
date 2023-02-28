@@ -1,3 +1,6 @@
-ion-spinner {
-  margin-top: 55%;
+ion-fab-button{
+  --box-shadow: none;
+  ion-icon {
+    color: var(--ion-color-dark);
+  }
 }

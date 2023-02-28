@@ -1,5 +1,8 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Partner} from '../partner.interface';
+import {Preferences} from "@capacitor/preferences";
+import {PartnerService} from "../../shared/partner.service";
+import {Partner} from "../../tab-partner/partner.interface";
+import {Country} from "../../tab-partner/countries";
 
 @Component({
   selector: 'app-partner-card',
@@ -11,6 +14,11 @@ export class PartnerCardComponent implements OnInit {
   //#region [ BINDINGS ] //////////////////////////////////////////////////////////////////////////
 
   @Input() partner: Partner;
+  @Input() country: Country;
+
+  logo: string;
+
+  link: string;
 
   //#endregion
 
@@ -24,7 +32,7 @@ export class PartnerCardComponent implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor()
+  constructor(private partnerService: PartnerService)
   {
   }
 
@@ -32,8 +40,10 @@ export class PartnerCardComponent implements OnInit {
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  ngOnInit()
-  {
+  ngOnInit() {
+    this.logo = "assets/imgs/partner/" + this.partner.logoImg;
+
+
   }
 
   //#endregion
@@ -48,8 +58,14 @@ export class PartnerCardComponent implements OnInit {
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
-  openLink(){
-    window.open(this.partner.link);
+  async openLink() {
+    this.link = this.country.value === "germany" ?  this.partner.linkDE : this.country.value === "austria" ?  this.partner.linkAT : this.country.value === "switzerland" ?  this.partner.linkCH : this.partner.linkWW
+
+    window.open(this.link);
+
+    await this.partnerService.addPartner(this.partner)
+
+
   }
 
   // ----------------------------------------------------------------------------------------------

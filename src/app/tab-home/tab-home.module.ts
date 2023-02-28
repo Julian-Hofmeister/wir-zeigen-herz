@@ -14,6 +14,8 @@ import {createTranslateLoader} from "../app.module";
 import {HttpClient} from "@angular/common/http";
 import {ExplainModalModule} from "../shared/explain-modal/explain-modal.module";
 import {NewsCardComponent} from "./news-card/news-card.component";
+import {PartnerCardComponent} from "../shared/partner-card/partner-card.component";
+import {PartnerCardModule} from "../shared/partner-card/partner-card.module";
 
 @NgModule({
     imports: [
@@ -22,6 +24,7 @@ import {NewsCardComponent} from "./news-card/news-card.component";
         IonicModule,
         TabHomePageRoutingModule,
         ActionButtonModule,
+      PartnerCardModule,
       ExplainModalModule,
         TabProjectsPageModule,
         TranslateModule,

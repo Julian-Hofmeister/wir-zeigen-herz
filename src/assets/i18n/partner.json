@@ -1,0 +1,520 @@
+[
+  {
+    "name": "Fiverr",
+    "category": "Marketing und Werbung",
+    "categoryId": "018",
+    "logoImg": "fiverr.png",
+    "link": "https://go.fiverr.com/visit/?bta=619583&brand=fb"
+  },
+  {
+    "name": "NewChic",
+    "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+    "categoryId": "020",
+    "logoImg": "newchic.png",
+    "link": "https://Newchic.vip/13sH7"
+  },
+  {
+    "name": "Elopage",
+    "category": "Marketing und Werbung",
+    "categoryId": "018",
+    "logoImg": "elopage.png",
+    "link": "https://elopage.com/users/sign_up?epid=1755"
+  },
+  {
+    "name": "Bullionvault",
+    "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+    "categoryId": "020",
+    "logoImg": "bullionvault.png",
+    "link": "https://www.bullionvaultaffiliate.com/herzzeigen/de"
+  },
+  {
+    "name": "H&M",
+    "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+    "categoryId": "020",
+    "logoImg": "h&m.png",
+    "link": "https://ad.admitad.com/g/hzlo6dpe2b5403f454b41b24ab9504/"
+  },
+  {
+    "name": "Alibaba",
+    "category": "Universalhändler und Generalisten",
+    "categoryId": "029",
+    "logoImg": "alibaba.png",
+    "link": "https://alitems.co/g/1e8d1144945403f454b416525dc3e8/"
+  },
+  {
+    "name": "Waipu TV",
+    "category": "Technik, Elektronik, Foto & Computer",
+    "categoryId": "027",
+    "logoImg": "waipu tv.png",
+    "link": "https://ndirect.ppro.de/click/cE0F"
+  },
+  {
+    "name": "QVC",
+    "category": "Universalhändler und Generalisten",
+    "categoryId": "029",
+    "logoImg": "qvc.png",
+    "link": "https://partner.qvc.de/tc.php?t=124147C1537000000D&subid=&deeplink=https%3A%2F%2Fwirzeigenherz.eu%2F"
+  },
+  {
+    "name": "Hepamed CBD",
+    "category": "Gesundheit und Pharmazie",
+    "categoryId": "013",
+    "logoImg": "hepamed cbd.png",
+    "link": "https://t.adcell.com/click.php?bid=327222-104045"
+  },
+  {
+    "name": "Cyberport",
+    "category": "Technik, Elektronik, Foto & Computer",
+    "categoryId": "027",
+    "logoImg": "cyberport.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=11657&awinaffid=1219038&ued=https%3A%2F%2Fwww.cyberport.de%2F"
+  },
+  {
+    "name": "Hagebau",
+    "category": "Baumarkt, Werkzeuge und Baustoffe",
+    "categoryId": "004",
+    "logoImg": "hagebau.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=11513&awinaffid=1219038&ued=https%3A%2F%2Fwww.hagebau.de%2F"
+  },
+  {
+    "name": "Medion",
+    "category": "Technik, Elektronik, Foto & Computer",
+    "categoryId": "027",
+    "logoImg": "medion.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=9312&awinaffid=1219038&ued=https%3A%2F%2Fwww.medion.com%2Fat%2Fshop"
+  },
+  {
+    "name": "Snipes",
+    "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+    "categoryId": "020",
+    "logoImg": "snipes.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=15055&awinaffid=1219038&ued=https%3A%2F%2Fwww.snipes.com%2F"
+  },
+  {
+    "name": "Fressnapf",
+    "category": "Haustiere und Tierbedarf",
+    "categoryId": "015",
+    "logoImg": "fressnapf.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14757&awinaffid=1219038&ued=https%3A%2F%2Fwww.fressnapf.de%2F"
+  },
+  {
+    "name": "Ebay",
+    "category": "Universalhändler und Generalisten",
+    "categoryId": "029",
+    "logoImg": "ebay.png",
+    "link": "https://www.ebay.de/?mkcid=1&mkrid=707-53477-19255-0&siteid=77&campid=5338961654&customid=3901391&toolid=10001&mkevt=1"
+  },
+  {
+    "name": "Check24",
+    "category": "Geld, Finanzen, Recht, Steuern und Versicherung",
+    "categoryId": "012",
+    "logoImg": "check24.png",
+    "link": "https://a.check24.net/misc/click.php?aid=18&pid=247538&target_url=https%3A%2F%2Fwww.check24.net%2F%3Fpid%3D247538"
+  },
+  {
+    "name": "Tarifcheck",
+    "category": "Geld, Finanzen, Recht, Steuern und Versicherung",
+    "categoryId": "012",
+    "logoImg": "tarifcheck.png",
+    "link": "https://a.partner-versicherung.de/click.php?partner_id=135964&ad_id=1174&target_url=https://www.tarifcheck-partnerprogramm.de?pr=135964"
+  },
+  {
+    "name": "Verivox",
+    "category": "Geld, Finanzen, Recht, Steuern und Versicherung",
+    "categoryId": "012",
+    "logoImg": "verivox.png",
+    "link": "https://partner.verivox.de/go.cgi?pid=4232&wmid=166&cpid=1&prid=1&subid=&target=multiproduct_2019-09"
+  },
+  {
+    "name": "EWE",
+    "category": "Versorgung und Energie",
+    "categoryId": "032",
+    "logoImg": "ewe.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=11794&awinaffid=1219038"
+  },
+  {
+    "name": "Deutsche Bahn",
+    "category": "Reisen, Hotels und Tourismus",
+    "categoryId": "023",
+    "logoImg": "deutsche bahn.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14964&awinaffid=1219038"
+  },
+  {
+    "name": "Globetrotter",
+    "category": "Outdoor und Camping",
+    "categoryId": "021",
+    "logoImg": "globetrotter.png",
+    "link": "https://www.globetrotter.de/?utm_source=PTID13012969"
+  },
+  {
+    "name": "Lampenwelt",
+    "category": "Wohnen, Möbel, Küche, Bad, Schlafzimmer und Haushalt",
+    "categoryId": "033",
+    "logoImg": "lampenwelt.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=7619&awinaffid=1219038&ued=https%3A%2F%2Fwww.lampenwelt.de%2F"
+  },
+  {
+    "name": "Smava",
+    "category": "Geld, Finanzen, Recht, Steuern und Versicherung",
+    "categoryId": "012",
+    "logoImg": "smava.png",
+    "link": "https://kreditvergleich.smava.de/coop/antrag?refId=BmZQZcGjJQQ1"
+  },
+  {
+    "name": "1und1",
+    "category": "Telefonie, Internet, Fernsehen und Hosting",
+    "categoryId": "028",
+    "logoImg": "1und1.png",
+    "link": "https://1und1-partner.de/shop/mein-shop.html?ps_id=P850158455"
+  },
+  {
+    "name": "Telekom",
+    "category": "Telefonie, Internet, Fernsehen und Hosting",
+    "categoryId": "028",
+    "logoImg": "telekom.png",
+    "link": "https://0100198772.telekom-profis.de"
+  },
+  {
+    "name": "Euronics",
+    "category": "Technik, Elektronik, Foto & Computer",
+    "categoryId": "027",
+    "logoImg": "euronics.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14433&awinaffid=1219038&ued=https%3A%2F%2Fwww.euronics.de%2F"
+  },
+  {
+    "name": "Pollin",
+    "category": "Technik, Elektronik, Foto & Computer",
+    "categoryId": "027",
+    "logoImg": "pollin.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=15965&awinaffid=1219038&ued=https%3A%2F%2Fwww.pollin.de%2F"
+  },
+  {
+    "name": "Fleurop",
+    "category": "Garten, Pflanzen und Gartentechnik",
+    "categoryId": "010",
+    "logoImg": "fleurop.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=25092&awinaffid=1219038&ued=https%3A%2F%2Fwww.fleurop.de%2F"
+  },
+  {
+    "name": "Tausendkind",
+    "category": "Babys, Kinder und Spielzeug",
+    "categoryId": "003",
+    "logoImg": "tausendkind.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14965&awinaffid=1219038&ued=https%3A%2F%2Fwww.tausendkind.de%2F"
+  },
+  {
+    "name": "C&A",
+    "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+    "categoryId": "020",
+    "logoImg": "c&a.png",
+    "link": "https://cdn.retailads.net/tc.php?t=152558C2167131339B"
+  },
+  {
+    "name": "American Express",
+    "category": "Geld, Finanzen, Recht, Steuern und Versicherung",
+    "categoryId": "012",
+    "logoImg": "american express.png",
+    "link": "https://m.exactag.com/cl.aspx?extProvId=53&extPu=amex-td&extLi=Green&extCr=Green&extSi=[td_affiliate_id]&url=https://ad.doubleclick.net/ddm/clk/442342762;245702980;g?https://www.amex-kreditkarten.de/angebot-green-a?sourcesuffix=A0000FEVTR&cpid=100380698&affid=tradedoubler&VEID=[td_affiliate_id]&utm_source=tradedoubler&utm_medium=affiliate"
+  },
+  {
+    "name": "Body Attack",
+    "category": "Sport und Fitness",
+    "categoryId": "026",
+    "logoImg": "body attack.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14328&awinaffid=1219038&ued=https%3A%2F%2Fwww.body-attack.de%2F"
+  },
+  {
+    "name": "Ab in den Urlaub",
+    "category": "Reisen, Hotels und Tourismus",
+    "categoryId": "023",
+    "logoImg": "ab in den urlaub.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=9369&awinaffid=1219038&ued=https%3A%2F%2Fwww.ab-in-den-urlaub.de%2F"
+  },
+  {
+    "name": "Meiers Weltreisen",
+    "category": "Reisen, Hotels und Tourismus",
+    "categoryId": "023",
+    "logoImg": "meiers weltreisen.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=9135&awinaffid=1219038&ued=https%3A%2F%2Fwww.meiers-weltreisen.de%2F"
+  },
+  {
+    "name": "Depot",
+    "category": "Wohnen, Möbel, Küche, Bad, Schlafzimmer und Haushalt",
+    "categoryId": "033",
+    "logoImg": "depot.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=23091&awinaffid=1219038&ued=https%3A%2F%2Fwww.depot-online.de%2F"
+  },
+  {
+    "name": "Netto",
+    "category": "Lebensmittel und Getränke",
+    "categoryId": "019",
+    "logoImg": "netto.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=13812&awinaffid=1219038&ued=https%3A%2F%2Fwww.netto-online.de%2F"
+  },
+  {
+    "name": "Vodafone",
+    "category": "Telefonie, Internet, Fernsehen und Hosting",
+    "categoryId": "028",
+    "logoImg": "vodafone.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=11331&awinaffid=1219038&ued=https%3A%2F%2Fwww.vodafone.de%2F%3F%26b_id%3D1743%26c_id%3Daffl_cic_103%3Afq0_f_kip_sta_per_"
+  },
+  {
+    "name": "MyTime",
+    "category": "Lebensmittel und Getränke",
+    "categoryId": "019",
+    "logoImg": "mytime.png",
+    "link": "https://cdn.retailads.net/tc.php?t=152558C2208134961T"
+  },
+  {
+    "name": "MotorradreifenDirekt",
+    "category": "Auto, Motorrad, Wohnmobil und Automobilität",
+    "categoryId": "002",
+    "logoImg": "motorradreifendirekt.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=10445&awinaffid=1219038&ued=https%3A%2F%2Fwww.motorradreifendirekt.de%2F"
+  },
+  {
+    "name": "Weltbild",
+    "category": "Bücher, Zeitschriften, Hörbücher und E-Books",
+    "categoryId": "005",
+    "logoImg": "weltbild.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=22466&awinaffid=1219038&ued=https%3A%2F%2Fwww.weltbild.de%2F"
+  },
+  {
+    "name": "Happysize",
+    "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+    "categoryId": "020",
+    "logoImg": "happysize.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=11201&awinaffid=1219038&ued=https%3A%2F%2Fwww.happy-size.de%2F"
+  },
+  {
+    "name": "Computeruniverse",
+    "category": "Technik, Elektronik, Foto & Computer",
+    "categoryId": "027",
+    "logoImg": "computeruniverse.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=11355&awinaffid=1219038&ued=https%3A%2F%2Fwww.computeruniverse.net%2Fde"
+  },
+  {
+    "name": "Printus",
+    "category": "Büro und Homeoffice",
+    "categoryId": "006",
+    "logoImg": "printus.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=13904&awinaffid=1219038&ued=https%3A%2F%2Fwww.printus.de%2F"
+  },
+  {
+    "name": "Office Discount",
+    "category": "Büro und Homeoffice",
+    "categoryId": "006",
+    "logoImg": "office discount.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=13636&awinaffid=1219038&ued=https%3A%2F%2Fwww.office-discount.de%2F"
+  },
+  {
+    "name": "Büroshop24",
+    "category": "Büro und Homeoffice",
+    "categoryId": "006",
+    "logoImg": "büroshop24.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14947&awinaffid=1219038&ued=https%3A%2F%2Fwww.bueroshop24.de%2F"
+  },
+  {
+    "name": "Lichtblick",
+    "category": "Versorgung und Energie",
+    "categoryId": "032",
+    "logoImg": "lichtblick.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=19047&awinaffid=1219038&ued=https%3A%2F%2Fwww.lichtblick.de%2F"
+  },
+  {
+    "name": "Zooplus",
+    "category": "Haustiere und Tierbedarf",
+    "categoryId": "015",
+    "logoImg": "zooplus.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=11330&awinaffid=1219038&ued=https%3A%2F%2Fwww.zooplus.de%2F"
+  },
+  {
+    "name": "Booking.com",
+    "category": "Reisen, Hotels und Tourismus",
+    "categoryId": "023",
+    "logoImg": "booking.com.png",
+    "link": "https://www.booking.com/index.html?aid=7975447"
+  },
+  {
+    "name": "Witt und Weiden",
+    "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+    "categoryId": "020",
+    "logoImg": "witt und weiden.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=15002&awinaffid=1219038&ued=https%3A%2F%2Fwww.witt-weiden.de%2F"
+  },
+  {
+    "name": "Sanicare",
+    "category": "Gesundheit und Pharmazie",
+    "categoryId": "013",
+    "logoImg": "sanicare.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14467&awinaffid=1219038&ued=https%3A%2F%2Fwww.sanicare.de%2F"
+  },
+  {
+    "name": "QVC",
+    "category": "Universalhändler und Generalisten",
+    "categoryId": "029",
+    "logoImg": "qvc.png",
+    "link": "https://www.qvc.de/?nsctrid=v01MTQyMTExMTExMTExMTExMTEwMTQyMDAwMDAwMDAwMDE2NzI5MTAwMzhjbGVhMWRl&utm_source=Affiliate&utm_medium=cpo&utm_campaign=Sonstige&utm_content=na&ref=ZPN&cm_mmc=affiliate-_-Sonstige-_-leadalliance-_-na"
+  },
+  {
+    "name": "Lottoland",
+    "category": "Glücksspiel und Wetten",
+    "categoryId": "014",
+    "logoImg": "lottoland.png",
+    "link": "https://clk.tradedoubler.com/click?p=261692&a=3292679&url=https%3A%2F%2Fwww.lottoland.com%2F"
+  },
+  {
+    "name": "HSE 24",
+    "category": "Universalhändler und Generalisten",
+    "categoryId": "029",
+    "logoImg": "hse 24.png",
+    "link": "https://clk.tradedoubler.com/click?p=262175&a=3292679&url=https%3A%2F%2Fwww.hse.de%2F"
+  },
+  {
+    "name": "E.ON",
+    "category": "Versorgung und Energie",
+    "categoryId": "032",
+    "logoImg": "eon.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14115&awinaffid=1219038&ued=https%3A%2F%2Fwww.eon.de%2Fde%2Fpk.html"
+  },
+  {
+    "name": "Bofrost",
+    "category": "Lebensmittel und Getränke",
+    "categoryId": "019",
+    "logoImg": "bofrost.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=13728&awinaffid=1219038&ued=https%3A%2F%2Fwww.bofrost.de%2F"
+  },
+  {
+    "name": "Gorillasports",
+    "category": "Sport und Fitness",
+    "categoryId": "026",
+    "logoImg": "gorillasports.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14704&awinaffid=1219038&ued=https%3A%2F%2Fwww.gorillasports.de%2F"
+  },
+  {
+    "name": "Thalia",
+    "category": "Bücher, Zeitschriften, Hörbücher und E-Books",
+    "categoryId": "005",
+    "logoImg": "thalia.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14158&awinaffid=1219038&ued=https%3A%2F%2Fwww.thalia.de%2F"
+  },
+  {
+    "name": "Lidl",
+    "category": "Lebensmittel und Getränke",
+    "categoryId": "019",
+    "logoImg": "lidl.png",
+    "link": "https://www.lead-alliance.net/tc.php?t=124153C1034000000D&subid=&deeplink=https%3A%2F%2Fwww.lidl.de%2F"
+  },
+  {
+    "name": "Tamaris",
+    "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+    "categoryId": "020",
+    "logoImg": "tamaris.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14500&awinaffid=1219038&ued=http%3A%2F%2Ftamaris.de%2F"
+  },
+  {
+    "name": "Auxmoney",
+    "category": "Geld, Finanzen, Recht, Steuern und Versicherung",
+    "categoryId": "012",
+    "logoImg": "auxmoney.png",
+    "link": "https://partner.auxmoney.com/go.cgi?pid=10016946&wmid=54&cpid=1&prid=1&subid=&target=Startseite"
+  },
+  {
+    "name": "Bücher",
+    "category": "Bücher, Zeitschriften, Hörbücher und E-Books",
+    "categoryId": "005",
+    "logoImg": "bücher.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14191&awinaffid=1219038&ued=https%3A%2F%2Fwww.buecher.de%2F"
+  },
+  {
+    "name": "HRS",
+    "category": "Reisen, Hotels und Tourismus",
+    "categoryId": "023",
+    "logoImg": "hrs.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=15152&awinaffid=1219038&ued=https%3A%2F%2Fwww.hrs.de%2F%3Futm_campaign%3Dafs_de-at_15152_hrs_linkbuilder_%21%21%21affid%21%21%21%26utm_content%3Dub002%26utm_term%3Dafs_de-at_%21%21%21affid%21%21%21%26utm_id%3Dafsawin34%26extcmp%3Dafs-16702_awin-hrs_de_at_linkbuilder%26customerid%3D1076835001"
+  },
+  {
+    "name": "HS-Fresenius",
+    "category": "Ausbildung, Weiterbildung, E-Learning",
+    "categoryId": "001",
+    "logoImg": "hs-fresenius.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14571&awinaffid=1219038"
+  },
+  {
+    "name": "Securando",
+    "category": "Technik, Elektronik, Foto & Computer",
+    "categoryId": "027",
+    "logoImg": "securando.png",
+    "link": "https://cdn.retailads.net/tc.php?t=152558C1202122299T"
+  },
+  {
+    "name": "Babyprofi",
+    "category": "Babys, Kinder und Spielzeug",
+    "categoryId": "003",
+    "logoImg": "babyprofi.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14986&awinaffid=1219038&ued=https%3A%2F%2Fbabyprofi.de%2F"
+  },
+  {
+    "name": "DE Viking",
+    "category": "Büro und Homeoffice",
+    "categoryId": "006",
+    "logoImg": "de viking.png",
+    "link": "https://prf.hn/click/camref:1101luBEQ"
+  },
+  {
+    "name": "AT Viking",
+    "category": "Büro und Homeoffice",
+    "categoryId": "006",
+    "logoImg": "at viking.png",
+    "link": "https://prf.hn/click/camref:1011luDUq"
+  },
+  {
+    "name": "CH Viking",
+    "category": "Büro und Homeoffice",
+    "categoryId": "006",
+    "logoImg": "ch viking.png",
+    "link": "https://prf.hn/click/camref:1100luBmX"
+  },
+  {
+    "name": "321 Linsen",
+    "category": "Optiker und Hörgeräteakustiker",
+    "categoryId": "022",
+    "logoImg": "321 linsen.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=13983&awinaffid=1219038&ued=https%3A%2F%2Fwww.321linsen.de%2F"
+  },
+  {
+    "name": "Jako-o",
+    "category": "Wohnen, Möbel, Küche, Bad, Schlafzimmer und Haushalt",
+    "categoryId": "033",
+    "logoImg": "jako-o.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=14123&awinaffid=1219038&ued=https%3A%2F%2Fwww.jako-o.com%2Fde-de%2F"
+  },
+  {
+    "name": "Christ",
+    "category": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+    "categoryId": "020",
+    "logoImg": "christ.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=11786&awinaffid=1219038&ued=https%3A%2F%2Fwww.christ.de%2F"
+  },
+  {
+    "name": "Fielmann",
+    "category": "Optiker und Hörgeräteakustiker",
+    "categoryId": "022",
+    "logoImg": "fielmann.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=26061&awinaffid=1219038&ued=https%3A%2F%2Fwww.fielmann.de%2F"
+  },
+  {
+    "name": "Geers Hörakustik",
+    "category": "Optiker und Hörgeräteakustiker",
+    "categoryId": "022",
+    "logoImg": "geers hörakustik.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=22338&awinaffid=1219038&ued=https%3A%2F%2Finfos.geers.de%2F"
+  },
+  {
+    "name": "Brille24",
+    "category": "Optiker und Hörgeräteakustiker",
+    "categoryId": "022",
+    "logoImg": "brille24.png",
+    "link": "https://www.awin1.com/cread.php?awinmid=11199&awinaffid=1219038&ued=https%3A%2F%2Fwww.brille24.de%2F"
+  }
+]

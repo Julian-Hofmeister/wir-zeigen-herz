@@ -42,11 +42,11 @@ export class TabNewsPage implements OnInit {
 
   async ngOnInit()
   {
-    if (this.language === "en") {
-      this.news = en.newsPage.news
-    } else {
-      this.news = de.newsPage.news
-    }
+    // if (this.language === "en") {
+    //   this.news = en.homePage.news
+    // } else {
+    //   this.news = de.homePage.news
+    // }
   }
 
   //#endregion

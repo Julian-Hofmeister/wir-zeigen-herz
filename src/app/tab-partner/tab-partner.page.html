@@ -2,29 +2,31 @@
   <ion-grid>
     <ion-row>
       <ion-col class="center-horizontal page-margin">
-        <app-page-header [title]="'partnerPage.pageName' | translate"></app-page-header>
+        <app-page-header [title]="'partnerPage.pageName' | translate" [with]="'partnerPage.with' | translate"></app-page-header>
 
+        <ion-searchbar (ionInput)="filterList($event)" [placeholder]="'partnerPage.search' | translate"></ion-searchbar>
+        <ion-row class="space-between">
+          <ion-col size="4.5" class="region-col">
+            <ion-label (click)="openModal(true)">{{this.country ? countryName : "Land auswählen"}}</ion-label>
+          </ion-col>
 
-<!--        <h4>Jetzt anderen helfen, ohne selbst Geld zu spenden</h4>-->
+          <ion-item *ngIf="!filter" lines="none" class="filter-co">
+            <ion-select interface="action-sheet" mode="md" okText="Okay" [cancelText]="'partnerPage.cancel' | translate"
+                        [placeholder]="'partnerPage.filter' | translate" (ionChange)="filterCategories($event)"
+                        #selectCategory>
+              <ion-list *ngFor="let option of categories">
+                <ion-select-option
+                  [value]="option">{{this.language === "en" ? option.nameEN : option.nameDE }}</ion-select-option>
+              </ion-list>
+            </ion-select>
+          </ion-item>
 
-<!--        <ion-row class="center-vertical">-->
-<!--          <p class="link-btn" >Wie funktioniert das?</p>-->
-<!--          <span class="material-icons-outlined arrow-icon">arrow_outward</span>-->
-<!--        </ion-row>-->
-
-        <div class="space-medium"></div>
-        <ion-searchbar  (ionInput)="filterList($event)" [placeholder]="'partnerPage.search' | translate"></ion-searchbar>
-        <ion-row class="align-end">
-            <ion-item lines="none">
-              <ion-select [placeholder]="'partnerPage.filter' | translate" (ionChange)="filterCategories($event)" #selectCategory>
-                <ion-list  *ngFor="let option of categories" >
-
-                <ion-select-option [value]="option.name">{{option.name}}</ion-select-option>
-                </ion-list>
-
-              </ion-select>
-            </ion-item>
-          <span *ngIf="filter" class="material-icons-outlined arrow-icon" (click)="onClearCategoryFilter()">clear</span>
+          <ion-col *ngIf="filter" class="filter-col" size="6.25">
+            <p class="filter-text">{{this.language == "en" ? filter.nameEN : filter.nameDE}}</p>
+          </ion-col>
+          <ion-col *ngIf="filter" class="filter-col" size="1.25">
+            <span class="material-icons-outlined arrow-icon cross-icon" (click)="onClearCategoryFilter()">clear</span>
+          </ion-col>
 
         </ion-row>
       </ion-col>
@@ -34,17 +36,38 @@
       <ion-col>
         <div *ngIf="!searchTerm && !filter">
           <ion-list *ngFor="let partner of partner">
-            <app-partner-card [partner]="partner"></app-partner-card>
+            <app-partner-card [partner]="partner" [country]="country"></app-partner-card>
           </ion-list>
         </div>
 
         <div *ngIf="searchTerm || filter">
           <ion-list *ngFor="let partner of filteredPartner">
-            <app-partner-card [partner]="partner"></app-partner-card>
+            <app-partner-card [partner]="partner" [country]="country"></app-partner-card>
           </ion-list>
         </div>
-
       </ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>
+
+
+<ion-modal trigger="open-modal" [isOpen]="isModalOpen">
+  <ng-template>
+    <ion-content>
+      <ion-fab-button color="light-shade" (click)="openModal(false)">
+        <ion-icon name="close" size="large"></ion-icon>
+      </ion-fab-button>
+      <ion-col class="modal-col">
+        <p>Bitte wähle das Land aus, in dem du wohnst, damit alle Links richtig funktionieren und die Provision
+          gespendet werden kann.</p>
+        <br/>
+        <ion-item lines="none">
+          <ion-select interface="popover" [placeholder]="this.country ? this.countryName : 'Land auswählen'" (ionChange)="selectCountry($event)" >
+            <ion-select-option *ngFor="let country of countries" [value]="country">{{this.language == "en" ? country.nameEN : country.nameDE}}</ion-select-option>
+          </ion-select>
+        </ion-item>
+
+      </ion-col>
+    </ion-content>
+  </ng-template>
+</ion-modal>

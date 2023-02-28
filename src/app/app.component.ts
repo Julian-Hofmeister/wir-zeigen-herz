@@ -1,7 +1,10 @@
 import {Component, OnInit} from '@angular/core';
 import {AuthenticationService} from './shared/authentication.service';
 
-import { TranslateService } from '@ngx-translate/core'; // add this
+import { TranslateService } from '@ngx-translate/core';
+import {AndroidFullScreen} from "@awesome-cordova-plugins/android-full-screen";
+import {PartnerService} from "./shared/partner.service";
+// import { AndroidFullScreen } from '@awesome-cordova-plugins/android-full-screen/ngx';
 
 
 @Component({
@@ -24,7 +27,7 @@ export class AppComponent implements OnInit{
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(public authService: AuthenticationService, private translate: TranslateService)
+  constructor(public authService: AuthenticationService, private translate: TranslateService, private partnerService: PartnerService)
   {
     this.initializeApp();
   }
@@ -36,6 +39,12 @@ export class AppComponent implements OnInit{
   ngOnInit()
   {
    this.authService.autoAuthentication().then();
+
+    this.partnerService.loadPartner().then();
+
+    // AndroidFullScreen.isImmersiveModeSupported()
+    //   .then(() => AndroidFullScreen.immersiveMode())
+    //   .catch(console.warn);
   }
 
   //#endregion

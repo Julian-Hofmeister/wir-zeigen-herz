@@ -6,6 +6,8 @@ import {ProjectsService} from './projects.service';
 import {TranslateService} from "@ngx-translate/core";
 import en from "../../assets/i18n/en.json";
 import de from "../../assets/i18n/de.json";
+import {ProjectService} from "./project.service";
+import {Preferences} from "@capacitor/preferences";
 
 
 
@@ -26,6 +28,8 @@ export class TabProjectsPage implements OnInit {
 
   language: string = this.translateService.currentLang;
 
+  likedProjectsCount: number;
+
 
   //#endregion
 
@@ -35,7 +39,12 @@ export class TabProjectsPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(public fsService: FirebaseService, public projectsService: ProjectsService, private translateService: TranslateService)
+  constructor(
+    public fsService: FirebaseService,
+    public projectsService: ProjectsService,
+    private translateService: TranslateService,
+    private projectService: ProjectService
+  )
   {
   }
 
@@ -43,7 +52,16 @@ export class TabProjectsPage implements OnInit {
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  ngOnInit() {
+  ngOnInit(): void {
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  ionViewWillEnter() {
+    this.getLikeCount();
+
+    this.language = this.translateService.currentLang;
+
     if (this.language === "en") {
       this.projects = en.projectPage.projects;
     } else {
@@ -63,11 +81,33 @@ export class TabProjectsPage implements OnInit {
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
+  selectProject(project: Project) {
+    this.projectService.likeProject(project);
+    project.isLiked = !project.isLiked;
+
+    this.changeLikeCount(project)
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  changeLikeCount(project) {
+    this.likedProjectsCount = project.isLiked ? this.likedProjectsCount + 1 : this.likedProjectsCount - 1;
+  }
+
   // ----------------------------------------------------------------------------------------------
 
   //#endregion
 
   //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
+
+  getLikeCount(){
+    Preferences.get({key: 'likedProjects'}).then(
+      likedProjects => {
+        this.likedProjectsCount = JSON.parse(likedProjects.value).length;
+      }
+    )
+  }
+
 
   // ----------------------------------------------------------------------------------------------
 

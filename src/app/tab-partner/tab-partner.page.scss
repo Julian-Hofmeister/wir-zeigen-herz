@@ -1,39 +1,86 @@
+app-page-header {
+
+}
+
+
 .arrow-icon {
-  margin: 0 0 0 .5rem;
-  color: var(--ion-color-primary)
+  margin: .5rem 0 0 .5rem;
+  color: var(--ion-color-primary);
+}
+
+.filter-text {
+  color: var(--ion-color-primary);
+  text-align: end;
+  margin-top: 8px;
 }
 
 .link-btn {
   margin: .25rem 0 0;
   color: var(--ion-color-primary)
+}
 
+
+.filter-col {
+  p {
+    margin-bottom: .5rem;
+  }
+  span {
+    margin: .5rem 0 !important;
+  }
+  text-align: end;
+}
+
+ion-item {
+  padding:0;
+}
+
+.region-col {
+  text-align: start;
+
+  p {
+    margin-bottom: .5rem;
+
+  }
 }
 
 ion-searchbar {
   text-align: left;
+  padding: 0;
+  margin-top: 1.5rem;
   --border-radius: 50rem;
   --icon-color: var(--ion-color-primary);
-  padding: 0;
 }
 
 ion-searchbar.md {
   text-align: left;
   --border-radius: 50rem;
-  --icon-color: var(--ion-color-primary);
   --box-shadow: none;
-border: 2px var(--ion-color-primary) solid;
+  --icon-color: var(--ion-color-primary);
+  border: 2px var(--ion-color-primary) solid;
   border-radius: 50rem;
-
 }
 
-.align-end {
-  justify-content: flex-end;
+.space-between {
+  justify-content: space-between;
   align-items: center;
   span {
-    margin: 0;
     padding: 0;
-margin-bottom: .3rem;
+    margin: 0 0 .3rem;
   }
+
+  ion-icon {
+    --color: var(--ion-color-primary)
+  }
+
+  ion-label {
+    color: var(--ion-color-primary)
+
+  }
+}
+
+ion-item {
+  max-width: 100%;
+  margin-left: -.5rem
 }
 
 ion-select {
@@ -56,3 +103,41 @@ ion-select::part(icon) {
   color: var(--ion-color-primary);
   opacity: 1;
 }
+
+ion-select-option {
+  color: var(--ion-color-dark);
+}
+
+
+ion-fab-button{
+  --box-shadow: none;
+  ion-icon {
+    color: var(--ion-color-dark);
+  }
+}
+
+
+.modal-col {
+
+  text-align: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  p {
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0 2rem;
+    font-weight: 600;
+  }
+
+}
+
+.cross-icon {
+  margin: .5rem 0;
+}
+

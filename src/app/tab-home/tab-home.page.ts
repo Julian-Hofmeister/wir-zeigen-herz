@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ModalController, ToastController} from "@ionic/angular";
 import {ExplainModalComponent} from "../shared/explain-modal/explain-modal.component";
 import {TranslateService} from "@ngx-translate/core";
@@ -6,6 +6,10 @@ import {TranslateService} from "@ngx-translate/core";
 import en from "../../assets/i18n/en.json";
 import de from "../../assets/i18n/de.json";
 import {News} from "../tab-news/news.interface";
+import {Partner} from "../tab-partner/partner.interface";
+import {PartnerService} from "../shared/partner.service";
+import {Share} from "@capacitor/share";
+import {Question} from "./questions.interface";
 
 @Component({
   selector: 'app-tab-home',
@@ -20,7 +24,12 @@ export class TabHomePage implements OnInit {
 
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
-  news: News[];
+  // news: News[];
+
+  latestPartner: Partner[];
+
+  questionsDE: Question[];
+  questionsEN: Question[];
 
   language: string = this.translateService.currentLang;
 
@@ -32,21 +41,23 @@ export class TabHomePage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(private modalCtrl: ModalController, private toastController: ToastController, private translateService: TranslateService)
-  {
+  constructor(
+    private modalCtrl: ModalController,
+    private toastController: ToastController,
+    private translateService: TranslateService,
+    private partnerService: PartnerService
+  ) {
   }
 
   //#endregion
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  ngOnInit()
-  {
-      if (this.language === "en") {
-        this.news = en.newsPage.news
-      } else {
-        this.news = de.newsPage.news
-      }
+  ngOnInit() {
+    this.latestPartner = this.partnerService.getLatestPartner();
+
+    this.questionsDE = de.homePage.QA;
+    this.questionsEN = en.homePage.QA;
   }
 
   //#endregion
@@ -63,38 +74,23 @@ export class TabHomePage implements OnInit {
 
   // ----------------------------------------------------------------------------------------------
 
-  openLogoLink() {
-    window.open('https://wirzeigenherz.eu/wp-content/uploads/2022/10/und-wir-600x523.jpg');
-  }
-
-  // ----------------------------------------------------------------------------------------------
-
-  async openExplainModal() {
-    const modal = await this.modalCtrl.create({
-      component: ExplainModalComponent,
-
-    });
-
-    modal.present().then();
-}
-  // ----------------------------------------------------------------------------------------------
-
-  copyText() {
-
-    const text = this.language === "en" ? de.homePage.shareMessage : en.homePage.shareMessage;
-
-    navigator.clipboard.writeText(text).then(
-      () => {
-        this.presentToast().then();
-      }
-    );
-  }
-
-  // ----------------------------------------------------------------------------------------------
-
   switchLanguage() {
-    const lang = this.translateService.currentLang === "de" ? "en" : "de";
+    const lang = this.translateService.currentLang === "en" ? "de" : "en";
     this.translateService.use(lang);
+
+    this.language = this.translateService.currentLang;
+
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  async shareVideo() {
+    await Share.share({
+      title: this.language === "en" ? en.homePage.shareMessageTitle : de.homePage.shareMessageTitle,
+      text:  this.language === "en" ? en.homePage.shareMessage : de.homePage.shareMessage,
+      dialogTitle: this.language === "en" ? en.homePage.dialogTitle : de.homePage.dialogTitle,
+      url: 'https://vimeo.com/770214670',
+    });
   }
 
   // ----------------------------------------------------------------------------------------------
@@ -103,16 +99,6 @@ export class TabHomePage implements OnInit {
 
   //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
 
-  async presentToast() {
-    const toast = await this.toastController.create({
-      message: 'Nachricht Kopiert',
-      duration: 1500,
-      position: 'bottom',
-      color: 'medium'
-    });
-
-    await toast.present();
-  }
   // ----------------------------------------------------------------------------------------------
 
   //#endregion

@@ -1,67 +1,75 @@
 <ion-content>
   <ion-grid>
-    <div class="round-container">
+    <div class="header-col">
       <div class="upper-container">
         <img src="/assets/imgs/logo_white.png" alt=""/>
-        <ion-row>
-          <ion-row>
-            <h2 data-text="">{{'homePage.monthlyDonation' | translate}}</h2>
-            <p>{{'homePage.monthlyDonationText' | translate}}</p>
-          </ion-row>
-          <div class="translation-box" (click)="switchLanguage()">
-            <p>{{"homePage.translationBtn" | translate}}</p>
-          </div>
-        </ion-row>
 
+        <p class="subtitle">{{"homePage.subtitle" | translate}}</p>
+        <div class="translation-box" (click)="switchLanguage()">
+          <p>{{"homePage.translationBtn" | translate}}</p>
+        </div>
       </div>
       <div class="lower-container"></div>
     </div>
-    <div class="btn-col">
-      <app-action-button [text]="'homePage.partnerBtn' | translate" routerLink="/tabs/tab-partner"></app-action-button>
-      <p class="link-btn" (click)="openExplainModal()">{{'homePage.explainBtn' | translate}}</p>
-    </div>
-    <p class="aboutus">{{'homePage.aboutUs' | translate}}</p>
 
-    <h4>Aktuelle News</h4>
-    <ion-list *ngFor="let news of news">
-      <app-news-card [news]="news"></app-news-card>
-    </ion-list>
+    <div class="btn-col">
+      <ion-button class="explain-btn" routerLink="/slider">{{'homePage.explainBtn' | translate}}</ion-button>
+      <app-action-button [text]="'homePage.partnerBtn' | translate" routerLink="/tabs/tab-partner"></app-action-button>
+    </div>
+
+    <div class="partner-col">
+      <p *ngIf="latestPartner.length">{{"homePage.lastVisited" | translate}}</p>
+      <ion-list class="partner-list" *ngFor="let partner of latestPartner">
+        <app-partner-card [partner]="partner"></app-partner-card>
+      </ion-list>
+    </div>
 
     <img class="child-img" src="/assets/imgs/child.png" alt="">
 
-    <div class="round-container-reverse">
-      <div class="upper-container-reverse">
-      </div>
+    <div class="info-col">
+      <div class="upper-container-reverse"></div>
       <div class="lower-container-reverse">
-        <h4>{{'homePage.ourVisionTitle' | translate}}</h4>
+        <h4>{{"homePage.aboutUsTitle" | translate}}</h4>
+        <p>{{'homePage.aboutUs' | translate}}</p>
+
+        <h4 class="margin-top-small">{{'homePage.ourVisionTitle' | translate}}</h4>
         <p>{{'homePage.ourVision' | translate}}</p>
-        <app-action-button color="light" [text]="'homePage.teamBtn' | translate" routerLink="/team"></app-action-button>
+
+        <app-action-button class="team-btn" color="light" [text]="'homePage.teamBtn' | translate" routerLink="/team"></app-action-button>
       </div>
-<!--      <div class="on-top">-->
-<!--&lt;!&ndash;        <p>{{'homePage.aboutUs' | translate}}</p>&ndash;&gt;-->
-<!--&lt;!&ndash;        <p  class="text-list">{{'homePage.aboutUsList' | translate}}</p>&ndash;&gt;-->
-<!--        <h4>{{'homePage.ourVisionTitle' | translate}}</h4>-->
-<!--        <p>{{'homePage.ourVision' | translate}}</p>-->
-<!--      </div>-->
     </div>
-<!--    <div class="content-container">-->
-<!--      <h4>{{'homePage.ourVisionTitle' | translate}}</h4>-->
-<!--      <p>{{'homePage.ourVision' | translate}}</p>-->
-<!--    </div>-->
+
+    <h4>{{'homePage.QATitle' | translate}}</h4>
+    <ion-accordion-group mode="ios" expand="inset">
+      <ion-accordion mode="ios" *ngFor="let question of language === 'en' ? questionsEN : questionsDE">
+        <ion-item slot="header" color="light">
+          <ion-label class="ion-text-wrap title" mode="md">{{question.title}}</ion-label>
+        </ion-item>
+        <div class="content" slot="content">{{question.content}}</div>
+      </ion-accordion>
+    </ion-accordion-group>
 
     <div class="img-container">
-        <h4>{{'homePage.weAreThereTitle' | translate}}</h4>
-        <p>{{'homePage.weAreThere' | translate}}</p>
-<!--      <ul>-->
-<!--        <li>Positives Markenimage</li>-->
-<!--        <li>Employer Brandings</li>-->
-<!--        <li>Soziale Entscheidung</li>-->
-<!--      </ul>-->
-      <app-action-button [text]="'homePage.shareBtn' | translate" class="share-btn" (click)="copyText()"></app-action-button>
+      <h4>{{'homePage.weAreThereTitle' | translate}}</h4>
+      <p>{{'homePage.weAreThere' | translate}}</p>
 
+      <ion-col class="feature-col">
+        <h6>{{"homePage.featureTitle1" | translate}}</h6>
+        <p>{{"homePage.featureDesc1" | translate}}</p>
+        <h6>{{"homePage.featureTitle2" | translate}}</h6>
+        <p>{{"homePage.featureDesc2" | translate}}</p>
+        <h6>{{"homePage.featureTitle3" | translate}}</h6>
+        <p>{{"homePage.featureDesc3" | translate}}</p>
+      </ion-col>
+
+      <p class="mt">{{'homePage.weAreThere2' | translate}}</p>
+
+      <img src="/assets/imgs/wir-sind-dabei.jpg" alt="">
+
+
+
+      <app-action-button [text]="'homePage.shareBtn' | translate" (click)="shareVideo()"></app-action-button>
     </div>
-
-<!--    <img src="assets/imgs/wir-sind-dabei.jpg" class="logo-2" alt="">-->
 
   </ion-grid>
 </ion-content>

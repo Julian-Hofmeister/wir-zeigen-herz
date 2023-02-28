@@ -1,9 +1,10 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {Project} from '../project.interface';
 import {ActivatedRoute} from '@angular/router';
 import {ProjectsService} from '../projects.service';
 import {FirebaseService} from '../../shared/firebase.service';
 import {Preferences} from '@capacitor/preferences';
+import { ProjectService } from '../project.service';
 
 @Component({
   selector: 'app-project-card',
@@ -15,6 +16,8 @@ export class ProjectCardComponent implements OnInit {
   //#region [ BINDINGS ] //////////////////////////////////////////////////////////////////////////
 
   @Input() project: Project;
+
+  @Output() likeEvent = new EventEmitter<boolean>();
 
   //#endregion
 
@@ -28,16 +31,18 @@ export class ProjectCardComponent implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(public projectService: ProjectsService, public firebaseService: FirebaseService)
-  {
+  constructor(
+    public projectsService: ProjectsService,
+    public projectService: ProjectService,
+    public firebaseService: FirebaseService
+  ) {
   }
 
   //#endregion
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  ngOnInit()
-  {
+  ngOnInit() {
     Preferences.get({key: this.project.title}).then(
       value => {
         this.project.isLiked = value.value === "true";
@@ -57,34 +62,23 @@ export class ProjectCardComponent implements OnInit {
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
-
   openProjectPage() {
-    this.projectService.selectProject(this.project);
+    this.projectsService.selectProject(this.project);
   }
 
   // ----------------------------------------------------------------------------------------------
 
   likeProject() {
-    this.saveLike(!this.project.isLiked).then();
-
-    this.firebaseService.likeProject(!this.project.isLiked, this.project).then()
-
+    this.projectService.likeProject(this.project);
     this.project.isLiked = !this.project.isLiked;
+    this.likeEvent.emit(!this.project.isLiked);
   }
-
 
   // ----------------------------------------------------------------------------------------------
 
   //#endregion
 
   //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
-
-  async saveLike(addLike: boolean) {
-    await Preferences.set({
-      key: this.project.title,
-      value: addLike.toString(),
-    });
-  }
 
   // ----------------------------------------------------------------------------------------------
 

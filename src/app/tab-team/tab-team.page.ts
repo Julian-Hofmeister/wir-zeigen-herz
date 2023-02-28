@@ -7,6 +7,7 @@ import {FirebaseService} from '../shared/firebase.service';
 import {TranslateService} from '@ngx-translate/core';
 import de from 'src/assets/i18n/de.json';
 import en from 'src/assets/i18n/en.json';
+import {NavController} from "@ionic/angular";
 
 
 @Component({
@@ -35,7 +36,7 @@ export class TabTeamPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(private translateService: TranslateService) {
+  constructor(private translateService: TranslateService, private navCtrl: NavController) {
   }
 
   //#endregion
@@ -62,6 +63,9 @@ export class TabTeamPage implements OnInit {
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
+  onClose() {
+    this.navCtrl.navigateBack("/tabs/tab-home");
+  }
   // ----------------------------------------------------------------------------------------------
 
   //#endregion

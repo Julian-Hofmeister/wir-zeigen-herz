@@ -1,0 +1,167 @@
+[
+  {
+    "nameDE": "Ausbildung, Weiterbildung, E-Learning",
+    "id": "001",
+    "nameEN": "Training, continuing education and e-learning"
+  },
+  {
+    "nameDE": "Auto, Motorrad, Wohnmobil und Automobilität",
+    "id": "002",
+    "nameEN": "Car, motorcycle, camper and automobility"
+  },
+  {
+    "nameDE": "Babys, Kinder und Spielzeug",
+    "id": "003",
+    "nameEN": "Babies, children and toys"
+  },
+  {
+    "nameDE": "Baumarkt, Werkzeuge und Baustoffe",
+    "id": "004",
+    "nameEN": "DIY, tools and building materials"
+  },
+  {
+    "nameDE": "Bücher, Zeitschriften, Hörbücher und E-Books",
+    "id": "005",
+    "nameEN": "Books, magazines, audio books and e-books"
+  },
+  {
+    "nameDE": "Büro und Homeoffice",
+    "id": "006",
+    "nameEN": "Office and home office"
+  },
+  {
+    "nameDE": "Events und Tickets",
+    "id": "007",
+    "nameEN": "Events and tickets"
+  },
+  {
+    "nameDE": "Fahrräder, Scooter, Roller, E-Bikes, Radsport",
+    "id": "008",
+    "nameEN": "Bicycles, scooters, scooter, e-bikes and cycling"
+  },
+  {
+    "nameDE": "Filme, Serien, Musik und Spiele",
+    "id": "009",
+    "nameEN": "Movies, series, music and games"
+  },
+  {
+    "nameDE": "Garten, Pflanzen und Gartentechnik",
+    "id": "010",
+    "nameEN": "Garden, plants and garden technology"
+  },
+  {
+    "nameDE": "Gastronomie & Hotelleriebedarf",
+    "id": "011",
+    "nameEN": "Gastronomy and hotel supplies"
+  },
+  {
+    "nameDE": "Geld, Finanzen, Recht, Steuern und Versicherung",
+    "id": "012",
+    "nameEN": "Money, finance, law, taxes and insurance"
+  },
+  {
+    "nameDE": "Gesundheit und Pharmazie",
+    "id": "013",
+    "nameEN": "Health and pharmacy"
+  },
+  {
+    "nameDE": "Glücksspiel und Wetten",
+    "id": "014",
+    "nameEN": "Gambling and betting"
+  },
+  {
+    "nameDE": "Haustiere und Tierbedarf",
+    "id": "015",
+    "nameEN": "Pets and pet supplies"
+  },
+  {
+    "nameDE": "Immobilien und Grundstücke",
+    "id": "016",
+    "nameEN": "Real Estate and Property"
+  },
+  {
+    "nameDE": "Kunst und Handwerk",
+    "id": "017",
+    "nameEN": "Arts and Crafts"
+  },
+  {
+    "nameDE": "Marketing und Werbung",
+    "id": "018",
+    "nameEN": "Marketing and advertising"
+  },
+  {
+    "nameDE": "Lebensmittel und Getränke",
+    "id": "019",
+    "nameEN": "Food and beverages"
+  },
+  {
+    "nameDE": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires",
+    "id": "020",
+    "nameEN": "Fashion, clothing, shoes, jewelry and accessories"
+  },
+  {
+    "nameDE": "Outdoor und Camping",
+    "id": "021",
+    "nameEN": "Outdoor and Camping"
+  },
+  {
+    "nameDE": "Optiker und Hörgeräteakustiker",
+    "id": "022",
+    "nameEN": "Opticians and hearing aid acousticians"
+  },
+  {
+    "nameDE": "Reisen, Hotels und Tourismus",
+    "id": "023",
+    "nameEN": "Travel, Hotels and Tourism"
+  },
+  {
+    "nameDE": "Shisha, Tabak und Zubehör",
+    "id": "024",
+    "nameEN": "Shiha, tobacco and accessories"
+  },
+  {
+    "nameDE": "Singelbörse und mehr",
+    "id": "025",
+    "nameEN": "Singlebörse and more"
+  },
+  {
+    "nameDE": "Sport und Fitness",
+    "id": "026",
+    "nameEN": "Sports and Fitness"
+  },
+  {
+    "nameDE": "Technik, Elektronik, Foto & Computer",
+    "id": "027",
+    "nameEN": "Technology, electronics, photo and computer"
+  },
+  {
+    "nameDE": "Telefonie, Internet, Fernsehen und Hosting",
+    "id": "028",
+    "nameEN": "Telephony, internet, television and hosting"
+  },
+  {
+    "nameDE": "Universalhändler und Generalisten",
+    "id": "029",
+    "nameEN": "Universal retailers and generalists"
+  },
+  {
+    "nameDE": "Vergleichsportale",
+    "id": "030",
+    "nameEN": "Comparison portals"
+  },
+  {
+    "nameDE": "Verleih und Vermietung",
+    "id": "031",
+    "nameEN": "Rental and Leasing"
+  },
+  {
+    "nameDE": "Versorgung und Energie",
+    "id": "032",
+    "nameEN": "Supply and energy"
+  },
+  {
+    "nameDE": "Wohnen, Möbel, Küche, Bad, Schlafzimmer und Haushalt",
+    "id": "033",
+    "nameEN": "Living, furniture, kitchen, bath, bedroom and household"
+  }
+]

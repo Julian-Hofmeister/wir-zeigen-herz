@@ -1,10 +1,15 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
-import {Partner} from './partner.interface';
 import {PartnerService} from './partner.service';
-import {Category} from './categories';
-import en from "../../assets/i18n/en.json";
-import de from "../../assets/i18n/de.json";
 import {TranslateService} from "@ngx-translate/core";
+import {IonModal} from "@ionic/angular";
+
+import {Category} from './categories';
+import {Partner} from './partner.interface';
+
+import categories from "../../assets/i18n/categories.json";
+import partnerData from "../../assets/i18n/partner.json";
+import countries from "../../assets/i18n/countries.json";
+import {Country} from "./countries";
 
 @Component({
   selector: 'app-tab-partner',
@@ -12,11 +17,11 @@ import {TranslateService} from "@ngx-translate/core";
   styleUrls: ['./tab-partner.page.scss'],
 })
 export class TabPartnerPage implements OnInit {
-
-
   //#region [ BINDINGS ] //////////////////////////////////////////////////////////////////////////
 
   @ViewChild('selectCategory') categoryFilter: HTMLIonSelectElement;
+
+  @ViewChild(IonModal) modal: IonModal;
 
   //#endregion
 
@@ -24,13 +29,18 @@ export class TabPartnerPage implements OnInit {
 
   searchTerm = '';
   filteredPartner: Partner[] = [];
-
   filter: Category = undefined;
 
   partner: Partner[];
   categories: Category[];
+  countries: Country[];
 
   language: string = this.translateService.currentLang;
+  country: Country;
+  countryName: string;
+
+  isModalOpen = false;
+
 
   //#endregion
 
@@ -40,8 +50,9 @@ export class TabPartnerPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(private translateService: TranslateService, public partnerService: PartnerService)
-  {
+  constructor(
+    private translateService: TranslateService,
+    public partnerService: PartnerService) {
   }
 
   //#endregion
@@ -49,15 +60,24 @@ export class TabPartnerPage implements OnInit {
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
   ngOnInit() {
-    if (this.language === "en") {
-      this.partner = en.partnerPage.partner
-      this.categories = en.partnerPage.categories
-    } else {
-      this.partner = de.partnerPage.partner
-      this.categories = de.partnerPage.categories
-    }
+    this.categories = categories;
+    this.countries = countries;
+    this.partner = partnerData as Partner[]
+
+
   }
 
+
+  ionViewWillEnter() {
+    if(!this.country) {
+      // this.openModal(true);
+    }
+
+    this.language = this.translateService.currentLang;
+    this.getCountry()
+
+    this.countryName = this.language == "en" ? this.country.nameEN : this.country.nameDE;
+  }
   //#endregion
 
   //#region [ EMITTER ] ///////////////////////////////////////////////////////////////////////////
@@ -73,18 +93,23 @@ export class TabPartnerPage implements OnInit {
   filterList(evt: any) {
     this.searchTerm = evt.srcElement.value;
 
+    console.log(this.searchTerm)
+
     if (!this.searchTerm) {return;}
 
     this.filteredPartner = this.partnerService.filterList(this.searchTerm, this.partner);
-  }
 
+    this.onClearCategoryFilter();
+  }
 
   // ----------------------------------------------------------------------------------------------
 
   filterCategories(evt: any) {
     this.filter = evt.detail.value;
 
-    this.filteredPartner = this.partnerService.filterCategories(this.filter, this.partner);
+    console.log(this.filter)
+
+    this.filteredPartner = this.partnerService.filterCategories(this.filter.id, this.partner);
 
   }
 
@@ -92,14 +117,48 @@ export class TabPartnerPage implements OnInit {
 
   onClearCategoryFilter(){
     this.filter = undefined;
-    this.categoryFilter.value = undefined;
+    this.categoryFilter.value = null;
   }
 
   // ----------------------------------------------------------------------------------------------
 
+
+
+  // ----------------------------------------------------------------------------------------------
+
+  selectCountry(evt: any) {
+    this.country = evt.detail.value;
+
+    localStorage.setItem('country', JSON.stringify(this.country));
+
+    this.countryName = this.language == "en" ? this.country.nameEN : this.country.nameDE;
+
+
+    this.openModal(false);
+  }
+
   //#endregion
 
   //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
+
+  getCountry(){
+      this.country = JSON.parse(localStorage.getItem("country"));
+
+    console.log(this.country);
+
+
+      if(this.country) {return}
+
+      // this.modal.present().then();
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  openModal(isOpen: boolean) {
+    this.isModalOpen = isOpen;
+
+    console.log(this.isModalOpen)
+  }
 
   // ----------------------------------------------------------------------------------------------
 

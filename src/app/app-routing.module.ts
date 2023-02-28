@@ -11,6 +11,10 @@ const routes: Routes = [
     path: 'team',
     loadChildren: () => import('./tab-team/tab-team.module').then(m => m.TabTeamPageModule)
   },
+  {
+    path: 'slider',
+    loadChildren: () => import('./shared/slider/slider.module').then( m => m.SliderPageModule)
+  },
 
 ];
 @NgModule({
