@@ -32,6 +32,7 @@ export class TabPartnerPage implements OnInit {
   filter: Category = undefined;
 
   partner: Partner[];
+  loadedPartner: Partner[];
   categories: Category[];
   countries: Country[];
 
@@ -62,7 +63,7 @@ export class TabPartnerPage implements OnInit {
   ngOnInit() {
     this.categories = categories;
     this.countries = countries;
-    this.partner = partnerData as Partner[]
+    this.loadedPartner = partnerData as Partner[]
 
 
   }
@@ -72,6 +73,9 @@ export class TabPartnerPage implements OnInit {
     if(!this.country) {
       // this.openModal(true);
     }
+
+    this.fillPartner();
+
 
     this.language = this.translateService.currentLang;
     this.getCountry()
@@ -133,6 +137,7 @@ export class TabPartnerPage implements OnInit {
 
     this.countryName = this.language == "en" ? this.country.nameEN : this.country.nameDE;
 
+    this.fillPartner();
 
     this.openModal(false);
   }
@@ -162,5 +167,23 @@ export class TabPartnerPage implements OnInit {
 
   // ----------------------------------------------------------------------------------------------
 
+  fillPartner() {
+
+    this.partner = [];
+
+    for (let partner of this.loadedPartner) {
+      if (this.country.value === "germany" && partner.linkDE !== "") {
+        this.partner.push(partner);
+      } else if (this.country.value === "austria" && partner.linkAT !== "") {
+        this.partner.push(partner);
+      } else if (this.country.value === "switzerland" && partner.linkCH !== "") {
+        this.partner.push(partner);
+      } else if (this.country.value === "worldwide" && partner.linkWW !== "") {
+        this.partner.push(partner);
+      }
+
+
+    }
+  }
   //#endregion
 }

@@ -38,6 +38,8 @@ export class AppComponent implements OnInit{
 
   ngOnInit()
   {
+
+
    this.authService.autoAuthentication().then();
 
     this.partnerService.loadPartner().then();
