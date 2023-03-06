@@ -10,6 +10,7 @@ import categories from "../../assets/i18n/categories.json";
 import partnerData from "../../assets/i18n/partner.json";
 import countries from "../../assets/i18n/countries.json";
 import {Country} from "./countries";
+import {Preferences} from "@capacitor/preferences";
 
 @Component({
   selector: 'app-tab-partner',
@@ -63,25 +64,19 @@ export class TabPartnerPage implements OnInit {
   ngOnInit() {
     this.categories = categories;
     this.countries = countries;
-    this.loadedPartner = partnerData as Partner[]
-
-
+    this.loadedPartner = partnerData;
   }
 
+  // ----------------------------------------------------------------------------------------------
 
   ionViewWillEnter() {
-    if(!this.country) {
-      // this.openModal(true);
-    }
-
-    this.fillPartner();
-
-
-    this.language = this.translateService.currentLang;
-    this.getCountry()
-
-    this.countryName = this.language == "en" ? this.country.nameEN : this.country.nameDE;
+    this.getCountry().then(r =>
+      this.fillPartner()
+    )
   }
+
+  // ----------------------------------------------------------------------------------------------
+
   //#endregion
 
   //#region [ EMITTER ] ///////////////////////////////////////////////////////////////////////////
@@ -97,8 +92,6 @@ export class TabPartnerPage implements OnInit {
   filterList(evt: any) {
     this.searchTerm = evt.srcElement.value;
 
-    console.log(this.searchTerm)
-
     if (!this.searchTerm) {return;}
 
     this.filteredPartner = this.partnerService.filterList(this.searchTerm, this.partner);
@@ -111,10 +104,9 @@ export class TabPartnerPage implements OnInit {
   filterCategories(evt: any) {
     this.filter = evt.detail.value;
 
-    console.log(this.filter)
-
     this.filteredPartner = this.partnerService.filterCategories(this.filter.id, this.partner);
 
+    this.searchTerm = '';
   }
 
   // ----------------------------------------------------------------------------------------------
@@ -126,49 +118,49 @@ export class TabPartnerPage implements OnInit {
 
   // ----------------------------------------------------------------------------------------------
 
-
-
-  // ----------------------------------------------------------------------------------------------
-
-  selectCountry(evt: any) {
+  async selectCountry(evt: any) {
     this.country = evt.detail.value;
 
-    localStorage.setItem('country', JSON.stringify(this.country));
-
-    this.countryName = this.language == "en" ? this.country.nameEN : this.country.nameDE;
+    await Preferences.set({
+      key: 'country',
+      value: JSON.stringify(this.country),
+    });
 
     this.fillPartner();
 
-    this.openModal(false);
+    this.closeCountryModal();
   }
+
+  // ----------------------------------------------------------------------------------------------
+
+  openCountryModal() {
+    this.isModalOpen = true;
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  closeCountryModal() {
+    this.isModalOpen = false;
+  }
+
 
   //#endregion
 
   //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
 
-  getCountry(){
-      this.country = JSON.parse(localStorage.getItem("country"));
-
-    console.log(this.country);
-
-
-      if(this.country) {return}
-
-      // this.modal.present().then();
-  }
-
-  // ----------------------------------------------------------------------------------------------
-
-  openModal(isOpen: boolean) {
-    this.isModalOpen = isOpen;
-
-    console.log(this.isModalOpen)
+  private async getCountry() {
+    await Preferences.get({key: 'country'}).then(
+      (country) => {
+        if (country.value) {
+          this.country = JSON.parse(country.value)
+        }
+      }
+    );
   }
 
   // ----------------------------------------------------------------------------------------------
 
   fillPartner() {
-
     this.partner = [];
 
     for (let partner of this.loadedPartner) {
@@ -181,8 +173,6 @@ export class TabPartnerPage implements OnInit {
       } else if (this.country.value === "worldwide" && partner.linkWW !== "") {
         this.partner.push(partner);
       }
-
-
     }
   }
   //#endregion

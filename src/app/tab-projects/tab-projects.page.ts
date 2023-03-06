@@ -3,11 +3,11 @@ import {Project} from './project.interface';
 import {Observable, Subscription} from 'rxjs';
 import {FirebaseService} from '../shared/firebase.service';
 import {ProjectsService} from './projects.service';
-import {TranslateService} from "@ngx-translate/core";
-import en from "../../assets/i18n/en.json";
-import de from "../../assets/i18n/de.json";
-import {ProjectService} from "./project.service";
-import {Preferences} from "@capacitor/preferences";
+import {TranslateService} from '@ngx-translate/core';
+import en from '../../assets/i18n/en.json';
+import de from '../../assets/i18n/de.json';
+import {ProjectService} from './project.service';
+import {Preferences} from '@capacitor/preferences';
 
 
 
@@ -62,7 +62,7 @@ export class TabProjectsPage implements OnInit {
 
     this.language = this.translateService.currentLang;
 
-    if (this.language === "en") {
+    if (this.language === 'en') {
       this.projects = en.projectPage.projects;
     } else {
       this.projects = de.projectPage.projects;
@@ -85,7 +85,7 @@ export class TabProjectsPage implements OnInit {
     this.projectService.likeProject(project);
     project.isLiked = !project.isLiked;
 
-    this.changeLikeCount(project)
+    this.changeLikeCount(project);
   }
 
   // ----------------------------------------------------------------------------------------------
@@ -105,7 +105,7 @@ export class TabProjectsPage implements OnInit {
       likedProjects => {
         this.likedProjectsCount = JSON.parse(likedProjects.value).length;
       }
-    )
+    );
   }
 
 

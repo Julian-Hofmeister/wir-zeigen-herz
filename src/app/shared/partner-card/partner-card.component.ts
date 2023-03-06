@@ -59,6 +59,9 @@ export class PartnerCardComponent implements OnInit {
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
   async openLink() {
+
+    if(!this.country) {return}
+
     this.link = this.country.value === "germany" ?  this.partner.linkDE : this.country.value === "austria" ?  this.partner.linkAT : this.country.value === "switzerland" ?  this.partner.linkCH : this.partner.linkWW
 
     window.open(this.link);

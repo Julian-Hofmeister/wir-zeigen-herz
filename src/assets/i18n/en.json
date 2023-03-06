@@ -154,9 +154,16 @@
     "tabName": "Partner",
     "pageName": "Our Partner",
     "search": "Search",
-    "filter": "filter",
+    "filter": "Filter",
     "cancel": "Cancel",
-    "with": "with"
+    "with": "with",
+    "selectCountry": "Select Country",
+    "selectCountryText": "Please select the country you live in so that all links work properly and the commission can be donated.",
+
+    "germany": "Germany",
+    "austria": "Austria",
+    "switzerland": "Switzerland",
+    "worldwide": "Worldwide"
   },
   "projectDetailPage": {
     "aboutThisProject": "About this project"
