@@ -1,0 +1,47 @@
+<ion-content>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+        rel="stylesheet"/>
+
+  <ion-fab slot="fixed" vertical="top" horizontal="start">
+    <ion-fab-button color="light-shade" (click)="onClose()">
+      <ion-icon name="close" size="large"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <ion-slides pager="true" [options]="slideOpts" #slides >
+    <ion-slide class="slide1" (click)="nextPage(slides)">
+        <h1>{{"explainPage.mainHeadline" | translate}}</h1>
+      <div class="swipe">
+        <span class="material-icons-outlined">touch_app</span>
+        <p>{{"explainPage.swipe" | translate}}</p>
+      </div>
+    </ion-slide>
+    <ion-slide class="slide2" (click)="nextPage(slides)">
+      <ion-col>
+        <p>{{"explainPage.firstStep" | translate}}</p>
+        <app-action-button (click)="shareMessage()" [text]="'explainPage.shareBtn' | translate"></app-action-button>
+      </ion-col>
+    </ion-slide>
+    <ion-slide class="slide3" (click)="nextPage(slides)">
+      <p>{{"explainPage.secondStep" | translate}}</p>
+    </ion-slide>
+    <ion-slide class="slide4" (click)="nextPage(slides)">
+      <ion-col>
+        <p><strong>{{"explainPage.broadcastAndroid" | translate}}</strong></p>
+        <p>{{"explainPage.android1" | translate}}</p>
+        <p>{{"explainPage.android2" | translate}}</p>
+        <p>{{"explainPage.android3" | translate}}</p>
+        <p>{{"explainPage.android4" | translate}}</p>
+      </ion-col>
+    </ion-slide>
+    <ion-slide class="slide4" (click)="nextPage(slides)">
+      <ion-col>
+        <p><strong>{{"explainPage.broadcastIos" | translate}}</strong></p>
+        <p>{{"explainPage.ios1" | translate}}</p>
+        <p>{{"explainPage.ios2" | translate}}</p>
+        <p>{{"explainPage.ios3" | translate}}</p>
+        <p>{{"explainPage.ios4" | translate}}</p>
+      </ion-col>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>

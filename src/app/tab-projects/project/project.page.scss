@@ -1,0 +1,119 @@
+.nav-row {
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  .top-btn {
+    aspect-ratio: 1;
+    height: 3rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 2px;
+    margin: .5rem;
+    padding-top: .65rem;
+    border-radius: 9999px;
+
+    ion-icon {
+      font-size: 1.7rem;
+      color: var(--ion-color-dark);
+      margin-right: 2px;
+    }
+
+    .heart {
+      color: var(--ion-color-primary);
+      margin-right: 0px;
+
+    }
+  }
+}
+
+.col {
+  flex-direction: column;
+
+  img {
+    aspect-ratio: 1.4;
+    width: calc(100% - 1rem);
+    margin: .5rem;
+    border-radius: 10px;
+    //box-shadow: var(--ion-color-primary) 0 0 30px -12px;
+    box-shadow: var(--ion-color-dark) 0 0 30px -12px;
+  }
+
+  h2 {
+    margin: 1.5rem .5rem .5rem;
+    font-family: "Poppins", serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  ion-row {
+    align-items: center;
+
+    h5 {
+      margin: .5rem;
+      font-family: "Poppins", serif;
+      font-size: .9rem;
+      font-weight: 600;
+      color: var(--ion-color-primary);
+    }
+
+    span {
+      font-size: .9rem;
+      color: var(--ion-color-primary);
+    }
+  }
+
+  .progress-bar {
+    position: relative;
+    height: .5rem;
+    width: calc(100% - 1rem);
+    border-radius: 9999px;
+    margin: 1.5rem .5rem .5rem;
+    background-color: var(--ion-color-light-shade);
+
+    .progress-indicator {
+      position: absolute;
+      left: 0;
+      height: .5rem;
+      width: 70%;
+      background-color: var(--ion-color-primary);
+      border-radius: 9999px;
+
+    }
+  }
+
+  .space-between {
+    justify-content: space-between;
+
+    p {
+      margin: .5rem;
+      color: var(--ion-color-dark);
+      font-size: .9rem;
+    }
+  }
+
+  .text-block {
+    text-align: center;
+    h3 {
+      margin: 1.5rem .5rem .5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: "Poppins", serif;
+      text-align: start;
+    }
+
+    p {
+      margin: .5rem .5rem 2rem;
+      font-family: "Lato", serif;
+      font-size: 1rem;
+      white-space: pre-wrap;
+      text-align: start;
+
+    }
+
+
+
+
+  }
+}
+
+

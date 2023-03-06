@@ -1,0 +1,67 @@
+ion-slides {
+  height: 100%;
+}
+
+.swipe {
+  animation: blinker 3s linear infinite;
+  color: var(--ion-color-light);
+  position: absolute;
+  bottom: 5rem;
+
+  span {
+    font-size: 2.5rem;
+  }
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+ion-fab-button{
+  --box-shadow: none;
+  ion-icon {
+    color: var(--ion-color-dark);
+  }
+}
+
+.slide1 {
+  background-color: var(--ion-color-primary);
+
+  h1 {
+    color: var(--ion-color-light);
+  }
+
+}
+
+.slide2 {
+  p {
+    margin-bottom: 2rem;
+  }
+}
+
+
+.slide4 {
+  p {
+    text-align: start;
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+  strong {
+    color: var(--ion-color-primary)
+  }
+}
+
+h1 {
+  font-family: "Poppins", serif;
+  font-size: 1.8rem;
+  text-transform: none;
+  margin: 0 2rem;
+}
+
+p {
+  font-family: "Poppins", serif;
+  font-size: 1rem;
+  text-transform: none;
+  margin: 0 2rem;
+  font-weight: 600;
+}

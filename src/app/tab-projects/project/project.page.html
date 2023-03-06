@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="project.page.scss">
+<ion-content>
+  <ion-grid *ngIf="project">
+    <ion-row class="nav-row">
+      <div class="top-btn" (click)="onNavBack()">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </div>
+      <div class="top-btn"  (click)="likeProject()">
+          <ion-icon *ngIf="project.isLiked"   name="heart" class="heart"></ion-icon>
+          <ion-icon  *ngIf="!project.isLiked" name="heart-outline" class="heart"></ion-icon>
+      </div>
+    </ion-row>
+    <div class="col">
+      <img [src]="project.img" alt="">
+      <h2>{{project.title}}</h2>
+      <ion-row>
+        <h5>{{project.organisation}}</h5>
+        <span class="material-icons-outlined" *ngIf="project.organisation">verified</span>
+      </ion-row>
+<!--      <div class="progress-bar">-->
+<!--        <div class="progress-indicator"></div>-->
+<!--      </div>-->
+<!--      <ion-row class="space-between">-->
+<!--        <p>24 Tage verbleibend</p>-->
+<!--        <p>Ziel: 25,000€</p>-->
+<!--      </ion-row>-->
+      <div class="text-block">
+        <h3>{{'projectDetailPage.aboutThisProject' | translate}}</h3>
+        <p>{{project.description}}</p>
+
+        <app-action-button text="Partnerprogramme" class="action-btn" routerLink="/tabs/tab-partner"></app-action-button>
+        <div class="space-small"></div>
+      </div>
+    </div>
+  </ion-grid>
+</ion-content>
