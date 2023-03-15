@@ -15,6 +15,7 @@
     "ourVisionTitle": "Our Vision",
     "ourVision": "We all have one big goal. We want to become the largest non-profit donation platform of this new generation. We can only do this thanks to your help and through interesting partner programmes of companies with the biggest online shops. In the past few years, the turnover of these companies has risen continuously and most recently amounted to around 86.7 billion euros.\n\nThe 100 online shops with the highest turnover in Germany had a turnover of around 58 billion euros in 2021. Only together are we strong? In a nutshell, we will make life more liveable for many. To achieve this, it only takes 2 simple steps. You can find them under \"Do good now\". From now on, you too can be the reason why someone smiles, and not just today.",
     "teamBtn": "Our Team with Heart",
+    "ambassadorBtn": "Heart ambassador",
     "weAreThereTitle": "And we're involved",
     "weAreThere": "Be an Ambassador of the We Show Heart Community. You have the power to make a big difference. Invite everyone to get involved for free. Together you can move the world in a different direction and sustainably do a lot of good. If you forward our video \"Doing good through painless giving\" to everyone you know, you can include our logo \", We're with you\", on your website. You will also receive the privilege of being featured on our website as a Heart Ambassador at a later date, with a photo or logo of your choice.",
     "weAreThere2": "This logo stands for child welfare and children's rights. To enable people in need to survive in the short and medium term. To help seriously ill people or people with a disability. To safeguard the lives and well-being of animals. To fight for the protection of our nature and environment - so that the earth remains habitable for all of us. Preserving and repairing cultural monuments. To fight for the integrity of sport and to highlight its importance for peaceful and social coexistence in our society.",
@@ -45,6 +46,10 @@
       {
         "title": "Are there any partner programs for different countries",
         "content": "Unfortunately, yes. One company can set up a partner program for several countries or only for a single country. Therefore, if someone from Switzerland orders something, he can only do so under the partner program of his home country, provided that there is a partner program there. If someone from Switzerland orders something from an affiliate program in Germany, there will be no referral commission and no money we can donate. If you order online, please click on your home country in advance. An exception applies to partner programs worldwide. For these orders, it does not matter from which home country you come."
+      },
+      {
+        "title": "Do some companies refuse to cooperate",
+        "content": "Unfortunately, yes. Although we are a non-profit organization. But it is not only companies that refuse us. Many companies have their partner program managed by an agency. The reasons for the rejections are as follows. \n1. website does not complement the brand of the company\n2. company does not work with this type\n3. URL is not relevant to the company\n4. we are very choosy about cooperation\n5. we are only interested in companies with high sales figures\nHere at our company we are concerned with children in poverty, animals in need and other important aid projects. For us, these reasons are incomprehensible and an absolute indictment."
       },
       {
         "title": "Are there any additional costs for my orders?",
@@ -151,14 +156,15 @@
     ]
   },
   "partnerPage": {
-    "tabName": "Partner",
+    "tabName": "Shops",
     "pageName": "Our Partner",
     "search": "Search",
-    "filter": "Filter",
+    "filter": "Categories",
     "cancel": "Cancel",
     "with": "with",
     "selectCountry": "Select Country",
     "selectCountryText": "Please select the country you live in so that all links work properly and the commission can be donated.",
+    "selectCategoryText": "For a better overview, we have divided the affiliate programs into different categories.",
 
     "germany": "Germany",
     "austria": "Austria",
@@ -171,9 +177,9 @@
   "explainPage": {
     "pageName": "How it works",
     "close": "close",
-    "mainHeadline": "How to make a change with only two steps",
-    "firstStep": "1. Forward our YouTube video \"Do good by giving painlessly\" to everyone you know. Use all your social media channels, as well as the broadcast list of WhatsApp, to reach everyone in no time. Below you will find a quick guide on how to do this.",
-    "copyMessage": "Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei. https://vimeo.com/770214670",
+    "mainHeadline": "How you can do a lot of good now with just 2 simple steps!",
+    "firstStep": "\n1. Forward our video \"Doing good through painless giving\" to everyone once. Use all your social media channels, as well as the WhatsApp broadcast list, to reach everyone in the shortest possible time. Below you will find brief instructions for both Android and iPhone.",
+    "copyMessage": "Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei.",
     "copyCall": "click to copy",
     "secondStep": "2. Then go to the menu item Top affiliate programs. There you can view all current and interesting affiliate programs.",
     "broadcastAndroid": "Quick guide for creating an Android WhatsApp broadcast list",

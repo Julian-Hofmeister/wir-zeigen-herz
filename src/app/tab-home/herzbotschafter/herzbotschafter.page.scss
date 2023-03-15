@@ -1,0 +1,71 @@
+ion-fab-button{
+  --box-shadow: none;
+  ion-icon {
+    color: var(--ion-color-light);
+  }
+}
+
+.img-container {
+  background: url("/assets/imgs/football.jpg");
+  padding: 2rem;
+  //margin-top: 2rem;
+  text-align: center;
+  //border-top-left-radius: 50px;
+
+  h4 {
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 3rem 0 0;
+    color: var(--ion-color-light);
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.05rem;
+    color: var(--ion-color-light);
+    white-space: pre-line;
+  }
+
+  .feature-col {
+    padding-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    ion-icon {
+      color: var(--ion-color-primary);
+      font-size: 4rem;
+      margin-top: 2rem;
+
+    }
+    h6 {
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-top: 1rem;
+
+    }
+
+    p {
+      margin-top: .5rem;
+      text-align: center;
+    }
+
+
+  }
+
+  img {
+    border-radius: 20px;
+    aspect-ratio: 1;
+    //padding: 2rem;
+    margin: 2rem 0;
+    margin-left: -6px;
+  }
+
+  .mt {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+  }
+
+}
+

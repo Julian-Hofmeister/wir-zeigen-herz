@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: TabHomePage
+  },
+  {
+    path: 'ambassador',
+    loadChildren: () => import('./herzbotschafter/herzbotschafter.module').then( m => m.HerzbotschafterPageModule)
   }
 ];
 

@@ -5,11 +5,12 @@ import {TranslateService} from "@ngx-translate/core";
 
 import en from "../../assets/i18n/en.json";
 import de from "../../assets/i18n/de.json";
-import {News} from "../tab-news/news.interface";
 import {Partner} from "../tab-partner/partner.interface";
 import {PartnerService} from "../shared/partner.service";
 import {Share} from "@capacitor/share";
 import {Question} from "./questions.interface";
+import {Preferences} from "@capacitor/preferences";
+import {Country} from "../tab-partner/countries";
 
 @Component({
   selector: 'app-tab-home',
@@ -32,6 +33,8 @@ export class TabHomePage implements OnInit {
   questionsEN: Question[];
 
   language: string = this.translateService.currentLang;
+
+  country: Country
 
   //#endregion
 
@@ -58,6 +61,13 @@ export class TabHomePage implements OnInit {
 
     this.questionsDE = de.homePage.QA;
     this.questionsEN = en.homePage.QA;
+
+    this.getCountry().then();
+  }
+
+
+  ionViewWillEnter() {
+    this.getCountry().then()
   }
 
   //#endregion
@@ -84,20 +94,23 @@ export class TabHomePage implements OnInit {
 
   // ----------------------------------------------------------------------------------------------
 
-  async shareVideo() {
-    await Share.share({
-      title: this.language === "en" ? en.homePage.shareMessageTitle : de.homePage.shareMessageTitle,
-      text:  this.language === "en" ? en.homePage.shareMessage : de.homePage.shareMessage,
-      dialogTitle: this.language === "en" ? en.homePage.dialogTitle : de.homePage.dialogTitle,
-      url: 'https://vimeo.com/770214670',
-    });
-  }
+
 
   // ----------------------------------------------------------------------------------------------
 
   //#endregion
 
   //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////
+
+  private async getCountry() {
+    await Preferences.get({key: 'country'}).then(
+      (country) => {
+        if (country.value) {
+          this.country = JSON.parse(country.value)
+        }
+      }
+    );
+  }
 
   // ----------------------------------------------------------------------------------------------
 

@@ -13,14 +13,14 @@
     </div>
 
     <div class="btn-col">
-      <ion-button class="explain-btn" routerLink="/slider">{{'homePage.explainBtn' | translate}}</ion-button>
+      <ion-button color="light" class="explain-btn" routerLink="/slider">{{'homePage.explainBtn' | translate}}</ion-button>
       <app-action-button [text]="'homePage.partnerBtn' | translate" routerLink="/tabs/tab-partner"></app-action-button>
     </div>
 
     <div class="partner-col">
       <p *ngIf="latestPartner.length">{{"homePage.lastVisited" | translate}}</p>
       <ion-list class="partner-list" *ngFor="let partner of latestPartner">
-        <app-partner-card [partner]="partner"></app-partner-card>
+        <app-partner-card [partner]="partner" [country]="country"></app-partner-card>
       </ion-list>
     </div>
 
@@ -32,10 +32,12 @@
         <h4>{{"homePage.aboutUsTitle" | translate}}</h4>
         <p>{{'homePage.aboutUs' | translate}}</p>
 
-        <h4 class="margin-top-small">{{'homePage.ourVisionTitle' | translate}}</h4>
+        <app-action-button class="team-btn" color="light" [text]="'homePage.teamBtn' | translate" routerLink="/team"></app-action-button>
+
+        <h4 class="margin-top">{{'homePage.ourVisionTitle' | translate}}</h4>
         <p>{{'homePage.ourVision' | translate}}</p>
 
-        <app-action-button class="team-btn" color="light" [text]="'homePage.teamBtn' | translate" routerLink="/team"></app-action-button>
+        <app-action-button class="team-btn" color="light" [text]="'homePage.ambassadorBtn' | translate" routerLink="/ambassador"></app-action-button>
       </div>
     </div>
 
@@ -50,26 +52,13 @@
     </ion-accordion-group>
 
     <div class="img-container">
-      <h4>{{'homePage.weAreThereTitle' | translate}}</h4>
-      <p>{{'homePage.weAreThere' | translate}}</p>
-
-      <ion-col class="feature-col">
-        <h6>{{"homePage.featureTitle1" | translate}}</h6>
-        <p>{{"homePage.featureDesc1" | translate}}</p>
-        <h6>{{"homePage.featureTitle2" | translate}}</h6>
-        <p>{{"homePage.featureDesc2" | translate}}</p>
-        <h6>{{"homePage.featureTitle3" | translate}}</h6>
-        <p>{{"homePage.featureDesc3" | translate}}</p>
-      </ion-col>
-
-      <p class="mt">{{'homePage.weAreThere2' | translate}}</p>
-
-      <img src="/assets/imgs/wir-sind-dabei.jpg" alt="">
-
-
-
-      <app-action-button [text]="'homePage.shareBtn' | translate" (click)="shareVideo()"></app-action-button>
+      <img src="/assets/imgs/original.png" alt="">
     </div>
+    <div class="bottom-info">
+    <p>
+      Besuchen Sie auch unsere Webseite unter <a href="www.wirzeigenherz.eu">www.wirzeigenherz.eu</a>
+    </p>
 
+  </div>
   </ion-grid>
 </ion-content>

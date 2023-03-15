@@ -103,11 +103,14 @@ export class TabProjectsPage implements OnInit {
   getLikeCount(){
     Preferences.get({key: 'likedProjects'}).then(
       likedProjects => {
-        this.likedProjectsCount = JSON.parse(likedProjects.value).length;
+        const loadedLikedProjects = JSON.parse(likedProjects.value);
+
+        if(loadedLikedProjects) {
+          this.likedProjectsCount = loadedLikedProjects.length;
+        }
       }
     );
   }
-
 
   // ----------------------------------------------------------------------------------------------
 

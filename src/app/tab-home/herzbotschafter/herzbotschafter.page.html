@@ -1,0 +1,32 @@
+
+
+<ion-content>
+  <ion-fab  vertical="top" horizontal="start">
+    <ion-fab-button color="light-shade" (click)="onClose()">
+      <ion-icon name="arrow-back" size="large"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <div class="img-container">
+    <h4>{{'homePage.weAreThereTitle' | translate}}</h4>
+    <p>{{'homePage.weAreThere' | translate}}</p>
+
+    <ion-col class="feature-col">
+      <ion-icon name="diamond"></ion-icon>
+
+      <h6>{{"homePage.featureTitle1" | translate}}</h6>
+      <p>{{"homePage.featureDesc1" | translate}}</p>
+      <ion-icon name="accessibility"></ion-icon>
+      <h6>{{"homePage.featureTitle2" | translate}}</h6>
+      <p>{{"homePage.featureDesc2" | translate}}</p>
+      <ion-icon name="heart"></ion-icon>
+
+      <h6>{{"homePage.featureTitle3" | translate}}</h6>
+      <p>{{"homePage.featureDesc3" | translate}}</p>
+    </ion-col>
+
+    <img class="original" src="/assets/imgs/wir-sind-dabei.jpg" alt="">
+    <p class="mt">{{'homePage.weAreThere2' | translate}}</p>
+    <app-action-button [text]="'homePage.shareBtn' | translate" (click)="shareVideo()"></app-action-button>
+  </div>
+</ion-content>

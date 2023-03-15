@@ -24,6 +24,8 @@ export class TabPartnerPage implements OnInit {
 
   @ViewChild(IonModal) modal: IonModal;
 
+  @ViewChild('popover') popover;
+
   //#endregion
 
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
@@ -43,6 +45,9 @@ export class TabPartnerPage implements OnInit {
 
   isModalOpen = false;
 
+  isCountryPopoverOpen = false;
+
+  isCategoryPopoverOpen = false;
 
   //#endregion
 
@@ -61,10 +66,13 @@ export class TabPartnerPage implements OnInit {
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
+
   ngOnInit() {
     this.categories = categories;
     this.countries = countries;
     this.loadedPartner = partnerData;
+
+
   }
 
   // ----------------------------------------------------------------------------------------------
@@ -73,6 +81,7 @@ export class TabPartnerPage implements OnInit {
     this.getCountry().then(r =>
       this.fillPartner()
     )
+
   }
 
   // ----------------------------------------------------------------------------------------------
@@ -113,7 +122,6 @@ export class TabPartnerPage implements OnInit {
 
   onClearCategoryFilter(){
     this.filter = undefined;
-    this.categoryFilter.value = null;
   }
 
   // ----------------------------------------------------------------------------------------------
@@ -143,6 +151,11 @@ export class TabPartnerPage implements OnInit {
     this.isModalOpen = false;
   }
 
+  // ----------------------------------------------------------------------------------------------
+
+  openCategoryPopover() {
+    this.isCategoryPopoverOpen = true;
+  }
 
   //#endregion
 
@@ -153,6 +166,8 @@ export class TabPartnerPage implements OnInit {
       (country) => {
         if (country.value) {
           this.country = JSON.parse(country.value)
+        } else {
+            this.isCountryPopoverOpen = true;
         }
       }
     );

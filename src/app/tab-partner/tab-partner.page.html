@@ -7,10 +7,15 @@
         <ion-searchbar (ionInput)="filterList($event)" [placeholder]="'partnerPage.search' | translate"></ion-searchbar>
         <ion-row class="space-between">
           <ion-col size="4.5" class="region-col">
-            <ion-label (click)="openCountryModal()">{{this.country ? ('partnerPage.'+country.value | translate) : ("partnerPage.selectCountry" | translate)}}</ion-label>
+            <ion-label  id="country-trigger" (click)="openCountryModal()">{{this.country ? ('partnerPage.'+country.value | translate) : ("partnerPage.selectCountry" | translate)}}</ion-label>
           </ion-col>
+          <ion-popover   trigger="country-trigger" triggerAction="context-menu" [isOpen]="isCountryPopoverOpen" (didDismiss)="openCategoryPopover()">
+              <ng-template>
+                <div class="ion-padding">{{"partnerPage.selectCountryText" | translate}}</div>
+              </ng-template>
+          </ion-popover>
 
-          <ion-item *ngIf="!filter" lines="none" class="filter-co">
+          <ion-item id="category-trigger" *ngIf="!filter" lines="none" class="filter-co">
             <ion-select interface="action-sheet" mode="md" okText="Okay" [cancelText]="'partnerPage.cancel' | translate"
                         [placeholder]="'partnerPage.filter' | translate" (ionChange)="filterCategories($event)"
                         #selectCategory>
@@ -20,6 +25,12 @@
               </ion-list>
             </ion-select>
           </ion-item>
+
+          <ion-popover   trigger="category-trigger" triggerAction="context-menu" [isOpen]="isCategoryPopoverOpen">
+            <ng-template>
+              <div class="ion-padding">{{"partnerPage.selectCategoryText" | translate}}</div>
+            </ng-template>
+          </ion-popover>
 
           <ion-col *ngIf="filter" class="filter-col" size="6.25">
             <p class="filter-text">{{this.language == "en" ? filter.nameEN : filter.nameDE}}</p>
@@ -36,7 +47,7 @@
       <ion-col>
         <div *ngIf="!country">
           <ion-list *ngFor="let partner of loadedPartner">
-            <app-partner-card (click)="openCountryModal(true)" [partner]="partner" [country]="country"></app-partner-card>
+            <app-partner-card (click)="openCountryModal()" [partner]="partner" [country]="country"></app-partner-card>
           </ion-list>
         </div>
 
@@ -60,11 +71,12 @@
 <ion-modal trigger="open-modal" [isOpen]="isModalOpen" (didDismiss)="closeCountryModal()">
   <ng-template>
     <ion-content>
-      <ion-fab-button color="light-shade" (click)="openCountryModal()">
+      <ion-fab-button color="light-shade" (click)="closeCountryModal()">
         <ion-icon name="close" size="large"></ion-icon>
       </ion-fab-button>
       <ion-col class="modal-col">
-        <p>{{"partnerPage.selectCountryText" | translate}}</p>
+        <p>{{"partnerPage.selectCountryText" | translate}} <br/> <br/>{{"partnerPage.selectCategoryText" | translate}}</p>
+
         <br/>
         <ion-item lines="none">
           <ion-select interface="popover" [placeholder]="this.country ? ('partnerPage.'+country.value | translate) : ('partnerPage.selectCountry' | translate)" (ionChange)="selectCountry($event)" >

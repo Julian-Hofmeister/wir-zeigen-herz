@@ -44,8 +44,9 @@ p {
 
 .subtitle {
   font-weight: 600;
-  color: var(--ion-color-medium);
-  font-style: italic;
+  color: var(--ion-color-dark);
+  font-size: .9rem;
+  //font-style: italic;
 }
 
 a {
@@ -54,7 +55,7 @@ a {
   text-decoration: none;
   justify-content: center;
 
-  span {
+  ion-icon {
     font-size: 1.5rem !important;
     color: var(--ion-color-primary);
     margin-left: .5rem;

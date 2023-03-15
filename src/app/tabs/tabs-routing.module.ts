@@ -24,10 +24,6 @@ const routes: Routes = [
         loadChildren: () => import('../tab-team/tab-team.module').then(m => m.TabTeamPageModule)
       },
       {
-        path: 'tab-news',
-        loadChildren: () => import('../tab-news/tab-news.module').then(m => m.TabNewsPageModule)
-      },
-      {
         path: '',
         redirectTo: '/tabs/tab-home',
         pathMatch: 'full'

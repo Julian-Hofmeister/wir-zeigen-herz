@@ -12,6 +12,7 @@
     "ourVisionTitle": "Unsere Vision",
     "ourVision": "Wir alle haben ein großes Ziel. Wir wollen die größte gemeinnützige Spendenplattform einer neuen Generation werden. Das tun wir dank eurer Mithilfe und durch interessante Partnerprogramme von Unternehmen mit den größten online Shops. In den vergangenen Jahren ist der Umsatz dieser Unternehmen kontinuierlich gestiegen und belief sich zuletzt auf rund 86,7 Milliarden Euro.\n\nDie 100 umsatzstärksten Online-Shops in Deutschland setzten im Jahr 2021 gemeinsam rund 58 Milliarden Euro um. Nur gemeinsam sind wir stark. Auf den Punkt gebracht, werden wir das Leben für viele etwas lebenswerter machen. Um das zu erreichen, bedarf es nur 2 einfacher Schritte. Diese findest du unter dem Punkt „Jetzt Gutes Tun“. Sei auch du ab sofort der Grund, wieso nicht nur heute jemand lächelt.",
     "teamBtn": "Unser Team mit Herz",
+    "ambassadorBtn": "Werde Herzbotschafter",
     "weAreThereTitle": "Und wir sind mit dabei",
     "weAreThere": "Werde Herzbotschafter für unsere Wir zeigen Herz Community. Du hast die Kraft viel zu bewegen. Lade alle ein, sich kostenlos zu engagieren. Zusammen kannst du die Welt in eine andere Richtung bewegen und nachhaltig sehr viel Gutes tun. Wenn du unser Video „Gutes tun durch schmerzfreies Geben“ an alle die du kennst weiterleitest, kannst du unser Logo „Und wir sind mit dabei“ auf deiner Webseite einbauen. Zudem erhältst du das Privileg, dich zu einem späteren Zeitpunkt, mit einem Foto oder einem Logo deiner Wahl, auf unserer Webseite als Herzbotschafter zu präsentieren.",
     "weAreThere2": "Dieses Logo steht für Kindeswohl und Kinderrechte. Um Menschen in Not das kurz- und mittelfristige Überleben zu ermöglichen. Hilfe für schwerkranke Menschen, oder Menschen mit einer Behinderung. Das Leben und Wohlbefinden von Tieren zu sichern. Kampf für den Schutz unserer Natur und Umwelt – damit die Erde für uns alle bewohnbar bleibt. Erhaltung und Instandsetzung von Kulturdenkmalen. Für die Integrität des Sports zu kämpfen und seine Bedeutung für ein friedliches und soziales Zusammenleben in unserer Gesellschaft hervorzuheben.",
@@ -44,6 +45,11 @@
         "content": "Leider ja. Ein Unternehmen kann für mehrere Länder, oder nur für ein einziges Land ein Partner-Programm auflegen. Sollte also jemand aus der Schweiz etwas bestellen, so kann er das nur unter dem Partnerprogramm seines Heimatlandes machen, vorausgesetzt es gibt dort ein Partnerprogramm. Sollte jemand aus der Schweiz bei einem Partnerprogramm aus Deutschland etwas bestellen, so fällt dafür keine Empfehlungsprovision an, somit auch kein Geld welches wir spenden können. Wenn Sie online Bestellungen durchführen, so klicken Sie bitte vorab auf Ihr jeweiliges Heimatland. Eine Ausnahme gilt für Partnerprogramme Weltweit. Bei diesen Bestellungen ist es egal, aus welchem Heimatland Sie kommen."
       },
       {
+        "title": "Lehnen einige Unternehmen eine Zusammenarbeit ab",
+        "content": "Leider ja. Obwohl wir eine gemeinnützige Organisation sind. Es sind aber nicht nur Unternehmen die uns ablehnen. Viele Unternehmen lassen Ihr Partner-Programm von einer Agentur betreuen. Die Gründe für die Ablehnungen sind folgende. \n\n1. Webseite ergänzt nicht die Marke des Unternehmens\n\n2. Unternehmen arbeitet nicht mit diesem Typ\n\n3. URL ist für das Unternehmen nicht relevant\n\n4. Wir sind sehr wählerisch was eine Zusammenarbeit angeht\n\n5. Wir sind nur an Unternehmen mit hohen Umsatzzahlen interessiert\n\nHier bei uns geht es um Kinder in Armut, Tiere in Not und andere wichtige Hilfsprojekte. Für uns sind diese Gründe nicht nachzuvollziehen und ein absolutes Armutszeugnis."
+      },
+
+      {
         "title": "Gibt es Mehrkosten bei meinen Bestellungen",
         "content": "Nein. Du kannst das bei allen Partnerprogrammen auch jederzeit überprüfen. Klicke dafür einfach auf den gewünschten Link von einem Partnerprogramm in unserer App, oder auf unserer Webseite www.wirzeigenherz.eu. Suche einfach das gewünschte Produkt und notiere dir den Kaufpreis. Öffne danach einen anderen Browser und suche bei Google nach diesem online Shop, sowie nach demselben Produkt. Vergleiche jetzt die beiden Kaufpreise und du wirst erkennen, dass es keine Unterschiede gibt."
       },
@@ -71,10 +77,10 @@
   },
   "explainPage": {
 
-    "mainHeadline": "Du kannst mit nur 2 Schritten sehr viel Gutes tun!",
+    "mainHeadline": "Wie du jetzt mit nur 2 einfachen Schritten sehr viel Gutes tun kannst.",
     "swipe": "Tippen oder wischen",
-    "firstStep": "1. Leite einmalig unser Erklär Video „Gutes tun durch schmerzfreies Geben“ an alle weiter. Nutze dafür deine Social-Media-Kanäle, sowie die Broadcast Liste von WhatsApp, um innerhalb kürzester Zeit jeden zu erreichen. ",
-    "copyMessage": "Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei. https://vimeo.com/770214670",
+    "firstStep": "1. Leite einmalig unser Video „Gutes tun durch schmerzfreies Geben“ an alle weiter. Nutze dafür alle deine Social-Media-Kanäle, sowie die Broadcast Liste von WhatsApp, um innerhalb kürzester Zeit jeden zu erreichen. Nachfolgend findest du für Android und iPhone jeweils eine kurze Anleitung.",
+    "copyMessage": "Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei.",
     "copyCall": "Zum kopieren klicken",
     "shareBtn": "Jetzt Video teilen",
     "secondStep": "2. Gehe danach zum Menüpunkt Partnerprogramme. Dort kannst du alle aktuellen und interessanten Partnerprogramme einsehen.",
@@ -166,15 +172,15 @@
     ]
   },
   "partnerPage": {
-    "tabName": "Partner",
+    "tabName": "Shops",
     "pageName": "Unsere Partner",
     "search": "Onlineshop Suchen",
     "cancel": "Abbrechen",
-    "filter": "Filter",
+    "filter": "Kategorien",
     "with": "mit",
     "selectCountry": "Land auswählen",
     "selectCountryText": "Bitte wähle das Land aus, in dem du wohnst, damit alle Links richtig funktionieren und die Provision gespendet werden kann.",
-
+    "selectCategoryText": "Für eine bessere Übersicht, haben wir die Partner-Programme in verschiedene Kategorien unterteilt.",
     "germany": "Deutschland",
     "austria": "Österreich",
     "switzerland": "Schweiz",
