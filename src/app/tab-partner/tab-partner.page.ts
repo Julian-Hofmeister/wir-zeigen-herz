@@ -87,8 +87,9 @@ export class TabPartnerPage implements OnInit {
   // ----------------------------------------------------------------------------------------------
 
   ionViewWillEnter() {
-    this.getCountry().then(r =>
-      this.fillPartner()
+    this.getCountry().then(r =>{
+        this.fillPartner()
+    }
     )
     this.language = this.translateService.currentLang;
 
@@ -108,6 +109,8 @@ export class TabPartnerPage implements OnInit {
   //#endregion
 
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
+
+
 
   filterList(evt: any) {
     this.searchTerm = evt.srcElement.value;
