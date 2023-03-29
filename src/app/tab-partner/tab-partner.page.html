@@ -26,7 +26,7 @@
             </ion-select>
           </ion-item>
 
-          <ion-popover   trigger="category-trigger" triggerAction="context-menu" [isOpen]="isCategoryPopoverOpen">
+          <ion-popover trigger="category-trigger" triggerAction="context-menu" [isOpen]="isCategoryPopoverOpen">
             <ng-template>
               <div class="ion-padding">{{"partnerPage.selectCategoryText" | translate}}</div>
             </ng-template>
@@ -39,29 +39,39 @@
             <span class="material-icons-outlined arrow-icon cross-icon" (click)="onClearCategoryFilter()">clear</span>
           </ion-col>
 
+          <div (click)="openCountryModal()" *ngIf="!(notShowAgain === 'true')" class="country-info-card">
+<!--            <ion-icon name="close-circle-outline" (click)="showNotAgain()"></ion-icon>-->
+            <p>{{'partnerPage.selectCountryTextShort' | translate}}</p>
+          </div>
         </ion-row>
       </ion-col>
+
 
     </ion-row>
     <ion-row>
       <ion-col>
-        <div *ngIf="!country">
+        <div *ngIf="!country && (!searchTerm && !filter)">
           <ion-list *ngFor="let partner of loadedPartner">
-            <app-partner-card (click)="openCountryModal()" [partner]="partner" [country]="country"></app-partner-card>
+            <app-partner-card (click)="openCountryModal()" [partner]="partner" [country]="country"  [@simpleFadeAnimation]="'in'"></app-partner-card>
           </ion-list>
         </div>
 
         <div *ngIf="!searchTerm && !filter">
-          <ion-list *ngFor="let partner of partner">
-            <app-partner-card [partner]="partner" [country]="country"></app-partner-card>
+          <ion-list *ngFor="let partner of partner" >
+            <app-partner-card [partner]="partner" [country]="country" [@simpleFadeAnimation]="'in'"></app-partner-card>
           </ion-list>
         </div>
 
-        <div *ngIf="searchTerm || filter">
+        <div  *ngIf="(searchTerm || filter) && country">
           <ion-list *ngFor="let partner of filteredPartner">
-            <app-partner-card [partner]="partner" [country]="country"></app-partner-card>
+            <app-partner-card [partner]="partner" [country]="country"  [@simpleFadeAnimation]="'in'"></app-partner-card>
           </ion-list>
         </div>
+
+        <div *ngIf="(searchTerm || filter) && !country">
+          <p (click)="openCountryModal()" class="country-info">{{"partnerPage.selectCountryTextShort" | translate}}</p>
+        </div>
+
       </ion-col>
     </ion-row>
   </ion-grid>

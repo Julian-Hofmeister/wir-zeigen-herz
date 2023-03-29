@@ -3,7 +3,7 @@
     <ion-row>
       <ion-col class="center-horizontal ">
         <app-page-header [title]="'projectPage.pageName' | translate" [with]="'partnerPage.with' | translate"></app-page-header>
-        <div class="vote card-shadow">
+        <div class="vote card-shadow" [@simpleFadeAnimation]="'in'">
           <div class="padding">
             <h3>Deine Stimme zählt!</h3>
             <p>Stimme über die Like Button ab, wie die generierten Spendengelder auf die Partnerprogramme verteilt werden sollen.</p>
@@ -22,7 +22,7 @@
 
         </div>
         <ion-list *ngFor="let project of projects">
-            <app-project-card [project]="project" (likeEvent)="changeLikeCount(project)"></app-project-card>
+            <app-project-card [project]="project" (likeEvent)="changeLikeCount(project)" [@simpleFadeAnimation]="'in'"></app-project-card>
           </ion-list>
       </ion-col>
     </ion-row>

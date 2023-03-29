@@ -1,9 +1,14 @@
 ion-fab-button{
   --box-shadow: none;
+  border-radius: 9999px;
+  --background: rgba(30, 32, 35, 0.4);
+  //background: #1e2023;
+
   ion-icon {
     color: var(--ion-color-light);
   }
 }
+
 
 .img-container {
   background: url("/assets/imgs/football.jpg");

@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {Share} from "@capacitor/share";
 import {NavController} from "@ionic/angular";
+import {TranslateService} from "@ngx-translate/core";
+import en from '../../../assets/i18n/en.json'
+import de from '../../../assets/i18n/de.json'
 
 @Component({
   selector: 'app-slider',
@@ -20,6 +23,9 @@ export class SliderPage implements OnInit {
     speed: 400
   };
 
+  language: string = this.translateService.currentLang;
+
+
   //#endregion
 
   //#region [ MEMBERS ] ///////////////////////////////////////////////////////////////////////////
@@ -28,7 +34,7 @@ export class SliderPage implements OnInit {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(private navCtrl: NavController)
+  constructor(private navCtrl: NavController, private translateService: TranslateService)
   {
   }
 
@@ -53,11 +59,14 @@ export class SliderPage implements OnInit {
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
   async shareMessage() {
+
+    const lang = this.language === "de" ? de : en;
+
     await Share.share({
       title: 'Wir Zeigen Herz',
-      text: 'Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei.',
-      url: 'https://vimeo.com/770214670',
-      dialogTitle: 'Mit Freunden teilen',
+      text: lang.explainPage.copyMessage,
+      url: lang.explainPage.videoLink,
+      dialogTitle: lang.explainPage.shareMsg,
     });
   }
 

@@ -1,0 +1,229 @@
+{
+  "homePage": {
+    "tabName": "Start",
+
+    "subtitle": "„Das Gebot der Nächstenliebe geht uns alle an“",
+    "translationBtn": "EN \uD83C\uDDEC\uD83C\uDDE7",
+
+    "explainBtn": "Wie es funktioniert",
+    "partnerBtn": "Partnerprogramme",
+
+    "lastVisited": "Zuletzt besucht",
+
+    "aboutUsTitle": "Über uns",
+    "aboutUs": "Unsere gemeinnützige „Wir zeigen Herz Community“ steht für eine unabhängige und kostenlose Plattform, wo jeder Mensch mit Herz, egal ob Privatperson oder Unternehmer Gutes tun kann und das ohne Zeit zu investieren oder Geld zu spenden. Wir engagieren uns für lokale und nationale Projekte sämtlicher Themen und geben jedem Mitglied eine Stimme, um für das Spendenprojekt seiner Wahl abzustimmen.",
+    "aboutUsList": "- Kinder und Jugendhilfe \n - Not und Katastrophenhilfe \n - Krankheit und Behinderung \n - Umwelt und Naturschutz \n - Kultur und Denkmalpflege \n - Tierschutz",
+    "teamBtn": "Unser Team mit Herz",
+
+    "ourVisionTitle": "Unsere Vision",
+    "ourVision": "Wir alle haben ein großes Ziel. Wir wollen die größte gemeinnützige Spendenplattform einer neuen Generation werden. Das tun wir dank eurer Mithilfe und durch interessante Partnerprogramme von Unternehmen mit den größten online Shops. In den vergangenen Jahren ist der Umsatz dieser Unternehmen kontinuierlich gestiegen und belief sich zuletzt auf rund 86,7 Milliarden Euro.\n\nDie 100 umsatzstärksten Online-Shops in Deutschland setzten im Jahr 2021 gemeinsam rund 58 Milliarden Euro um. Nur gemeinsam sind wir stark. Auf den Punkt gebracht, werden wir das Leben für viele etwas lebenswerter machen. Um das zu erreichen, bedarf es nur 2 einfacher Schritte. Diese findest du unter dem Punkt „Jetzt Gutes Tun“. Sei auch du ab sofort der Grund, wieso nicht nur heute jemand lächelt.",
+    "ambassadorBtn": "Werde Herzbotschafter",
+
+    "QATitle": "Fragen & Antworten",
+    "QA": [
+      {
+        "title": "Was ist eine gemeinnützige UG",
+        "content": "Die gUG verfolgt einen gemeinnützigen, mildtätigen oder kirchlichen Gesellschaftszweck. Bei der gUG müssen 75 Prozent der Gewinne dem gemeinnützigen Zweck zugutekommen. Die anderen 25 Prozent dienen dazu, das Stammkapital aufzubauen, um die gUG in eine gemeinnützige GmbH umzuwandeln."
+      },
+      {
+        "title": "Kann ich bei euch auch Geld spenden",
+        "content": "Nein. Wir nehmen keine Spendengelder, egal in welcher Form entgegen. Wir arbeiten hauptsächlich über die Empfehlungsprovisionen von Partnerprogrammen. Falls Sie Geld spenden möchten, so wenden Sie sich bitte an unseren Partner Betterplace.org."
+      },
+      {
+        "title": "Was sind eigentlich Partner-Programme",
+        "content": "Partnerprogramme/Affiliate-Systeme basieren auf dem Prinzip der Vermittlungsprovision. Technische Grundlage in der virtuellen Welt des World Wide Web ist der Affiliate-Link. Dieser enthält einen speziellen Code, der den Affiliate, sprich unsere Wir zeigen Herz Community eindeutig beim Händler identifiziert. Besucht nun ein User unsere App oder Webseite, wird er dort auf verschiedene Partnerprogramme von vielen interessanten Unternehmen aufmerksam. Wenn man jetzt auf den Link von einem dieser Anbieter klickt, wird man zum entsprechenden online Shop weitergeleitet. Tätigst du dann einen Kauf im online Shop, wird dieser Kauf unserer Wir zeigen Herz Community zugerechnet und wir erhalten eine kleine Empfehlungsprovision. Aber nur, wenn tatsächlich eine Transaktion stattgefunden hat."
+      },
+      {
+        "title": "Gibt es Partner-Programme für verschiedene Länder",
+        "content": "Leider ja. Ein Unternehmen kann für mehrere Länder, oder nur für ein einziges Land ein Partner-Programm auflegen. Sollte also jemand aus der Schweiz etwas bestellen, so kann er das nur unter dem Partnerprogramm seines Heimatlandes machen, vorausgesetzt es gibt dort ein Partnerprogramm. Sollte jemand aus der Schweiz bei einem Partnerprogramm aus Deutschland etwas bestellen, so fällt dafür keine Empfehlungsprovision an, somit auch kein Geld welches wir spenden können. Wenn Sie online Bestellungen durchführen, so klicken Sie bitte vorab auf Ihr jeweiliges Heimatland. Eine Ausnahme gilt für Partnerprogramme Weltweit. Bei diesen Bestellungen ist es egal, aus welchem Heimatland Sie kommen."
+      },
+      {
+        "title": "Lehnen einige Unternehmen eine Zusammenarbeit ab",
+        "content": "Leider ja. Obwohl wir eine gemeinnützige Organisation sind. Es sind aber nicht nur Unternehmen die uns ablehnen. Viele Unternehmen lassen Ihr Partner-Programm von einer Agentur betreuen. Die Gründe für die Ablehnungen sind folgende. \n\n1. Webseite ergänzt nicht die Marke des Unternehmens\n\n2. Unternehmen arbeitet nicht mit diesem Typ\n\n3. URL ist für das Unternehmen nicht relevant\n\n4. Wir sind sehr wählerisch was eine Zusammenarbeit angeht\n\n5. Wir sind nur an Unternehmen mit hohen Umsatzzahlen interessiert\n\nHier bei uns geht es um Kinder in Armut, Tiere in Not und andere wichtige Hilfsprojekte. Für uns sind diese Gründe nicht nachzuvollziehen und ein absolutes Armutszeugnis."
+      },
+
+      {
+        "title": "Gibt es Mehrkosten bei meinen Bestellungen",
+        "content": "Nein. Du kannst das bei allen Partnerprogrammen auch jederzeit überprüfen. Klicke dafür einfach auf den gewünschten Link von einem Partnerprogramm in unserer App, oder auf unserer Webseite www.wirzeigenherz.eu. Suche einfach das gewünschte Produkt und notiere dir den Kaufpreis. Öffne danach einen anderen Browser und suche bei Google nach diesem online Shop, sowie nach demselben Produkt. Vergleiche jetzt die beiden Kaufpreise und du wirst erkennen, dass es keine Unterschiede gibt."
+      },
+      {
+        "title": "Wie kann ich jetzt bei euch online bestellen",
+        "content": "Wenn du online Bestellungen tätigst, dann bitte nur über die Links von unseren Partnerprogrammen. Diese findest du nur in unserer mobilen App und auf unserer Webseite www.wirzeigenherz.eu. Nur über diesen Weg können überhaupt Spenden-Einnahmen generiert werden."
+      },
+      {
+        "title": "Könnt Ihr meine Bestellungen einsehen",
+        "content": "Nein. Wir erhalten nur die Info über die Höhe der Empfehlungsprovisionen."
+      },
+      {
+        "title": "Muss ich Daten bei euch eingeben um zu bestellen",
+        "content": "Nein. Du klickst einfach auf den Link vom gewünschten online Shop. Danach gelangst du direkt auf die Webseite des gewünschten online Shops. Bei uns musst du dich nicht registrieren, geschweige irgendwelche Zugangsdaten eingeben."
+      },
+      {
+        "title": "Müsst Ihr die erzielten Einnahmen versteuern",
+        "content": "Nein. Du kannst das bei allen Partnerprogrammen auch jederzeit überprüfen. Klicke dafür einfach auf den gewünschten Link von einem Partnerprogramm in unserer App, oder auf unserer Webseite www.wirzeigenherz.eu. Suche einfach das gewünschte Produkt und notiere dir den Kaufpreis. Öffne danach einen anderen Browser und suche bei Google nach diesem online Shop, sowie nach demselben Produkt. Vergleiche jetzt die beiden Kaufpreise und du wirst erkennen, dass es keine Unterschiede gibt."
+      },
+      {
+        "title": "Erhalten die Spenden-Projekte auch Ihr Geld",
+        "content": "Ja. Sonst verlieren wir unseren Status als gemeinnützige Organisation. Des Weiteren müssten wir auch sämtliche Steuererleichterungen rückwirkend zurückzahlen."
+      },
+      {
+        "title": "Wie erhalten die Spenden-Projekte Ihr Geld",
+        "content": "Aktuell nutzen wir Spendenprojekte, die auf der Spendenplattform Betterplace.org eingestellt werden. Betterplace.org ist eine 2007 gegründete Spendenplattform aus Berlin, die von der gemeinnützigen Aktiengesellschaft gut.org betrieben wird. Nach der Abstimmung werden die Einnahmen prozentual an die unterschiedlichen Spendenprojekte ausbezahlt. In Zukunft werden wir sicherlich auch eigene Spendenprojekte in Betracht ziehen.\n"
+      },
+      {
+        "title": "Wer ist Betterplace.org",
+        "content": "Betterplace.org ist Deutschlands größte Spendenplattform. 120 Unternehmenspartner tun seit 14 Jahren schon Gutes. Stand heute hat Betterplace.org 47.262 Projekte in 185 Länder gestartet und dabei ca. 198 Millionen € an Spenden gesammelt. Betterplace.org ist gemeinnützig und arbeitet nicht profitorientiert. Transparenz ist eine der Grundideen von Betterplace.org. Alle sozialen Projekte, die über Betterplace.org Spenden sammeln, werden aufgefordert, der Gemeinschaft zu sagen, wie diese Spenden verwendet werden."
+      }
+    ]
+  },
+  "ambassadorPage": {
+    "title": "Und wir sind mit dabei",
+    "weAreThere": "Werde Herzbotschafter für unsere Wir zeigen Herz Community. Du hast die Kraft viel zu bewegen. Lade alle ein, sich kostenlos zu engagieren. Zusammen kannst du die Welt in eine andere Richtung bewegen und nachhaltig sehr viel Gutes tun. Wenn du unser Video „Gutes tun durch schmerzfreies Geben“ an alle die du kennst weiterleitest, kannst du unser Logo „Und wir sind mit dabei“ auf deiner Webseite einbauen. Zudem erhältst du das Privileg, dich zu einem späteren Zeitpunkt, mit einem Foto oder einem Logo deiner Wahl, auf unserer Webseite als Herzbotschafter zu präsentieren.",
+    "featureTitle1": "Positives Markenimage",
+    "featureDesc1": "76 % aller Kunden empfehlen ein Unternehmen weiter, wenn es sich gesellschaftlich engagiert.",
+    "featureTitle2": "Employer Brandings",
+    "featureDesc2": "57 % aller Bewerber wünschen sich einen Arbeitgeber, der sich aktiv einsetzt.",
+    "featureTitle3": "Soziale Entscheidung",
+    "featureDesc3": "73 % aller Käufer entscheiden sich für Marken, die einen guten Zweck unterstützen.",
+    "weAreThere2": "Dieses Logo steht für Kindeswohl und Kinderrechte. Um Menschen in Not das kurz- und mittelfristige Überleben zu ermöglichen. Hilfe für schwerkranke Menschen, oder Menschen mit einer Behinderung. Das Leben und Wohlbefinden von Tieren zu sichern. Kampf für den Schutz unserer Natur und Umwelt – damit die Erde für uns alle bewohnbar bleibt. Erhaltung und Instandsetzung von Kulturdenkmalen. Für die Integrität des Sports zu kämpfen und seine Bedeutung für ein friedliches und soziales Zusammenleben in unserer Gesellschaft hervorzuheben.",
+    "shareBtn": "Jetzt Video teilen",
+    "shareMessageTitle": "Wir zeigen Herz",
+    "dialogTitle": "Mit Freunden teilen",
+    "shareMessage": "Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein, versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei."
+  },
+  "explainPage": {
+    "mainHeadline": "Wie du jetzt mit nur 2 einfachen Schritten sehr viel Gutes tun kannst.",
+    "swipe": "Tippen oder wischen",
+    "firstStep": "1. Leite einmalig unser Video „Gutes tun durch schmerzfreies Geben“ an alle weiter. Nutze dafür alle deine Social-Media-Kanäle, sowie die Broadcast Liste von WhatsApp, um innerhalb kürzester Zeit jeden zu erreichen. Nachfolgend findest du für Android und iPhone jeweils eine kurze Anleitung.",
+    "copyMessage": "Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei.",
+    "copyCall": "Zum kopieren klicken",
+    "videoLink": "https://vimeo.com/812402893",
+    "shareBtn": "Jetzt Video teilen",
+    "shareMsg": "Mit Freunden teilen",
+    "secondStep": "2. Gehe danach zum Menüpunkt Partnerprogramme. Dort kannst du alle aktuellen und interessanten Partnerprogramme einsehen.",
+    "broadcastAndroid": "Kurzanleitung Android WhatsApp Broadcast-Liste erstellen",
+    "android1": "1. Öffnen Sie WhatsApp auf Ihrem Android-Smartphone. Tippen Sie auf die drei vertikalen Punkte oben rechts in der Chat-Übersicht.",
+    "android2": "2. Wählen Sie im Menü \"Neuer Broadcast\" aus.",
+    "android3": "3. Suchen Sie aus Ihrer Kontaktliste die gewünschten Empfänger aus. Markierte Personen erkennen Sie am dunkelgrünen Häkchen neben dem Bild. Tippen Sie abschließend auf den grünen Haken unten rechts.",
+    "android4": "4. Jetzt können Sie die Nachricht kopieren und weiterleiten. Die Broadcast-Liste befindet sich in Ihrer Chat-Übersicht bei Ihren anderen Gesprächen.",
+    "broadcastIos": "Kurzanleitung iPhone WhatsApp Broadcast-Liste erstellen",
+    "ios1": "1. Öffnen Sie WhatsApp auf Ihrem iPhone und tippen Sie oben links in der Chat-Übersicht auf \"Broadcasts\".",
+    "ios2": "2. Tippen Sie unten auf \"Neue Liste\".",
+    "ios3": "3. Markieren Sie die gewünschten Personen. Bei markierten Personen erscheint ein blaues Häkchen. Tippen Sie dann auf \"Erstellen\".",
+    "ios4": "4. Die Broadcast-Liste wurde erstellt und befindet sich unter \"Broadcast-Listen\" und Sie können jetzt die Nachricht kopieren und weiterleiten."
+  },
+  "teamPage": {
+    "tabName": "Team",
+    "pageName": "Unser Team",
+    "teamCardBtnText": "E-mail",
+    "members": [
+      {
+        "description": "Rechtsanwalt/Fachanwalt für Steuerrecht Prof. Dr. Florian Haase ist als Partner im Bereich Steuerrecht am Standort Hamburg tätig. Die Tätigkeitsschwerpunkte von Prof. Dr. Florian Haase liegen in der Steuerstrukturberatung bei internationalen M&A-Transaktionen, Umstrukturierungen, Konzernreorganisationen, Unternehmenssanierungen, Private Equity- und Immobilientransaktionen sowie komplexen Finanzierungen, in der Konzernsteuerplanung und im internationalen und europäischen Steuerrecht.",
+        "img": "/assets/imgs/team/LogoRoedl.jpg",
+        "mail": "florian.haase@roedl.com",
+        "name": "Prof. Dr. Florian Haase",
+        "subtitle": "Rechts- & Fachanwalt für Steuerrecht"
+      },
+      {
+        "description": "Versicherungsmakler seit 1989 nach §93 HGB. Unabhängige Versicherungsvergleiche. Abwicklung und Überwachung von Verträgen. Schadenservice und Rundum-sorglos-Pakete für die Mandanten. Verwaltungssystem für Mandanten. Führung und Verwaltung von Silberdepots. Umsatzsteuerfreie Auszahlungen durch Einlagerung in Frankfurt möglich. Erstellen von Anlageempfehlungen und deren Umsetzung. Monatliche Fondskaufempfehlung im Dax möglich. Immobilen Ankauf und Verkauf für Mandanten. Sonderverwaltung von Immobilien und Hausverwaltung. Vielseitige Schulungen und Seminare, im Verkauf und der Unternehmensführung.",
+        "img": "/assets/imgs/team/LogoHirschberg.jpg",
+        "mail": "info@ju-productions.de",
+        "name": "Hirschberg Unternehmensgruppe",
+        "subtitle": "Ingo Hirschberg Dienstleistungen – Astérie & FirstClass Value UG"
+      },
+      {
+        "description": "Design und Erstellung von visuellen Produkten und Werbemitteln. Ich bin seit über 25 Jahren Mediengestalterin mit Leib und Seele und seit 2019 zertifizierte Zentangle®-Lehrerin.",
+        "img": "/assets/imgs/team/LogoSchoenfelder.jpg",
+        "mail": "info@schoenfelder-anja.de",
+        "name": "Anja Schönfelder",
+        "subtitle": "Mediengestalterin"
+      },
+      {
+        "description": "Wir bieten Lösungen für Hindernisse, die dem täglichen Betrieb Ihres Unternehmens begegnen. Unsere Mission ist es, animierte Lösungen aus verschiedenen Studios für Ihr Unternehmen, Ihr Produkt und Ihre Dienstleistung anzubieten.",
+        "img": "/assets/imgs/team/LogoAllesAnimation.jpg",
+        "mail": "allesanimation@gmail.com",
+        "name": "Alles Animation - Gregoria",
+        "subtitle": "Profi für günstige animierte Videos"
+      },
+      {
+        "description": "Konzipierung und Entwicklung von individuellen Software- und Designlösungen für kleine und mittelständische Unternehmen im Bereich Web und Mobile.",
+        "img": "/assets/imgs/team/JuProductions.jpg",
+        "mail": "info@ju-productions.de",
+        "name": "Julian Hofmeister",
+        "subtitle": "Software Entwickler"
+      }
+    ]
+  },
+
+  "projectPage": {
+    "tabName": "Projects",
+    "title": "Projekte",
+    "pageName": "Hilfsprojekte",
+    "projectCardBtnText": "Mehr Lesen",
+    "projects": [
+      {
+        "description": "Als gemeinnütziger Verein hat sich breakfast4kids e. V. das Ziel gesetzt, so vielen Kindern wie möglich täglich ein gesundes Pausenbrot zu ermöglichen. Nachdem wir Anfang 2009 mit der ersten Schule in einem Pilotprojekt (12 Pausenbrote täglich) gestartet sind und Erfahrungen sammeln konnten, wird unser Konzept aktuell von 33 Schulen / Kitas in den Städten Aachen, Alsdorf, Brühl, Eschweiler, Herzogenrath, Köln und Stolberg angenommen. Wir beliefern hier ca. 1.100 Kinder täglich. \n \nSchon frühmorgens, lange bevor die Schule beginnt, werden mehrere hundert Pausenbrote geschnitten, geschmiert, liebevoll belegt, hygienisch verpackt und von weiteren Helfern noch vor Unterrichtsbeginn an die Grundschulen / Kitas geliefert. Dort werden die Pausenbrote in Eigenregie an die Schulen / Kitas, an die einzelnen Klassen verteilt. Damit ist gewährleistet, dass alle Kinder zur Pause ein Frühstück zu sich nehmen können. \n \nDer Bedarf wird über die Schulleitung an den Verein gemeldet, der kostenfrei die entsprechenden Brote bereitstellt und liefert. Dabei erfährt von den Helfern niemand, wer in der Klasse ein Pausenbrot von breakfast4kids erhält, denn kein Kind soll sich ausgegrenzt fühlen. Positiver Nebeneffekt kein Hunger zu haben; die Kinder können sich besser konzentrieren, sie sind aktiver und kommunikativer und lernen zusätzlich zu teilen. \n \nKleines Pausenbrot mit großer Wirkung. Ein ausgiebiges Frühstück ist der perfekte Start in den Tag. Es gibt Kindern vor allem die notwendige Kraft und Energie, die Herausforderungen des Schulalltages zu meistern. Mit einem guten Frühstück und einem vollen Bauch fühlen sie sich „einfach besser“, sind konzentrierter bei der Arbeit und leistungsfähiger. Jedoch berichten immer mehr Schulen, dass viele ihrer Schülerinnen und Schüler häufig ohne Frühstück in die Schule kommen. \n \nFakten: \n \nDas Kinder kein Frühstück mit zur Schule oder Kita bringen, kann unterschiedliche Ursachen haben. Manche Kinder sind morgens auf sich alleine gestellt, Erziehungsberechtigte haben keine Zeit oder es fehlt einfach an Geld. \n \nUnser Ziel: \n \nUnser Ziel ist es, so viele Kinder wie möglich mit einem gesunden Frühstück in den Schulen satt zu machen. \nMit Ihrer Hilfe können wir aktuell über 1.100 Kindern ein Pausenbrot für mindestens 1 Schuljahr garantieren. Wenn nötig möchten wir noch mehr Kinder erreichen und Ihnen ein gesundes Pausenbrot ermöglichen.",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt5.jpg",
+        "title": "Jedem Kind ein Pausenbrot",
+        "id": "cXqWM0urOZX68KQgWBj1",
+        "organisation": "Ein Projekt von breakfast4kids e.V in Aachen, Köln, Germany"
+      },
+      {
+        "description": "Am 6. Februar 2023 erschütterten zwei verheerende Erdbeben die Türkei und die Grenzregion.\n\nIn Folge dessen sind in beiden Ländern mehrere Zehntausend Menschen ums Leben gekommen, viele weitere haben sich lebensbedrohliche Verletzungen zugezogen. Tausende Gebäude sind eingestürzt und die Menschen sind dringend auf sichere Unterkünfte und humanitäre Hilfe angewiesen.\n\nCARE ist vor Ort und versorgt die Betroffenen mit Zelten, Matratzen und Planen, zur Errichtung provisorischer Notunterkünfte. Zu den am dringendsten benötigten Gütern gehören: Lebensmittel, Wasser, Decken und Gesundheitsartikel. CARE verteilt Nothilfe-Pakete mit Gegenständen des täglichen Bedarfs wie Seife, Zahnbürsten/Paste, Unterwäsche, Handtücher, Kochtöpfe, Geschirr, Wasserreinigungstabletten und Kanister.\n\nCARE-Helfer:innen legen besonderen Wert darauf, die Bedürfnisse von Frauen und Mädchen zu erfüllen, denn sie sind oft unverhältnismäßig stark von Katastrophen betroffen. Etwa 37.000 Schwangere entbinden bald und 5.000 Frauen benötigen notfallbedingte Geburtshilfe. CARE-Teams bieten Schwangeren und werdenden Müttern Dienstleistungen im Bereich sexueller und reproduktiver Gesundheit an und unterstützen Betroffene sexueller Gewalt. Darüber hinaus stellen sie sichere Unterkünfte bereit und leisten dringend benötigte Wasser-, Sanitär- und Hygienedienstleistungen zur Verhinderung des Ausbruchs von Krankheiten wie Cholera.\n\nDeine Hilfe ist dringend notwendig! Spende jetzt!\n\nHier halten wir Dich auf dem Laufenden über unsere Arbeit:\nInstagram, Facebook, YouTube & auf unserer Website.",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt4.jpg",
+        "title": "CARE-Nothilfe nach Erdbeben",
+        "id": "TeHa7ooWAIzljU4xIoVy",
+        "organisation": "Ein Projekt von CARE Deutschland e.V. in Gaziantep, Türkei"
+      },
+      {
+        "description": "Heute ist Tina 14 Jahre alt. 6 Jahre dauerte ihr Kampf gegen den Blutkrebs. In dieser Zeit überwog die Angst und die Frage, wie es weiter gehen soll. Bei jeder Behandlung hatte sie die Befürchtung, dass sich ihre Werte weiter verschlechtern würden. Bis zur erlösenden Nachricht: Es wurde endlich ihr genetischer Zwilling gefunden. Tinas Stammzellspenderin oder -spender ist heute 25 Jahre alt und für sie ein wichtiger Mensch in ihrem Leben.\n\nMit über 11 Millionen registrierten Stammzellspender:innen ist die DKMS die weltweit größte Datei im Kampf gegen Blutkrebs. Doch noch immer findet jede:r 10. Betroffene keine passende Stammzellspende. \n\nZiel der DKMS ist es allen Blutkrebspatient:innen, die auf eine Stammzelltransplantation angewiesen sind, diese lebensrettende Spende zu ermöglichen. Hilf mit!\n\nUnerwartet bekommt alle 12 Minuten in Deutschland ein Mensch die niederschmetternde Diagnose Blutkrebs. Ob Kind oder Erwachsener, keiner ist vor dieser Krankheit sicher. Vielen Patient:innen bleibt nur die Hoffnung auf eine passende Stammzellspende.\n\nJeden Tag registrieren sich hilfsbereite Menschen bei der DKMS. Im Kampf gegen Blutkrebs zählt jede Geldspende, denn allein die Registrierung eines neuen Spenders kostet die DKMS 40 Euro. Mit deiner Geldspende unterstützt du uns bei der Registrierung neuer Spender:innen, ermöglichst Patient:innen weltweit Zugang zu Therapien und förderst die Forschung für die bestmögliche Behandlung von Blutkrebspatient:innen. Du schenkst Menschen wie Tina die Hoffnung auf Leben.\n\nWie du dich als DKMS Spender:in registrieren lassen kannst, findest du unter dkms.de.",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt3.jpg",
+        "title": "Gemeinsam gegen Blutkrebs",
+        "id": "S4qiicq9KEhWkSUCkTNc",
+        "organisation": "Ein Projekt von DKMS gemeinnützige GmbH in bundesweit, Deutschland"
+      },
+      {
+        "description": "Seien Sie dabei! Für das globale Klima ist es unbedeutend, an welcher Stelle CO2-Emissionen ausgestoßen bzw. vermieden oder reduziert werden. Das bedeutet: Es macht sehr viel Sinn, sich auch über nationale Grenzen hinweg für den Schutz des Klimas zu engagieren und an anderer Stelle die Einsparung und Reduktion von CO2 zu finanzieren.\n\nDas heißt konkret: Dass wir oftmals einen Teil des erarbeiteten Wohlstands wieder investieren. Mit jedem investierten Euro können in Schwellen- oder Entwicklungsländern mehr Treibhausgase eingespart werden, als es in Deutschland mit der gleichen Summe möglich wäre. Zudem fördern wir im Sinne der 17 Nachhaltigkeitsziele der UN-Agenda 2030 den Wohlstand und die soziale Teilhabe in diesen Ländern. Oberstes Ziel muss aber weiterhin die CO2-Vermeidung vor Ort bleiben - ein Planet für alle, alle für einen Planeten.\n\nWir alle in Wuppertal sollten Ressourcen verantwortungsvoll nutzen und überflüssige CO2-Emissionen vermeiden. Aber was können wir zusätzlich tun? Eine weitere Möglichkeit, die sich sofort umsetzen lässt, ist die Förderung von weltweitem Klimaschutz - im Umfang der heute nicht vermeidbaren heimischen Emissionen oder sogar darüber hinaus.\n\nGemeinsam wollen und können wir mehr erreichen: Indem wir gezielt unseren Wohlstand nutzen und uns für sinnvolle, internationale Klimaschutzprojekte einsetzen, die Unterstützung benötigen.\n\nInformationen zu unseren zertifizierten Partnern finden Sie hier:\nCO2 reduzieren (sparkasse-wuppertal.de)",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt2.jpg",
+        "title": "Weltweit das Klima fördern",
+        "id": "zU25cpHvP8xTC9aNgwDI",
+        "organisation": "Ein Projekt von Gemeinschaftsstiftung für Wuppertal, Deutschland"
+      },
+      {
+        "description": "Worum geht es in unserem Projekt?\nMehr Raum für Kultur - auch und gerade jetzt: Wir brauchen Deine Unterstützung! Schaffe mit uns ein neues Zentrum für eine freie, lebendige und vielfältige Szene in und für Karlsruhe. Unterstütze unsere kulturelle Arbeit mit Deiner Spende.\n\nWer steht hinter dem Projekt?\nDer Panorama e.V. setzt sich seit über zehn Jahren für eine offene und kreative Kulturszene in und für Karlsruhe ein. Mit Projekten wie der „Halle 14“ und dem „P8“ förderte der gemeinnützige Verein bereits in der Vergangenheit unabhängige sowie unkommerzielle Projekte und Veranstaltungen. Viele Künstler:innen hatten dort ihre ersten Auftritte, viele Menschen organisierten dort ihre ersten Konzerte und Ausstellungen. Dieses Engagement wollen wir fortsetzen und einen neuen Ort schaffen, mit mehr Platz und neuen Möglichkeiten.\n\nWas sind unsere Ziele?\nAktuell sind eine Vielzahl von Kulturarealen in Karlsruhe vom Abriss und Aufkauf bedroht. Wir wollen zumindest für einige Betroffene einen langfristigen und erschwinglichen Ersatz ermöglichen. Wir wollen uns weiterhin mit vielen Menschen für eine lebendige und vielfältige Kulturszene einsetzen. Nach langer Suche nach einem neuen Kulturareal haben wir nun endlich Grund zur Freude: Die freie Kulturszene bekommt ein neues Zuhause in Karlsruhe-Bulach! Auf knapp 3.000 m² Fläche schaffen wir einen Ort für kreative Ideen und Menschen: mit großen Veranstaltungsräumen, zwei Open-Air-Flächen sowie 15 Proberäumen, 12 Ateliers und mehr Platz für kulturelle und künstlerische Initiativen der Stadt.\n\nWarum wir Deine Unterstützung brauchen?\nWir wollen zeigen, dass Kunst und Musik bunt und vielfältig sind, Menschen verbinden und Kreativität den Alltag bereichert. In den kommenden Wochen müssen wir hierfür die bestehenden Räume ausbauen und Neue schaffen. Für das neue Zentrum werden dadurch gut ausgestattete und bezahlbare Räume für über 150 Kreative geschaffen. Zusammen bauen wir an der Grundlage eines offenen kulturellen Zugangs für alle und der gemeinsamen Gestaltung der lokalen Kulturszene. Die Gelegenheit ist günstig und leider selten: Raum für Kultur blieb aufgrund ökonomischer Interessen leider oftmals auf der Strecke. Sei dabei, ein langfristiges und kreatives Kunst- und Kulturzentrum mit aufzubauen! \n\nWas passiert mit dem Geld bei erfolgreicher Unterstützung?\nWir nutzen alle Spenden, um die Rahmenbedingungen für ein neues, unkommerzielles und diverses kulturelles Zentrum zu schaffen, um Kreative und Kulturschaffende zu unterstützen. Um Zugang und Teilhabe für alle zu fördern, zur Gestaltung einer diskriminierungskritischen Kulturszene in und für Karlsruhe. Schaffen wir gemeinsam einen lebendigen Ort der Kultur!\n \np-acht.org\nhttps://www.facebook.com/p8karlsruhe\nhttps://www.instagram.com/p8_karlsruhe/?hl=de",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt1.jpg",
+        "title": "Mehr Raum für Kultur",
+        "id": "Vi5j75I76MbjNCE2uEuT",
+        "organisation": "Ein Projekt von Panorama e.V. - P8 - Soziokulturelles Zentrum in Karlsruhe, Deutschland"
+      },
+      {
+        "description": "Mit Ralphy's Ranch planen wir eine Tierauffangstation und einen Lebenshof für alle Tiere - denn bei uns gibt es keinen Speziesismus.\n\nWir, Stephan Pütz, Robert Marc Lehmann, Lea Sommer und Mission Erde e.V. sind davon überzeugt, dass jedes Tier ein Leben frei und ohne Erwartungen in Bezug auf einen wirtschaftlichen Nutzen verdient hat. Diese Lebenseinstellung leben und kommunizieren wir jeden Tag! Für uns von Mission Erde e.V. fängt Tierschutz vor der eigenen Haustür an und hört an keiner Landesgrenze auf. \n \nBei Ralphy's Ranch finden zukünftig befreite Tiere von Roberts Undercover Einsätzen,\nmissbrauchte \"Nutz\"-Tiere aus der Massentierhaltung, Straßenhunde bzw. schwervermittelbare Hunde aus In- und Auslandseinsätzen und psychisch oder physisch kranke Lebewesen ein temporäres oder dauerhaftes Dach über dem Kopf. Denn auch, wenn wir nicht jedem Tier seinen natürlichen Lebensraum zurück gegeben können (bspw. gerettete Füchse oder Chinchillas aus Pelzfarmen), können wir ihnen auf Ralphy's Ranch ein liebevolles, artgerechtes zu Hause und vor allem ein Leben ohne Folter und Qualen bieten.\n \nMit \"Ralphy's Ranch\"- Social Media und Filmprojekten verfolgen wir außerdem den Zweck, durch Aufklärung, gute Beispiele und die Vorbildfunktion, Liebe und Verständnis für die Tierwelt zu wecken, um nachhaltig das Wohlergehen und die artgerechte Haltung von Tieren zu fördern.\n \nRalphy's Ranch ist ein Projekt (bzw. eine langfristige Mission) von Mission Erde e.V.\n \nMit der Kraft und Unterstützung der Mission Erde & Stephan Pütz Community möchten wir dieses Projekt weiter wachsen lassen und umsetzen. PS: Warum wir dafür betterplace.org nutzen? Spenden ist hier sicher und unkompliziert. Zusätzlich werdet ihr über Updates auf dem Laufenden gehalten. Natürlich bekommt ihr auch eine Spendenbescheinigung für die Steuer ausgestellt.",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt.jpg",
+        "title": "Tierauffangstation schaffen",
+        "id": "ug8KtTE6HfHQpBgQR8iJ",
+        "organisation": "Ein Projekt von Mission Erde e.V. in Oberursel, Deutschland"
+      }
+    ]
+  },
+  "partnerPage": {
+    "tabName": "Shops",
+    "pageName": "Unsere Partner",
+    "search": "Onlineshop Suchen",
+    "cancel": "Abbrechen",
+    "filter": "Kategorien",
+    "with": "mit",
+    "selectCountry": "Land auswählen",
+    "selectCountryText": "Bitte wähle das Land aus, in dem du wohnst, damit alle Links richtig funktionieren und die Provision gespendet werden kann.",
+    "selectCategoryText": "Für eine bessere Übersicht, haben wir die Partner-Programme in verschiedene Kategorien unterteilt.",
+    "germany": "Deutschland",
+    "austria": "Österreich",
+    "switzerland": "Schweiz",
+    "worldwide": "Weltweit"
+  },
+  "projectDetailPage": {
+    "aboutThisProject": "Über dieses Spendenprojekt"
+  }
+
+
+
+}

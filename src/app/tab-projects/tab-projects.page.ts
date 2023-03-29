@@ -8,6 +8,7 @@ import en from '../../assets/i18n/en.json';
 import de from '../../assets/i18n/de.json';
 import {ProjectService} from './project.service';
 import {Preferences} from '@capacitor/preferences';
+import {animate, state, style, transition, trigger} from "@angular/animations";
 
 
 
@@ -15,6 +16,12 @@ import {Preferences} from '@capacitor/preferences';
   selector: 'app-tab-projects',
   templateUrl: './tab-projects.page.html',
   styleUrls: ['./tab-projects.page.scss'],
+  animations: [
+    trigger('simpleFadeAnimation', [
+      state('in', style({ opacity: 1 })),
+      transition(':enter', [style({ opacity: 0 }), animate(500)]),
+    ]),
+  ],
 })
 export class TabProjectsPage implements OnInit {
 

@@ -138,9 +138,15 @@ h4 {
 
     h4 {
       margin: 0 0 0 1rem;
-      text-decoration: underline;
-
       color: var(--ion-color-light);
+    }
+
+    .underline {
+      background-color: var(--ion-color-light);
+      margin: 5px 0 0 1rem;
+      width: 60%;
+      height: 3px;
+      border-radius: 9999px;
     }
 
     .margin-top {
@@ -187,7 +193,7 @@ ion-accordion.accordion-expanded {
   display: flex;
   justify-content: center;
   margin: 2rem 0;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .bottom-info {
