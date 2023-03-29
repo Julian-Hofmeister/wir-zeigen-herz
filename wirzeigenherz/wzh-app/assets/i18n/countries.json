@@ -1,0 +1,22 @@
+[
+  {
+    "nameDE": "Deutschland",
+    "nameEN": "Germany",
+    "value": "germany"
+  },
+  {
+    "nameDE": "Österreich",
+    "nameEN": "Austria",
+    "value": "austria"
+  },
+  {
+    "nameDE": "Schweiz",
+    "nameEN": "Switzerland",
+    "value": "switzerland"
+  },
+  {
+    "nameDE": "Weltweit",
+    "nameEN": "Worldwide",
+    "value": "worldwide"
+  }
+]

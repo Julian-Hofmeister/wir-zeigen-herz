@@ -1,0 +1,219 @@
+{
+  "homePage": {
+    "tabName": "Start",
+    "subtitle": "The commandment \"love your neighbour as you love yourself\" concerns us all.",
+    "translationBtn": "DE \uD83C\uDDE9\uD83C\uDDEA",
+    "explainBtn": "How does it work?",
+    "partnerBtn": "Partner Programmes",
+    "lastVisited": "Last Visited",
+    "aboutUsTitle": "About us",
+    "aboutUs": "The \"We Show Heart Community\" is a non-profit organisation and an independent and free platform where every person with a heart, whether an individual or an entrepreneur, can do good without investing time or donating money. We are committed to local and national projects of all topics and allow every member to vote for the donation project of their choice.",
+    "aboutUsList": "- Children and Youth Aid \n - Emergency and disaster relief \n - Illness and disability \n - Environment and nature conservation \n - Cultural protection \n - Animal Welfare",
+    "teamBtn": "Our Team with Heart",
+    "ourVisionTitle": "Our Vision",
+    "ourVision": "We all have one big goal. We want to become the largest non-profit donation platform of this new generation. We can only do this thanks to your help and through interesting partner programmes of companies with the biggest online shops. In the past few years, the turnover of these companies has risen continuously and most recently amounted to around 86.7 billion euros.\n\nThe 100 online shops with the highest turnover in Germany had a turnover of around 58 billion euros in 2021. Only together are we strong? In a nutshell, we will make life more liveable for many. To achieve this, it only takes 2 simple steps. You can find them under \"Do good now\". From now on, you too can be the reason why someone smiles, and not just today.",
+    "ambassadorBtn": "Heart ambassador",
+    "QATitle": "Questions & Answers",
+    "QA": [
+      {
+        "title": "What is a non-profit UG?",
+        "content": "The gUG pursues a charitable, benevolent or ecclesiastical corporate purpose. In the case of the gUG, 75 per cent of the profits must benefit the charitable purpose. The other 25 per cent is used to build up the share capital in order to convert the gUG into a non-profit GmbH."
+      },
+      {
+        "title": "Can I also donate money to you?",
+        "content": "No. We do not accept donations of any kind. We work mainly through referral commissions from affiliate programs. If you would like to donate money, please contact our partner Betterplace.org."
+      },
+      {
+        "title": "What are affiliate programmes?",
+        "content": "Partner programmes/affiliate systems are based on the principle of referral commission. The technical basis in the virtual world of the World Wide Web is the affiliate link. This contains a special code that uniquely identifies the affiliate, i.e. our We Show Heart Community, with the merchant. If a user now visits our app or website, he or she will be made aware of various affiliate programmes of many interesting companies. If you now click on the link of one of these providers, you will be redirected to the corresponding online shop. If you then make a purchase in the online shop, this purchase is added to our We Show Heart Community and we receive a small referral commission. But only if a transaction has actually taken place."
+      },
+      {
+        "title": "Are there any partner programs for different countries",
+        "content": "Unfortunately, yes. One company can set up a partner program for several countries or only for a single country. Therefore, if someone from Switzerland orders something, he can only do so under the partner program of his home country, provided that there is a partner program there. If someone from Switzerland orders something from an affiliate program in Germany, there will be no referral commission and no money we can donate. If you order online, please click on your home country in advance. An exception applies to partner programs worldwide. For these orders, it does not matter from which home country you come."
+      },
+      {
+        "title": "Do some companies refuse to cooperate",
+        "content": "Unfortunately, yes. Although we are a non-profit organization. But it is not only companies that refuse us. Many companies have their partner program managed by an agency. The reasons for the rejections are as follows. \n1. website does not complement the brand of the company\n2. company does not work with this type\n3. URL is not relevant to the company\n4. we are very choosy about cooperation\n5. we are only interested in companies with high sales figures\nHere at our company we are concerned with children in poverty, animals in need and other important aid projects. For us, these reasons are incomprehensible and an absolute indictment."
+      },
+      {
+        "title": "Are there any additional costs for my orders?",
+        "content": "No. You can check this at any time with all partner programmes. First, simply click on the desired link of an affiliate programme in our app or on our website, www.wirzeigenherz.eu. Next, simply search for the desired product and note the purchase price. Then open another browser and search Google for this online shop and the same product. Now compare the two purchase prices and you will see that there is no difference."
+      },
+      {
+        "title": "How can I order online now?",
+        "content": "Please only use the links from our partner programmes if you order online. You will only find these in our mobile app and website, www.wirzeigenherz.eu. This is the only way to generate income from donations."
+      },
+      {
+        "title": "Can you see my orders?",
+        "content": "No. We only get the info about the amount of referral commissions."
+      },
+      {
+        "title": "Do I have to enter data to order?",
+        "content": "No. You just click on the link of the desired online store. After that you will be redirected to the website of the desired online store. With us you do not have to register, let alone enter any access data."
+      },
+      {
+        "title": "Do you have to pay tax on the income generated?",
+        "content": "No. As a non-profit organisation, we do not have to pay taxes on the income. This allows us to invest the entire income minus the costs in the donation projects."
+      },
+      {
+        "title": "Do the donation projects also receive your money?",
+        "content": "Yes. Otherwise, we would lose our status as a non-profit organisation. Furthermore, we would also have to pay back all tax relief retroactively."
+      },
+      {
+        "title": "How do the donation projects receive your money?",
+        "content": "Currently we use donation projects that are posted on the Betterplace.org donation platform. Betterplace.org is a donation platform from Berlin, founded in 2007 and operated by the non-profit corporation gut.org. After voting, the income is paid out to the various donation projects on a percentage basis. In the future, we will certainly consider our own donation projects."
+      },
+      {
+        "title": "Who is Betterplace.org",
+        "content": "Betterplace.org is Germany's largest donation platform. One hundred twenty corporate partners have been doing good for 14 years. As of today, Betterplace.org has launched 47,262 projects in 185 countries and collected approximately €198 million in donations. Betterplace.org is a non-profit and does not work for a profit. Transparency is one of the basic ideas of Betterplace.org. Therefore, all social projects that collect donations through Betterplace.org are encouraged to tell the community how these donations are used."
+      }
+    ]
+  },
+  "ambassadorPage": {
+    "title": "And we're involved",
+    "weAreThere": "Be an Ambassador of the We Show Heart Community. You have the power to make a big difference. Invite everyone to get involved for free. Together you can move the world in a different direction and sustainably do a lot of good. If you forward our video \"Doing good through painless giving\" to everyone you know, you can include our logo \", We're with you\", on your website. You will also receive the privilege of being featured on our website as a Heart Ambassador at a later date, with a photo or logo of your choice.",
+    "featureTitle1": "Positive brand image",
+    "featureDesc1": "76% of all customers recommend a company to others if it is socially committed.",
+    "featureTitle2": "Employer Brandings",
+    "featureDesc2": "57% of all job applicants want an employer who is actively involved.",
+    "featureTitle3": "Social decision",
+    "featureDesc3": "73% of all shoppers choose brands that support a good cause.",
+    "weAreThere2": "This logo stands for child welfare and children's rights. To enable people in need to survive in the short and medium term. To help seriously ill people or people with a disability. To safeguard the lives and well-being of animals. To fight for the protection of our nature and environment - so that the earth remains habitable for all of us. Preserving and repairing cultural monuments. To fight for the integrity of sport and to highlight its importance for peaceful and social coexistence in our society.",
+    "shareBtn": "Share our Video now",
+    "shareMessageTitle": "Wir zeigen Herz",
+    "dialogTitle": "Share with friends",
+    "shareMessage": "Hey, please make sure you watch the video. You'll be inspired, I promise. It's all about doing good without donating money or time. So I'm definitely in."
+  },
+  "explainPage": {
+    "mainHeadline": "How you can do a lot of good now with just 2 simple steps!",
+    "swipe": "Tap or swipe",
+    "firstStep": "1. Forward our video \"Doing good through painless giving\" to everyone once. Use all your social media channels, as well as the WhatsApp broadcast list, to reach everyone in the shortest possible time. Below you will find brief instructions for both Android and iPhone.",
+    "copyMessage": "Hey, please make sure you watch the video. You'll be inspired, I promise. It's all about doing good without donating money or time. So I'm definitely in.",
+    "copyCall": "click to copy",
+    "videoLink": "https://vimeo.com/812405711",
+    "shareBtn": "Share video now",
+    "shareMsg": "Share with friends",
+    "secondStep": "2. Then go to the menu item Top affiliate programs. There you can view all current and interesting affiliate programs.",
+    "broadcastAndroid": "Quick guide for creating an Android WhatsApp broadcast list",
+    "android1": "1. Öffnen Sie WhatsApp auf Ihrem Android-Smartphone. Tippen Sie auf die drei vertikalen Punkte oben rechts in der Chat-Übersicht.",
+    "android2": "2. Wählen Sie im Menü \"Neuer Broadcast\" aus.",
+    "android3": "3. Suchen Sie aus Ihrer Kontaktliste die gewünschten Empfänger aus. Markierte Personen erkennen Sie am dunkelgrünen Häkchen neben dem Bild. Tippen Sie abschließend auf den grünen Haken unten rechts.",
+    "android4": "4. Jetzt können Sie die Nachricht kopieren und weiterleiten. Die Broadcast-Liste befindet sich in Ihrer Chat-Übersicht bei Ihren anderen Gesprächen.",
+    "broadcastIos": "Kurzanleitung iPhone WhatsApp Broadcast-Liste erstellen",
+    "ios1": "1. Öffnen Sie WhatsApp auf Ihrem iPhone und tippen Sie oben links in der Chat-Übersicht auf \"Broadcasts\".",
+    "ios2": "2. Tippen Sie unten auf \"Neue Liste\".",
+    "ios3": "3. Markieren Sie die gewünschten Personen. Bei markierten Personen erscheint ein blaues Häkchen. Tippen Sie dann auf \"Erstellen\".",
+    "ios4": "4. Die Broadcast-Liste wurde erstellt und befindet sich unter \"Broadcast-Listen\" und Sie können jetzt die Nachricht kopieren und weiterleiten."
+  },
+  "teamPage": {
+    "tabName": "Team",
+    "pageName": "Our Team",
+    "teamCardBtnText": "E-mail contact",
+    "members": [
+      {
+        "description": "Rechtsanwalt/Fachanwalt für Steuerrecht Prof. Dr. Florian Haase ist als Partner im Bereich Steuerrecht am Standort Hamburg tätig. Die Tätigkeitsschwerpunkte von Prof. Dr. Florian Haase liegen in der Steuerstrukturberatung bei internationalen M&A-Transaktionen, Umstrukturierungen, Konzernreorganisationen, Unternehmenssanierungen, Private Equity- und Immobilientransaktionen sowie komplexen Finanzierungen, in der Konzernsteuerplanung und im internationalen und europäischen Steuerrecht.",
+        "img": "/assets/imgs/team/LogoRoedl.jpg",
+        "mail": "florian.haase@roedl.com",
+        "name": "Prof. Dr. Florian Haase",
+        "subtitle": "Rechts- & Fachanwalt für Steuerrecht"
+      },
+      {
+        "description": "Insurance broker since 1989 according to §93 HGB. Independent insurance comparison. Processing and monitoring of contracts. Claims service and all-around carefree packages for clients. Administration system for clients. Management and administration of silver deposits. VAT-free withdrawals are possible through storage in Frankfurt. Preparation of investment recommendations and their implementation. Possible monthly fund purchase recommendation in the German stock index (Dax). Real estate purchase and sale for clients. Special management of the real estate and property management. Versatile training and seminars in sales and business management.",
+        "img": "/assets/imgs/team/LogoHirschberg.jpg",
+        "mail": "info@ju-productions.de",
+        "name": "Hirschberg Group of Companies",
+        "subtitle": "Ingo Hirschberg Services - Astérie & FirstClass Value UG"
+      },
+      {
+        "description": "Design und Erstellung von visuellen Produkten und Werbemitteln. Ich bin seit über 25 Jahren Mediengestalterin mit Leib und Seele und seit 2019 zertifizierte Zentangle®-Lehrerin.",
+        "img": "/assets/imgs/team/LogoSchoenfelder.jpg",
+        "mail": "info@schoenfelder-anja.de",
+        "name": "Anja Schönfelder",
+        "subtitle": "Mediengestalterin"
+      },
+      {
+        "description": "Wir bieten Lösungen für Hindernisse, die dem täglichen Betrieb Ihres Unternehmens begegnen. Unsere Mission ist es, animierte Lösungen aus verschiedenen Studios für Ihr Unternehmen, Ihr Produkt und Ihre Dienstleistung anzubieten.",
+        "img": "/assets/imgs/team/LogoAllesAnimation.jpg",
+        "mail": "allesanimation@gmail.com",
+        "name": "Alles Animation - Gregoria",
+        "subtitle": "Profi für günstige animierte Videos"
+      },
+      {
+        "description": "Konzipierung und Entwicklung von individuellen Software- und Designlösungen für kleine und mittelständische Unternehmen im Bereich Web und Mobile.",
+        "img": "/assets/imgs/team/JuProductions.jpg",
+        "mail": "info@ju-productions.de",
+        "name": "Julian Hofmeister",
+        "subtitle": "Software Entwickler"
+      }
+    ]
+  },
+  "projectPage": {
+    "title": "Projects",
+    "tabName": "Projects",
+    "pageName": "Aid projects",
+    "projectCardBtnText": "Read more",
+    "projects": [
+      {
+        "description": "As a non-profit organization, breakfast4kids e. V. has set itself the goal of providing as many children as possible with a healthy packed lunch every day. After we started in early 2009 with the first school in a pilot project (12 snacks daily) and were able to gain experience, our concept is currently accepted by 33 schools / daycare centers in the cities of Aachen, Alsdorf, Brühl, Eschweiler, Herzogenrath, Cologne and Stolberg. We supply around 1,100 children here every day. \n \nEarly in the morning, long before school starts, several hundred break sandwiches are cut, greased, lovingly topped, hygienically packed and delivered to the elementary schools / daycare centers by other helpers before classes begin. There, the break sandwiches are distributed to the schools / daycare centers, to the individual classes under their own direction. This ensures that all children can have breakfast at break time. \n \nThe demand is reported by the school management to the association, which provides and delivers the corresponding sandwiches free of charge. The helpers do not find out who in the class receives a breakfast4kids sandwich, because no child should feel excluded. The positive side effect of not being hungry is that the children can concentrate better, are more active and communicative, and also learn to share. \n \nA small snack with a big effect. A hearty breakfast is the perfect start to the day. Above all, it gives children the necessary strength and energy to master the challenges of the school day. With a good breakfast and a full belly, they \"simply feel better,\" are more concentrated at work and perform better. However, more and more schools are reporting that many of their students often come to school without breakfast. \n \nFacts: \n \nChildren not bringing breakfast to school or daycare can have a variety of causes. Some children are left on their own in the morning, guardians don't have time or there is simply a lack of money. \n \nOur goal: \n \nOur goal is to feed as many children as possible with a healthy breakfast in the schools. With your help, we can currently guarantee over 1,100 children a snack for at least 1 school year. If necessary, we would like to reach even more children and provide them with a healthy snack.",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt5.jpg",
+        "title": "A packed lunch for every child",
+        "id": "cXqWM0urOZX68KQgWBj1",
+        "organisation": "A project from breakfast4kids e.V. in Aachen, Cologne, Germany"
+      },
+      {
+        "description": "On February 6, 2023, two devastating earthquakes struck Turkey and the border region.\n\nAs a result, tens of thousands of people lost their lives in both countries, and many more sustained life-threatening injuries. Thousands of buildings have collapsed and people are in urgent need of safe shelter and humanitarian aid.\n\nCARE is on the ground providing those affected with tents, mattresses and tarpaulins, to build temporary emergency shelters. The most urgently needed items include: Food, water, blankets and health items. CARE is distributing emergency relief packages containing items of daily use such as soap, toothbrushes/paste, underwear, towels, cooking pots, dishes, water purification tablets and jerry cans.\n\nCARE aid workers:in place a special emphasis on meeting the needs of women and girls because they are often disproportionately affected by disasters. Approximately 37,000 pregnant women are due to give birth soon and 5,000 women require emergency obstetric care. CARE teams provide sexual and reproductive health services to pregnant women and expectant mothers and support victims of sexual violence. They also provide safe shelters and deliver much-needed water, sanitation and hygiene services to prevent the outbreak of diseases such as cholera.\n\nYour help is urgently needed! Donate now!\n\nWe'll keep you updated on our work here:\nInstagram, Facebook, YouTube & on our website.",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt4.jpg",
+        "title": "CARE emergency aid after earthquake",
+        "id": "TeHa7ooWAIzljU4xIoVy",
+        "organisation": "A project of CARE Germany e.V. in Gaziantep, Turkey"
+      },
+      {
+        "description": "Today Tina is 14 years old. Her fight against blood cancer lasted 6 years. During this time, fear and the question of how to continue prevailed. With every treatment, she was afraid that her values would continue to deteriorate. Until the redeeming news: her genetic twin had finally been found. Tina's stem cell donor is now 25 years old and an important person in her life.\n\nWith over 11 million registered stem cell donors, DKMS is the world's largest file in the fight against blood cancer. But still every 10th affected person does not find a suitable stem cell donor. \n\nThe goal of the DKMS is to make this life-saving donation possible for all blood cancer patients who are in need of a stem cell transplant. Help us!\n\nUnexpectedly, every 12 minutes a person in Germany receives the devastating diagnosis of blood cancer. Whether child or adult, no one is safe from this disease. Many patients can only hope for a suitable stem cell donation.\n\nEvery day, people willing to help register with the DKMS. In the fight against blood cancer, every donation counts, because the registration of a new donor alone costs DKMS 40 euros. With your donation you support us in registering new donors, give patients worldwide access to therapies and promote research for the best possible treatment of blood cancer patients. You give people like Tina the hope of life.\n\nYou can find out how to register as a DKMS donor at dkms.de.",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt3.jpg",
+        "title": "Together against blood cancer",
+        "id": "S4qiicq9KEhWkSUCkTNc",
+        "organisation": "A project of DKMS gemeinnützige GmbH in nationwide, Germany"
+
+      },
+      {
+        "description": "Be part of it! For the global climate, it does not matter where CO2 emissions are emitted or avoided or reduced. This means: It makes a lot of sense to get involved in climate protection across national borders and to finance the saving and reduction of CO2 elsewhere.\n\nIn concrete terms, this means that we often reinvest part of the wealth we have generated. For every euro invested, more greenhouse gases can be saved in emerging or developing countries than would be possible with the same amount in Germany. In addition, we promote prosperity and social participation in these countries in line with the 17 sustainability goals of the UN Agenda 2030. However, the overriding goal must remain local CO2 avoidance - one planet for all, all for one planet.\n\nAll of us in Wuppertal should use resources responsibly and avoid unnecessary CO2 emissions. But what can we do in addition? Another option that can be implemented immediately is to promote global climate protection - to the extent of today's unavoidable domestic emissions or even beyond.\n\nTogether, we want to and can achieve more: By using our wealth in a targeted way and committing to meaningful, international climate protection projects that need support.\n\nInformation about our certified partners can be found here:\nReduce CO2 (sparkasse-wuppertal.de)",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt2.jpg",
+        "title": "Improve the climate worldwide",
+        "id": "zU25cpHvP8xTC9aNgwDI",
+        "organisation": "A project of Community Foundation for Wuppertal, Germany"
+      },
+      {
+        "description": "What is our project about?\nMore space for culture - also and especially now: We need your support! Create with us a new center for a free, lively and diverse scene in and for Karlsruhe. Support our cultural work with your donation.\n\nWho is behind the project?\nFor more than ten years, Panorama e.V. has been committed to an open and creative cultural scene in and for Karlsruhe. With projects such as \"Halle 14\" and \"P8\", the non-profit association has already supported independent and non-commercial projects and events in the past. Many artists had their first performances there, many people organized their first concerts and exhibitions there. We want to continue this engagement and create a new place, with more space and new possibilities.\n\nWhat are our goals?\nCurrently, a large number of cultural areas in Karlsruhe are threatened by demolition and buyout. We want to make a long-term and affordable replacement possible for at least some of those affected. We want to continue to work with many people for a lively and diverse cultural scene. After a long search for a new cultural area, we finally have reason to rejoice: The independent cultural scene is getting a new home in Karlsruhe-Bulach! On almost 3,000 m² of space, we are creating a place for creative ideas and people: with large event spaces, two open-air areas as well as 15 rehearsal rooms, 12 studios and more space for cultural and artistic initiatives in the city.\n\nWhy do we need your support?\nWe want to show that art and music are colorful and diverse, connect people and creativity enriches everyday life. In the coming weeks, we need to expand the existing spaces and create new ones for this purpose. For the new center, this will create well-equipped and affordable spaces for over 150 creative people. Together we are building on the foundation of open cultural access for all and the joint shaping of the local cultural scene. The opportunity is favorable and unfortunately rare: Space for culture has unfortunately often fallen by the wayside due to economic interests. Be part of building a long-term and creative arts and culture center! \n\nWhat happens with the money in case of successful support?\nWe use all donations to create the framework for a new, uncommercial and diverse cultural center to support creatives and cultural workers. To promote access and participation for all, to shape a cultural scene in and for Karlsruhe that is critical of discrimination. Let's create a lively place of culture together!\n \np-eight.org\nhttps://www.facebook.com/p8karlsruhe\nhttps://www.instagram.com/p8_karlsruhe/?hl=de",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt1.jpg",
+        "title": "More space for culture",
+        "id": "Vi5j75I76MbjNCE2uEuT",
+        "organisation": "A project by Panorama e.V. - P8 - Sociocultural Center in Karlsruhe, Germany"
+      },
+      {
+        "description": "With Ralphy's Ranch we are planning an animal sanctuary and a life yard for all animals - because with us there is no speciesism.\n\nWe, Stephan Pütz, Robert Marc Lehmann, Lea Sommer and Mission Erde e.V. are convinced that every animal deserves a life free and without expectations of economic benefit. We live and communicate this attitude to life every day! For us at Mission Erde e.V., animal welfare starts on our own doorstep and doesn't stop at any national border. \n \nAt Ralphy's Ranch you will find freed animals from Robert's undercover operations,\nabused \"useful\" animals from the mass livestock farming, street dogs or hard-to-place dogs from domestic and foreign missions and mentally or physically ill creatures a temporary or permanent roof over their heads. Even if we cannot give every animal back its natural habitat (e.g. rescued foxes or chinchillas from fur farms), we can offer them a loving, species-appropriate home at Ralphy's Ranch and above all a life without torture and torment.\n \nWith \"Ralphy's Ranch\" social media and film projects, we also pursue the purpose of awakening love and understanding for the animal world through education, good examples and the role model function, in order to sustainably promote the welfare and species-appropriate keeping of animals.\n \nRalphy's Ranch is a project (or long-term mission) of Mission Erde e.V.\n \nWith the power and support of the Mission Erde & Stephan Pütz Community, we would like to continue to grow and implement this project. PS: Why do we use betterplace.org for this? Donating here is safe and uncomplicated. Additionally you will be kept informed about updates. Of course you will also receive a donation receipt for tax purposes.",
+        "img": "/assets/imgs/projects/LogoSpendenprojekt.jpg",
+        "title": "Create animal sanctuary",
+        "id": "ug8KtTE6HfHQpBgQR8iJ",
+        "organisation": "A project of Mission Erde e.V. in Oberursel, Germany"
+      }
+    ]
+  },
+  "partnerPage": {
+    "tabName": "Shops",
+    "pageName": "Our Partner",
+    "search": "Search",
+    "filter": "Categories",
+    "cancel": "Cancel",
+    "with": "with",
+    "selectCountry": "Select Country",
+    "selectCountryText": "Please select the country you live in so that all links work properly and the commission can be donated.",
+    "selectCategoryText": "For a better overview, we have divided the affiliate programs into different categories.",
+    "germany": "Germany",
+    "austria": "Austria",
+    "switzerland": "Switzerland",
+    "worldwide": "Worldwide"
+  },
+  "projectDetailPage": {
+    "aboutThisProject": "About this project"
+  }
+}

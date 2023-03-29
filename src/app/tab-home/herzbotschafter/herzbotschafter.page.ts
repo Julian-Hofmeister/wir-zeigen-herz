@@ -65,11 +65,13 @@ export class HerzbotschafterPage implements OnInit {
   // ----------------------------------------------------------------------------------------------
 
   async shareVideo() {
+    const lang = this.language === "de" ? de : en;
+
     await Share.share({
-      title: this.language === "en" ? en.homePage.shareMessageTitle : de.homePage.shareMessageTitle,
-      text:  this.language === "en" ? en.homePage.shareMessage : de.homePage.shareMessage,
-      dialogTitle: this.language === "en" ? en.homePage.dialogTitle : de.homePage.dialogTitle,
-      url: 'https://vimeo.com/770214670',
+      title: 'Wir Zeigen Herz',
+      text: lang.explainPage.copyMessage,
+      url: lang.explainPage.videoLink,
+      dialogTitle: lang.explainPage.shareMsg,
     });
   }
 

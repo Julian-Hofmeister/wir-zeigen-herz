@@ -1,0 +1,251 @@
+{
+  "homePage": {
+    "monthlyDonation": "15.872€",
+    "monthlyDonationText": "/ Diesen Monat",
+    "translationBtn": "EN \uD83C\uDDEC\uD83C\uDDE7",
+    "explainBtn": "Wie es funktioniert",
+    "partnerBtn": "Partnerprogramme",
+    "lastVisited": "Zuletzt besucht",
+    "aboutUsTitle": "Über uns",
+    "aboutUs": "Unsere gemeinnützige „Wir zeigen Herz Community“ steht für eine unabhängige und kostenlose Plattform, wo jeder Mensch mit Herz, egal ob Privatperson oder Unternehmer Gutes tun kann und das ohne Zeit zu investieren oder Geld zu spenden. Wir engagieren uns für lokale und nationale Projekte sämtlicher Themen und geben jedem Mitglied eine Stimme, um für das Spendenprojekt seiner Wahl abzustimmen.",
+    "aboutUsList": "- Kinder und Jugendhilfe \n - Not und Katastrophenhilfe \n - Krankheit und Behinderung \n - Umwelt und Naturschutz \n - Kultur und Denkmalpflege \n - Tierschutz",
+    "ourVisionTitle": "Unsere Vision",
+    "ourVision": "Wir alle haben ein großes Ziel. Wir wollen die größte gemeinnützige Spendenplattform einer neuen Generation werden. Das tun wir dank eurer Mithilfe und durch interessante Partnerprogramme von Unternehmen mit den größten online Shops. In den vergangenen Jahren ist der Umsatz dieser Unternehmen kontinuierlich gestiegen und belief sich zuletzt auf rund 86,7 Milliarden Euro.\n\nDie 100 umsatzstärksten Online-Shops in Deutschland setzten im Jahr 2021 gemeinsam rund 58 Milliarden Euro um. Nur gemeinsam sind wir stark. Auf den Punkt gebracht, werden wir das Leben für viele etwas lebenswerter machen. Um das zu erreichen, bedarf es nur 2 einfacher Schritte. Diese findest du unter dem Punkt „Jetzt Gutes Tun“. Sei auch du ab sofort der Grund, wieso nicht nur heute jemand lächelt.",
+    "teamBtn": "Unser Team mit Herz",
+    "weAreThereTitle": "Und wir sind mit dabei",
+    "weAreThere": "Werde Herzbotschafter für unsere Wir zeigen Herz Community. Du hast die Kraft viel zu bewegen. Lade alle ein, sich kostenlos zu engagieren. Zusammen kannst du die Welt in eine andere Richtung bewegen und nachhaltig sehr viel Gutes tun. Wenn du unser Video „Gutes tun durch schmerzfreies Geben“ an alle die du kennst weiterleitest, kannst du unser Logo „Und wir sind mit dabei“ auf deiner Webseite einbauen. Zudem erhältst du das Privileg, dich zu einem späteren Zeitpunkt, mit einem Foto oder einem Logo deiner Wahl, auf unserer Webseite als Herzbotschafter zu präsentieren.\n\nDieses Logo steht für Kindeswohl und Kinderrechte. Um Menschen in Not das kurz- und mittelfristige Überleben zu ermöglichen. Hilfe für schwerkranke Menschen, oder Menschen mit einer Behinderung. Das Leben und Wohlbefinden von Tieren zu sichern. Kampf für den Schutz unserer Natur und Umwelt – damit die Erde für uns alle bewohnbar bleibt. Erhaltung und Instandsetzung von Kulturdenkmalen. Für die Integrität des Sports zu kämpfen und seine Bedeutung für ein friedliches und soziales Zusammenleben in unserer Gesellschaft hervorzuheben.",
+    "shareBtn": "Jetzt Video teilen",
+    "shareMessage": "Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein, versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei. https://vimeo.com/770214670",
+    "QATitle": "Fragen & Antworten",
+    "QA": [
+      {
+        "title": "Was ist eine gemeinnützige UG",
+        "content": "Die gUG verfolgt einen gemeinnützigen, mildtätigen oder kirchlichen Gesellschaftszweck. Bei der gUG müssen 75 Prozent der Gewinne dem gemeinnützigen Zweck zugutekommen. Die anderen 25 Prozent dienen dazu, das Stammkapital aufzubauen, um die gUG in eine gemeinnützige GmbH umzuwandeln."
+      },
+      {
+        "title": "Kann ich bei euch auch Geld spenden",
+        "content": "Nein. Wir nehmen keine Spendengelder, egal in welcher Form entgegen. Wir arbeiten hauptsächlich über die Empfehlungsprovisionen von Partnerprogrammen."
+      },
+      {
+        "title": "Was sind eigentlich Partner-Programme",
+        "content": "Partnerprogramme/Affiliate-Systeme basieren auf dem Prinzip der Vermittlungsprovision. Technische Grundlage in der virtuellen Welt des World Wide Web ist der Affiliate-Link. Dieser enthält einen speziellen Code, der den Affiliate, sprich unsere Wir zeigen Herz Community eindeutig beim Händler identifiziert. Besucht nun ein User unsere App oder Webseite, wird er dort auf verschiedene Partnerprogramme von vielen interessanten Unternehmen aufmerksam. Wenn man jetzt auf den Link von einem dieser Anbieter klickt, wird man zum entsprechenden online Shop weitergeleitet. Tätigst du dann einen Kauf im online Shop, wird dieser Kauf unserer Wir zeigen Herz Community zugerechnet und wir erhalten eine kleine Empfehlungsprovision. Aber nur, wenn tatsächlich eine Transaktion stattgefunden hat."
+      },
+      {
+        "title": "Gibt es Mehrkosten bei meinen Bestellungen",
+        "content": "Nein. Du kannst das bei allen Partnerprogrammen auch jederzeit überprüfen. Klicke dafür einfach auf den gewünschten Link von einem Partnerprogramm in unserer App, oder auf unserer Webseite www.wirzeigenherz.eu. Suche einfach das gewünschte Produkt und notiere dir den Kaufpreis. Öffne danach einen anderen Browser und suche bei Google nach diesem online Shop, sowie nach demselben Produkt. Vergleiche jetzt die beiden Kaufpreise und du wirst erkennen, dass es keine Unterschiede gibt."
+      },
+      {
+        "title": "Wie kann ich jetzt bei euch online bestellen",
+        "content": "Wenn du online Bestellungen tätigst, dann bitte nur über die Links von unseren Partnerprogrammen. Diese findest du nur in unserer mobilen App und auf unserer Webseite www.wirzeigenherz.eu. Nur über diesen Weg können überhaupt Spenden-Einnahmen generiert werden."
+      },
+      {
+        "title": "Müsst Ihr die erzielten Einnahmen versteuern",
+        "content": "Nein. Als gemeinnützige UG müssen wir die Einnahmen nicht versteuern. Das gibt uns die Möglichkeit, die gesamten Einnahmen abzüglich der Kosten komplett in die Spendenprojekte zu investieren."
+      },
+      {
+        "title": "Erhalten die Spenden-Projekte auch Ihr Geld",
+        "content": "Ja. Sonst verlieren wir unseren Status als gemeinnützige Organisation. Des Weiteren müssten wir auch sämtliche Steuererleichterungen rückwirkend zurückzahlen."
+      },
+      {
+        "title": "Wie erhalten die unterschiedlichen Projekte Ihr Geld",
+        "content": "Aktuell arbeiten wir mit Betterplace.org. Betterplace.org ist eine 2007 gegründete Spendenplattform aus Berlin, die von der gemeinnützigen Aktiengesellschaft gut.org betrieben wird. Wir überweisen das Geld an Betterplace.org, die die Einnahmen dann prozentual an die unterschiedlichen Spendenprojekte auszahlt. In Zukunft werden wir sicherlich auch eigene Spendenprojekte in Betracht ziehen."
+      },
+      {
+        "title": "Wer ist Betterplace.org",
+        "content": "Betterplace.org ist Deutschlands größte Spendenplattform. 120 Unternehmenspartner tun seit 14 Jahren schon Gutes. Stand heute hat Betterplace.org 47.262 Projekte in 185 Länder gestartet und dabei ca. 198 Millionen € an Spenden gesammelt. Betterplace.org ist gemeinnützig und arbeitet nicht profitorientiert. Transparenz ist eine der Grundideen von Betterplace.org. Alle sozialen Projekte, die über Betterplace.org Spenden sammeln, werden aufgefordert, der Gemeinschaft zu sagen, wie diese Spenden verwendet werden."
+      }
+    ]
+  },
+  "explainPage": {
+
+    "mainHeadline": "Du kannst mit nur 2 Schritten sehr viel Gutes tun!",
+    "swipe": "Tippen oder wischen",
+    "firstStep": "1. Leite einmalig unser Erklär Video „Gutes tun durch schmerzfreies Geben“ an alle weiter. Nutze dafür deine Social-Media-Kanäle, sowie die Broadcast Liste von WhatsApp, um innerhalb kürzester Zeit jeden zu erreichen. ",
+    "copyMessage": "Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei. https://vimeo.com/770214670",
+    "copyCall": "Zum kopieren klicken",
+    "shareBtn": "Jetzt Video teilen",
+    "secondStep": "2. Gehe danach zum Menüpunkt Partnerprogramme. Dort kannst du alle aktuellen und interessanten Partnerprogramme einsehen.",
+    "broadcastAndroid": "Kurzanleitung Android WhatsApp Broadcast-Liste erstellen",
+    "android1": "1. Öffnen Sie WhatsApp auf Ihrem Android-Smartphone. Tippen Sie auf die drei vertikalen Punkte oben rechts in der Chat-Übersicht.",
+    "android2": "2. Wählen Sie im Menü \"Neuer Broadcast\" aus.",
+    "android3": "3. Suchen Sie aus Ihrer Kontaktliste die gewünschten Empfänger aus. Markierte Personen erkennen Sie am dunkelgrünen Häkchen neben dem Bild. Tippen Sie abschließend auf den grünen Haken unten rechts.",
+    "android4": "4. Jetzt können Sie die Nachricht kopieren und weiterleiten. Die Broadcast-Liste befindet sich in Ihrer Chat-Übersicht bei Ihren anderen Gesprächen.",
+    "broadcastIos": "Kurzanleitung iPhone WhatsApp Broadcast-Liste erstellen",
+    "ios1": "1. Öffnen Sie WhatsApp auf Ihrem iPhone und tippen Sie oben links in der Chat-Übersicht auf \"Broadcasts\".",
+    "ios2": "2. Tippen Sie unten auf \"Neue Liste\".",
+    "ios3": "3. Markieren Sie die gewünschten Personen. Bei markierten Personen erscheint ein blaues Häkchen. Tippen Sie dann auf \"Erstellen\".",
+    "ios4": "4. Die Broadcast-Liste wurde erstellt und befindet sich unter \"Broadcast-Listen\" und Sie können jetzt die Nachricht kopieren und weiterleiten."
+  },
+  "teamPage": {
+    "tabName": "Team",
+    "pageName": "Unser Team",
+    "teamCardBtnText": "E-mail",
+    "members": [
+      {
+        "description": "Design und Erstellung von visuellen Produkten und Werbemitteln. Ich bin seit über 25 Jahren Mediengestalterin mit Leib und Seele und seit 2019 zertifizierte Zentangle®-Lehrerin.",
+        "img": "/assets/imgs/team/LogoSchoenfelder.jpg",
+        "mail": "info@schoenfelder-anja.de",
+        "name": "Anja Schönfelder",
+        "subtitle": "Mediengestalterin"
+      },
+      {
+        "description": "Rechtsanwalt/Fachanwalt für Steuerrecht Prof. Dr. Florian Haase ist als Partner im Bereich Steuerrecht am Standort Hamburg tätig. Die Tätigkeitsschwerpunkte von Prof. Dr. Florian Haase liegen in der Steuerstrukturberatung bei internationalen M&A-Transaktionen, Umstrukturierungen, Konzernreorganisationen, Unternehmenssanierungen, Private Equity- und Immobilientransaktionen sowie komplexen Finanzierungen, in der Konzernsteuerplanung und im internationalen und europäischen Steuerrecht.",
+        "img": "/assets/imgs/team/LogoRoedl.jpg",
+        "mail": "florian.haase@roedl.com",
+        "name": "Prof. Dr. Florian Haase",
+        "subtitle": "Rechts- & Fachanwalt für Steuerrecht"
+      },
+      {
+        "description": "Wir bieten Lösungen für Hindernisse, die dem täglichen Betrieb Ihres Unternehmens begegnen. Unsere Mission ist es, animierte Lösungen aus verschiedenen Studios für Ihr Unternehmen, Ihr Produkt und Ihre Dienstleistung anzubieten.",
+        "img": "/assets/imgs/team/LogoAllesAnimation.jpg",
+        "mail": "allesanimation@gmail.com",
+        "name": "Alles Animation - Gregoria",
+        "subtitle": "Profi für günstige animierte Videos"
+      },
+      {
+        "description": "Konzipierung und Entwicklung von individuellen Software- und Designlösungen für kleine und mittelständische Unternehmen im Bereich Web und Mobile.",
+        "img": "/assets/imgs/team/JuProductions.jpg",
+        "mail": "info@ju-productions.de",
+        "name": "Julian Hofmeister",
+        "subtitle": "Software Entwickler"
+      }
+    ]
+  },
+
+  "projectPage": {
+    "tabName": "Projects",
+    "pageName": "Hilfsprojekte",
+    "projectCardBtnText": "Mehr Lesen",
+    "projects": [
+      {
+        "description": "Wenn ein Kind an Krebs erkrankt, gerät das Leben der gesamten Familie aus den Fugen.\n\nDer Förderkreis krebskranke Kinder e.V. Stuttgart hilft seit 1982 unbürokratisch und schnell Familien mit krebskranken Kindern und Jugendlichen in Stuttgart und der Region in dieser schwierigen Lebenssituation.\n\nDie Versorgung der jungen Patienten im Krankenhaus optimieren wir durch die umfangreicheFörderung der kinderonkologischen Station am Olgahospital Stuttgart. Der Förderkreis hilft bei allem, was den Klinikalltag erleichtert: Spielzeug und Bücher, Kinderzeitschriften im Wartezimmer, Tannenbaum und Geschenke zu Weihnachten und und und. Für eine optimale Pflege finanziert der Förderkreis Fortbildungen des Personals und zusätzliche pädagogische Fachkräfte wie eine Erzieherin.Um Diagnostik und Therapie zu optimieren, finanziert der Förderkreis imKrebs-Forschungsbereichumfangreich das Molekularbiologische Labor unddie CWS-Studienzentrale am Stuttgarter Olgahospital sowie das Liquid-Biopsy-Projekt.\n\nMit dem Blauen Haus bietet der Verein zudem Familien krebskranker Kinder einZuhause auf Zeit, in dem Eltern und Geschwister während der Behandlung der jungen Patienten in unmittelbarer Nähe zum Olgahospital wohnen und Kraft tanken können. Seit 2019 steht im Blauen Haus auch dien:ipo Beratungsstellemit Gruppenangeboten und Einzelberatungen den Familien nach Ende der Intensiv-Therapie bei allen Themen der Nachsorge mit Rat und Tat zur Seite.\n\nUnsere direkte finanzielle Förderungfür Familien erleichtert den Alltag bei Verdienstausfall oder Zusatzkosten durch die Erkrankung und springt immer dort ein, wo Hilfe in der Familie am nötigsten ist.",
+        "img": "/assets/imgs/projects/cancer.jpg",
+        "title": "HILFE FÜR KREBSKRANKE KINDER",
+        "id": "d5X6nskQ0fp7EjyS730M",
+        "organisation": "Förderkreis krebskranke Kinder e.V. Stuttgart"
+      },
+      {
+        "description": "Heftige Überschwemmungen, eingestürzte Häuser, Vermisste und Tote: Unwetter haben in der Nacht von den 14. auf den 15. Juli 2021 in NRW und Rheinland-Pfalz fürchterliche Zerstörung hinterlassen.\n\nAuch einJahr nach der Katastrophe ist die Zerstörung vielerorts noch sichtbar. Doch es hat sich auch viel getan. Dank eurer Spenden konnten unsere Bündnisorganisationen vielfältige Hilfe leisten. Und die Hilfe geht weiter, solange es nötig ist.\n\nSo hilft unser Bündnis nach dem Hochwasser:\n\n– Wir bieten Menschen in Tiny Häusern und Mobilheimen ein sicheres Zuhause für den Übergang\n\n– Wir beraten Betroffene in Fluthilfebüros zu behördlichen und versicherungstechnischen Fragen\n\n– Wir sorgen mithilfe eines Hebammenmobils dafür, dass schwangere und stillende Frauen betreut werden\n\n– Wir unterstützen soziale Einrichtungen für Senior/innen, organisieren Fahrdienste und Seniorennachmittage\n\n– Wir helfen Kindern und Jugendlichen, etwas Abstand zu den schrecklichen Erlebnissen zu gewinnen und organisieren dafür Freizeitprogramme\n\n– Wir helfen betroffenen Haushalten, Vereinen, sozialen Einrichtungen, Kitas und Schulen finanziellWir stehen Kindern und Erwachsenen mit psychosozialer Hilfe zur Seite\n\n– Wir stellen Bautrockner, Hochdruckreiniger und Werkzeuge zur Verfügung.\n\n– …und viele weitere Hilfsmaßnahmen.\n\nHerzlichen Dank, dass du unsere Hilfe für die betroffenen Menschen unterstützt!\n\nDie hier definierten Bedarfe sind Beispielbedarfe, die immer wieder dringend benötigt werden. Wir garantieren Dir, dass deine Spende den Hilfsprojekten in den betroffenen Regionen Deutschlands zugute kommt und hilft.",
+        "img": "/assets/imgs/projects/hochwasser.jpg",
+        "title": "HOCHWASSER IN DEUTSCHLAND",
+        "id": "lMOpS6FcX3EFxUXHybxz"
+      },
+      {
+        "description": "Klimaschützer, Heimat unzähliger Tier-und Pflanzenarten, Lebensgrundlage für Millionen Menschen:Für unser Überleben sind die Wälder der Welt unverzichtbar. Doch nie zuvor in der Geschichte unserer Erde sind die Wälder so bedroht wie jetzt. 30 Fußballfelder an Wald gehen pro Minute verloren. Unfassbare 21 Hektar. Vor allem in den artenreichen und für das Klima bedeutenden Tropen ist die massive Zerstörung dramatisch.Ursache für den gigantischen Raubbau: der wachsende Bedarf an Holz, Fleisch, Futtermitteln und Palmöl. Illegaler Holzeinschlag und -handel gelten als drittwichtigstes Geschäftsfeld organisierter Kriminalität. Wenn wir jetzt nicht handeln, werden auch die letzten großen, intakten Waldgebiete zerstört.Nur gemeinsam können wir den dramatischen Waldverlust stoppen und unsere Welt für unsere Kinder und Enkel bewahren!\n\nDer WWF setzt sich weltweit dafür ein, bestehende Wälder zu schützen, neue Bäume zu pflanzen und die Artenvielfalt dieser Lebensräumen zu bewahren. Das erreichen wir mit unserem Einsatz und unserem Know-how in denProjekten vor Ort, mit dem Wirken auf politischer Ebene und immer in Einklang mit den Interessen der indigenen Bevölkerung vor Ort. Und mit deiner Hilfe!\n\nHinweis: Überschüssige Spendenerträge werden in anderen dringenden Naturschutzprojekten des WWF eingesetzt.",
+        "img": "/assets/imgs/projects/forest.jpg",
+        "title": "WÄLDER WELTWEIT SCHÜTZEN",
+        "id": "wrspc8OAfk1LeN6m619E"
+      },
+      {
+        "description": "Kirche ist heute für viele junge Menschen nicht mehr attraktiv. Auf der anderen Seite werden jährlich Milliarden für spirituelle Dienstleistungen ausgegeben. Wie passt das zusammen? Gibt es also doch eine Sehnsucht nach Sinn und Tiefe im Leben?\n\nWir von ALL FOR ONE\n\nwollen Kirche für junge Menschenmachen. Sie sollen erleben, dass der Glaube etwas Bereicherndes ist. Wir nutzen die Sprache, die Symbole und die Kommunikationskanäle, die Jugendlichen und jungen Erwachsenen entsprechen. So haben wir mit Events, Glaubenskursen, Gebetsabenden, Connect Groups und Konzertfahrtenseit 2016 weit über 20.000 Menschen erreicht.\n\nHelfen Sie uns, hilfst du uns dabei,bis 2022 weitere 40.000 zu erreichen?\n\nVielen Dank im Voraus und Gottes reichen Segen!",
+        "img": "/assets/imgs/projects/kids.jpg",
+        "title": "CHRISTLICHES NETZWERK",
+        "id": "xkM4d9zxxtgDTarEIULC"
+      }
+    ]
+  },
+  "partnerPage": {
+    "tabName": "Partner",
+    "pageName": "Unsere Partner",
+    "search": "Onlineshop Suchen",
+    "cancel": "Abbrechen",
+    "filter": "Filter",
+
+    "categories": [
+      {
+        "name": "Ausbildung, Weiterbildung, E-Learning"
+      },
+      {
+        "name": "Auto, Motorrad, Wohnmobil und Automobilität"
+      },
+      {
+        "name": "Babys, Kinder und Spielzeug"
+      },
+      {
+        "name": "Baumarkt, Werkzeuge und Baustoffe"
+      },
+      {
+        "name": "Beauty und Drogerie"
+      },
+      {
+        "name": "Bücher, Zeitschriften, Hörbücher und E-Books"
+      },
+      {
+        "name": "Büro und Homeoffice"
+      },
+      {
+        "name": "Events und Tickets"
+      },
+      {
+        "name": "Fahrräder, Scooter, Roller, E-Bikes, Radsport"
+      },
+      {
+        "name": "Filme, Serien, Musik und Spiele"
+      },
+      {
+        "name": "Garten, Pflanzen und Gartentechnik"
+      },
+      {
+        "name": "Gastronomie & Hotelleriebedarf"
+      },
+      {
+        "name": "Geld, Finanzen, Recht, Steuern und Versicherung"
+      },
+      {
+        "name": "Gesundheit und Pharmazie"
+      },
+      {
+        "name": "Haustiere und Tierbedarf"
+      },
+      {
+        "name": "Immobilien und Grundstücke"
+      },
+      {
+        "name": "Kunst und Handwerk"
+      },
+      {
+        "name": "Lebensmittel und Getränke"
+      },
+      {
+        "name": "Marketing und Werbung"
+      },
+      {
+        "name": "Mode, Bekleidung, Schuhe, Schmuck und Accessoires"
+      },
+      {
+        "name": "Outdoor und Camping"
+      },
+      {
+        "name": "Reisen, Hotels und Tourismus"
+      },
+      {
+        "name": "Smart Home"
+      },
+      {
+        "name": "Sport und Fitness"
+      },
+      {
+        "name": "Technik, Elektronik, Foto & Computer"
+      },
+      {
+        "name": "Telefonie, Internet und Hosting"
+      },
+      {
+        "name": "Universalhändler und Generalisten"
+      },
+      {
+        "name": "Verleih und Vermietung"
+      },
+      {
+        "name": "Versorgung und Energie"
+      },
+      {
+        "name": "Wohnen, Möbel, Küche, Bad, Schlafzimmer und Haushalt"
+      }
+
+    ]
+  }
+
+
+
+}

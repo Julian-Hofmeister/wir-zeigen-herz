@@ -6,16 +6,23 @@ import {IonModal} from "@ionic/angular";
 import {Category} from './categories';
 import {Partner} from './partner.interface';
 
-import categories from "../../assets/i18n/categories.json";
+import categories from "../../../../wir-zeigen-herz-partner/src/assets/json/categories.json";
 import partnerData from "../../assets/i18n/partner.json";
 import countries from "../../assets/i18n/countries.json";
 import {Country} from "./countries";
 import {Preferences} from "@capacitor/preferences";
+import {animate, state, style, transition, trigger} from "@angular/animations";
 
 @Component({
   selector: 'app-tab-partner',
   templateUrl: './tab-partner.page.html',
   styleUrls: ['./tab-partner.page.scss'],
+  animations: [
+    trigger('simpleFadeAnimation', [
+      state('in', style({ opacity: 1 })),
+      transition(':enter', [style({ opacity: 0 }), animate(500)]),
+    ]),
+  ],
 })
 export class TabPartnerPage implements OnInit {
   //#region [ BINDINGS ] //////////////////////////////////////////////////////////////////////////
@@ -49,6 +56,8 @@ export class TabPartnerPage implements OnInit {
 
   isCategoryPopoverOpen = false;
 
+  notShowAgain = localStorage.getItem('notShowAgain');
+
   //#endregion
 
   //#region [ MEMBERS ] ///////////////////////////////////////////////////////////////////////////
@@ -81,6 +90,8 @@ export class TabPartnerPage implements OnInit {
     this.getCountry().then(r =>
       this.fillPartner()
     )
+    this.language = this.translateService.currentLang;
+
 
   }
 
@@ -155,6 +166,13 @@ export class TabPartnerPage implements OnInit {
 
   openCategoryPopover() {
     this.isCategoryPopoverOpen = true;
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  showNotAgain() {
+    localStorage.setItem('notShowAgain', 'true');
+    this.notShowAgain = 'true';
   }
 
   //#endregion

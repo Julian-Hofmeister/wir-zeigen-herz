@@ -142,3 +142,28 @@ ion-fab-button{
   margin: .5rem 0;
 }
 
+.country-info-card {
+  position: relative;
+  background-color: #f1f1f1;
+  text-align: start;
+  border-radius: 15px;
+  //padding: 0 1rem;
+  margin: 0 -2.5px;
+  ion-icon {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    font-size: 1.2rem;
+  }
+  p {
+    margin-right: .8rem;
+    margin-left: .5rem;
+  }
+}
+
+.country-info {
+  padding: 3rem;
+  color: var(--ion-color-dark);
+  text-align: center;
+}
+

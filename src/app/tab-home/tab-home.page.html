@@ -30,11 +30,14 @@
       <div class="upper-container-reverse"></div>
       <div class="lower-container-reverse">
         <h4>{{"homePage.aboutUsTitle" | translate}}</h4>
+        <div class="underline"></div>
         <p>{{'homePage.aboutUs' | translate}}</p>
 
         <app-action-button class="team-btn" color="light" [text]="'homePage.teamBtn' | translate" routerLink="/team"></app-action-button>
 
-        <h4 class="margin-top">{{'homePage.ourVisionTitle' | translate}}</h4>
+          <h4 class="margin-top">{{'homePage.ourVisionTitle' | translate}}</h4>
+          <div class="underline"></div>
+
         <p>{{'homePage.ourVision' | translate}}</p>
 
         <app-action-button class="team-btn" color="light" [text]="'homePage.ambassadorBtn' | translate" routerLink="/ambassador"></app-action-button>
@@ -43,7 +46,7 @@
 
     <h4>{{'homePage.QATitle' | translate}}</h4>
     <ion-accordion-group mode="ios" expand="inset">
-      <ion-accordion mode="ios" *ngFor="let question of language === 'en' ? questionsEN : questionsDE">
+      <ion-accordion mode="ios" *ngFor="let question of (translateService.currentLang === 'en' ? questionsEN : questionsDE)">
         <ion-item slot="header" color="light">
           <ion-label class="ion-text-wrap title" mode="md">{{question.title}}</ion-label>
         </ion-item>
