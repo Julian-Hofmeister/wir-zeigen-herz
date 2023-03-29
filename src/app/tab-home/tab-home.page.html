@@ -14,15 +14,18 @@
 
     <div class="btn-col">
       <ion-button color="light" class="explain-btn" routerLink="/slider">{{'homePage.explainBtn' | translate}}</ion-button>
-      <app-action-button [text]="'homePage.partnerBtn' | translate" routerLink="/tabs/tab-partner"></app-action-button>
+      <app-action-button class="margin-bottom-btn" [text]="'homePage.partnerBtn' | translate" routerLink="/tabs/tab-partner"></app-action-button>
     </div>
 
-    <div class="partner-col">
-      <p *ngIf="latestPartner.length">{{"homePage.lastVisited" | translate}}</p>
-      <ion-list class="partner-list" *ngFor="let partner of latestPartner">
-        <app-partner-card [partner]="partner" [country]="country"></app-partner-card>
-      </ion-list>
-    </div>
+    <ion-row>
+      <ion-col class="partner-col" size="12" size-md="10" offset-md="1" size-lg="8" offset-lg="2">
+        <p *ngIf="latestPartner.length">{{"homePage.lastVisited" | translate}}</p>
+        <ion-list class="partner-list" *ngFor="let partner of latestPartner">
+          <app-partner-card [partner]="partner" [country]="country"></app-partner-card>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+
 
     <img class="child-img" src="/assets/imgs/child.png" alt="">
 
@@ -44,15 +47,20 @@
       </div>
     </div>
 
-    <h4>{{'homePage.QATitle' | translate}}</h4>
-    <ion-accordion-group mode="ios" expand="inset">
-      <ion-accordion mode="ios" *ngFor="let question of (translateService.currentLang === 'en' ? questionsEN : questionsDE)">
-        <ion-item slot="header" color="light">
-          <ion-label class="ion-text-wrap title" mode="md">{{question.title}}</ion-label>
-        </ion-item>
-        <div class="content" slot="content">{{question.content}}</div>
-      </ion-accordion>
-    </ion-accordion-group>
+<!--    <ion-row>-->
+<!--      <ion-col size="12" size-md="10" offset-md="1" size-lg="8" offset-lg="2">-->
+        <h4>{{'homePage.QATitle' | translate}}</h4>
+        <ion-accordion-group mode="ios" expand="inset">
+          <ion-accordion mode="ios" *ngFor="let question of (translateService.currentLang === 'en' ? questionsEN : questionsDE)">
+            <ion-item slot="header" color="light">
+              <ion-label class="ion-text-wrap title" mode="md">{{question.title}}</ion-label>
+            </ion-item>
+            <div class="content" slot="content">{{question.content}}</div>
+          </ion-accordion>
+        </ion-accordion-group>
+<!--      </ion-col>-->
+<!--    </ion-row>-->
+
 
     <div class="img-container">
       <img src="/assets/imgs/original.png" alt="">

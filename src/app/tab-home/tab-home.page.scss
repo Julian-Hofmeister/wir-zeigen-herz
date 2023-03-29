@@ -74,6 +74,9 @@ h4 {
 
   .explain-btn {
     margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
     padding: 3px 1rem 0;
     color: var(--ion-color-dark);
     --background: var(--ion-color-white);
@@ -82,6 +85,12 @@ h4 {
     --box-shadow: none;
     border-radius: 9999px;
     height: 3rem;
+  }
+
+  .margin-bottom-btn {
+    margin-right: 1rem;
+    margin-left: 1rem;
+
   }
 }
 
@@ -106,6 +115,7 @@ h4 {
 .child-img {
   margin-bottom: -1rem;
   margin-left: 5rem;
+  max-height: 390px;
 }
 
 .info-col {
@@ -204,4 +214,29 @@ ion-accordion.accordion-expanded {
 .bottom-info {
   margin: 2rem 1.5rem;
   text-align: center;
+}
+
+
+
+@media only screen and (min-width: 524px) {
+  .btn-col {
+    .explain-btn {
+      margin-bottom: 0rem;
+      margin-right: .5rem;
+    }
+    .margin-bottom-btn {
+      margin-left: .5rem;
+
+    }
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  .partner-col {
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+  }
+  .child-img {
+    display: none;
+  }
 }
