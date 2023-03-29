@@ -144,9 +144,14 @@ h4 {
     .underline {
       background-color: var(--ion-color-light);
       margin: 5px 0 0 1rem;
-      width: 60%;
+      width: 8rem;
       height: 3px;
       border-radius: 9999px;
+    }
+
+    .underline2 {
+      width: 12rem;
+
     }
 
     .margin-top {
