@@ -73,6 +73,17 @@ export class HerzbotschafterPage implements OnInit {
       url: lang.explainPage.videoLink,
       dialogTitle: lang.explainPage.shareMsg,
     });
+
+    try {
+      await navigator.share({
+        title: 'Wir Zeigen Herz',
+        text: lang.explainPage.copyMessage,
+        url: lang.explainPage.videoLink,
+        // dialogTitle: lang.explainPage.shareMsg,
+      });
+    } catch (err) {
+      console.warn(err.name, err.message);
+    }
   }
 
   //#endregion

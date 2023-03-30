@@ -5,8 +5,8 @@
         <app-page-header [title]="'projectPage.pageName' | translate" [with]="'partnerPage.with' | translate"></app-page-header>
         <div class="vote card-shadow" [@simpleFadeAnimation]="'in'">
           <div class="padding">
-            <h3>Deine Stimme zählt!</h3>
-            <p>Stimme über die Like Button ab, wie die generierten Spendengelder auf die Partnerprogramme verteilt werden sollen.</p>
+            <h3>{{'projectPage.voteTitle' | translate}}</h3>
+            <p>{{'projectPage.voteDesc' | translate}}</p>
           </div>
           <ion-list *ngFor="let project of projects">
             <ion-item lines="none">

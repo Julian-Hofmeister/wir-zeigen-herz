@@ -18,7 +18,7 @@
     "ourVisionTitle": "Unsere Vision",
     "ourVision": "Wir alle haben ein großes Ziel. Wir wollen die größte gemeinnützige Spendenplattform einer neuen Generation werden. Das tun wir dank eurer Mithilfe und durch interessante Partnerprogramme von Unternehmen mit den größten online Shops. In den vergangenen Jahren ist der Umsatz dieser Unternehmen kontinuierlich gestiegen und belief sich zuletzt auf rund 86,7 Milliarden Euro.\n\nDie 100 umsatzstärksten Online-Shops in Deutschland setzten im Jahr 2021 gemeinsam rund 58 Milliarden Euro um. Nur gemeinsam sind wir stark. Auf den Punkt gebracht, werden wir das Leben für viele etwas lebenswerter machen. Um das zu erreichen, bedarf es nur 2 einfacher Schritte. Diese findest du unter dem Punkt „Jetzt Gutes Tun“. Sei auch du ab sofort der Grund, wieso nicht nur heute jemand lächelt.",
     "ambassadorBtn": "Werde Herzbotschafter",
-
+    "visitWebsite": "Besuchen Sie auch unsere Webseite unter",
     "QATitle": "Fragen & Antworten",
     "QA": [
       {
@@ -127,7 +127,7 @@
       {
         "description": "Versicherungsmakler seit 1989 nach §93 HGB. Unabhängige Versicherungsvergleiche. Abwicklung und Überwachung von Verträgen. Schadenservice und Rundum-sorglos-Pakete für die Mandanten. Verwaltungssystem für Mandanten. Führung und Verwaltung von Silberdepots. Umsatzsteuerfreie Auszahlungen durch Einlagerung in Frankfurt möglich. Erstellen von Anlageempfehlungen und deren Umsetzung. Monatliche Fondskaufempfehlung im Dax möglich. Immobilen Ankauf und Verkauf für Mandanten. Sonderverwaltung von Immobilien und Hausverwaltung. Vielseitige Schulungen und Seminare, im Verkauf und der Unternehmensführung.",
         "img": "/assets/imgs/team/LogoHirschberg.jpg",
-        "mail": "info@ju-productions.de",
+        "mail": "hirschberg@hplusk.de",
         "name": "Hirschberg Unternehmensgruppe",
         "subtitle": "Ingo Hirschberg Dienstleistungen – Astérie & FirstClass Value UG"
       },
@@ -137,13 +137,6 @@
         "mail": "info@schoenfelder-anja.de",
         "name": "Anja Schönfelder",
         "subtitle": "Mediengestalterin"
-      },
-      {
-        "description": "Wir bieten Lösungen für Hindernisse, die dem täglichen Betrieb Ihres Unternehmens begegnen. Unsere Mission ist es, animierte Lösungen aus verschiedenen Studios für Ihr Unternehmen, Ihr Produkt und Ihre Dienstleistung anzubieten.",
-        "img": "/assets/imgs/team/LogoAllesAnimation.jpg",
-        "mail": "allesanimation@gmail.com",
-        "name": "Alles Animation - Gregoria",
-        "subtitle": "Profi für günstige animierte Videos"
       },
       {
         "description": "Konzipierung und Entwicklung von individuellen Software- und Designlösungen für kleine und mittelständische Unternehmen im Bereich Web und Mobile.",
@@ -160,6 +153,10 @@
     "title": "Projekte",
     "pageName": "Hilfsprojekte",
     "projectCardBtnText": "Mehr Lesen",
+
+    "voteTitle": "Deine Stimme zählt!",
+    "voteDesc": "Stimme über die Like Button ab, wie die generierten Spendengelder auf die Partnerprogramme verteilt werden sollen.",
+
     "projects": [
       {
         "description": "Als gemeinnütziger Verein hat sich breakfast4kids e. V. das Ziel gesetzt, so vielen Kindern wie möglich täglich ein gesundes Pausenbrot zu ermöglichen. Nachdem wir Anfang 2009 mit der ersten Schule in einem Pilotprojekt (12 Pausenbrote täglich) gestartet sind und Erfahrungen sammeln konnten, wird unser Konzept aktuell von 33 Schulen / Kitas in den Städten Aachen, Alsdorf, Brühl, Eschweiler, Herzogenrath, Köln und Stolberg angenommen. Wir beliefern hier ca. 1.100 Kinder täglich. \n \nSchon frühmorgens, lange bevor die Schule beginnt, werden mehrere hundert Pausenbrote geschnitten, geschmiert, liebevoll belegt, hygienisch verpackt und von weiteren Helfern noch vor Unterrichtsbeginn an die Grundschulen / Kitas geliefert. Dort werden die Pausenbrote in Eigenregie an die Schulen / Kitas, an die einzelnen Klassen verteilt. Damit ist gewährleistet, dass alle Kinder zur Pause ein Frühstück zu sich nehmen können. \n \nDer Bedarf wird über die Schulleitung an den Verein gemeldet, der kostenfrei die entsprechenden Brote bereitstellt und liefert. Dabei erfährt von den Helfern niemand, wer in der Klasse ein Pausenbrot von breakfast4kids erhält, denn kein Kind soll sich ausgegrenzt fühlen. Positiver Nebeneffekt kein Hunger zu haben; die Kinder können sich besser konzentrieren, sie sind aktiver und kommunikativer und lernen zusätzlich zu teilen. \n \nKleines Pausenbrot mit großer Wirkung. Ein ausgiebiges Frühstück ist der perfekte Start in den Tag. Es gibt Kindern vor allem die notwendige Kraft und Energie, die Herausforderungen des Schulalltages zu meistern. Mit einem guten Frühstück und einem vollen Bauch fühlen sie sich „einfach besser“, sind konzentrierter bei der Arbeit und leistungsfähiger. Jedoch berichten immer mehr Schulen, dass viele ihrer Schülerinnen und Schüler häufig ohne Frühstück in die Schule kommen. \n \nFakten: \n \nDas Kinder kein Frühstück mit zur Schule oder Kita bringen, kann unterschiedliche Ursachen haben. Manche Kinder sind morgens auf sich alleine gestellt, Erziehungsberechtigte haben keine Zeit oder es fehlt einfach an Geld. \n \nUnser Ziel: \n \nUnser Ziel ist es, so viele Kinder wie möglich mit einem gesunden Frühstück in den Schulen satt zu machen. \nMit Ihrer Hilfe können wir aktuell über 1.100 Kindern ein Pausenbrot für mindestens 1 Schuljahr garantieren. Wenn nötig möchten wir noch mehr Kinder erreichen und Ihnen ein gesundes Pausenbrot ermöglichen.",

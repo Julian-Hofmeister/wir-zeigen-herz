@@ -13,6 +13,7 @@
     "ourVisionTitle": "Our Vision",
     "ourVision": "We all have one big goal. We want to become the largest non-profit donation platform of this new generation. We can only do this thanks to your help and through interesting partner programmes of companies with the biggest online shops. In the past few years, the turnover of these companies has risen continuously and most recently amounted to around 86.7 billion euros.\n\nThe 100 online shops with the highest turnover in Germany had a turnover of around 58 billion euros in 2021. Only together are we strong? In a nutshell, we will make life more liveable for many. To achieve this, it only takes 2 simple steps. You can find them under \"Do good now\". From now on, you too can be the reason why someone smiles, and not just today.",
     "ambassadorBtn": "Heart ambassador",
+    "visitWebsite": "Also visit our website at",
     "QATitle": "Questions & Answers",
     "QA": [
       {
@@ -111,39 +112,32 @@
     "teamCardBtnText": "E-mail contact",
     "members": [
       {
-        "description": "Rechtsanwalt/Fachanwalt für Steuerrecht Prof. Dr. Florian Haase ist als Partner im Bereich Steuerrecht am Standort Hamburg tätig. Die Tätigkeitsschwerpunkte von Prof. Dr. Florian Haase liegen in der Steuerstrukturberatung bei internationalen M&A-Transaktionen, Umstrukturierungen, Konzernreorganisationen, Unternehmenssanierungen, Private Equity- und Immobilientransaktionen sowie komplexen Finanzierungen, in der Konzernsteuerplanung und im internationalen und europäischen Steuerrecht.",
+        "description": "Lawyer/ specialist lawyer for tax law Prof. Dr Florian Haase works as a partner in the field of tax law at the Hamburg office. Prof. Dr Florian Haase's practice focuses on tax structure consulting in international M&A transactions, restructurings, group reorganisations, corporate reorganisations, private equity and real estate transactions, as well as complex financing, group tax planning and international and European tax law.",
         "img": "/assets/imgs/team/LogoRoedl.jpg",
         "mail": "florian.haase@roedl.com",
         "name": "Prof. Dr. Florian Haase",
-        "subtitle": "Rechts- & Fachanwalt für Steuerrecht"
+        "subtitle": "Lawyer and tax law specialist"
       },
       {
         "description": "Insurance broker since 1989 according to §93 HGB. Independent insurance comparison. Processing and monitoring of contracts. Claims service and all-around carefree packages for clients. Administration system for clients. Management and administration of silver deposits. VAT-free withdrawals are possible through storage in Frankfurt. Preparation of investment recommendations and their implementation. Possible monthly fund purchase recommendation in the German stock index (Dax). Real estate purchase and sale for clients. Special management of the real estate and property management. Versatile training and seminars in sales and business management.",
         "img": "/assets/imgs/team/LogoHirschberg.jpg",
-        "mail": "info@ju-productions.de",
+        "mail": "hirschberg@hplusk.de",
         "name": "Hirschberg Group of Companies",
         "subtitle": "Ingo Hirschberg Services - Astérie & FirstClass Value UG"
       },
       {
-        "description": "Design und Erstellung von visuellen Produkten und Werbemitteln. Ich bin seit über 25 Jahren Mediengestalterin mit Leib und Seele und seit 2019 zertifizierte Zentangle®-Lehrerin.",
+        "description": "Design and creation of visual products and advertising material. I have been a media designer with my heart and soul for over 25 years and have been a certified Zentangle teacher since 2019.",
         "img": "/assets/imgs/team/LogoSchoenfelder.jpg",
         "mail": "info@schoenfelder-anja.de",
-        "name": "Anja Schönfelder",
-        "subtitle": "Mediengestalterin"
+        "name": "Schönfelder MedienDesign",
+        "subtitle": "Anja Schönfelder - Media designer"
       },
       {
-        "description": "Wir bieten Lösungen für Hindernisse, die dem täglichen Betrieb Ihres Unternehmens begegnen. Unsere Mission ist es, animierte Lösungen aus verschiedenen Studios für Ihr Unternehmen, Ihr Produkt und Ihre Dienstleistung anzubieten.",
-        "img": "/assets/imgs/team/LogoAllesAnimation.jpg",
-        "mail": "allesanimation@gmail.com",
-        "name": "Alles Animation - Gregoria",
-        "subtitle": "Profi für günstige animierte Videos"
-      },
-      {
-        "description": "Konzipierung und Entwicklung von individuellen Software- und Designlösungen für kleine und mittelständische Unternehmen im Bereich Web und Mobile.",
+        "description": "Conception and development of individual software and design solutions for small and medium-sized enterprises in the field of web and mobile.",
         "img": "/assets/imgs/team/JuProductions.jpg",
         "mail": "info@ju-productions.de",
         "name": "Julian Hofmeister",
-        "subtitle": "Software Entwickler"
+        "subtitle": "Software Developer"
       }
     ]
   },
@@ -152,6 +146,10 @@
     "tabName": "Projects",
     "pageName": "Aid projects",
     "projectCardBtnText": "Read more",
+
+    "voteTitle": "Your vote counts!",
+    "voteDesc": "Use the Like button to vote on how the generated donations should be distributed to the partner programs.",
+
     "projects": [
       {
         "description": "As a non-profit organization, breakfast4kids e. V. has set itself the goal of providing as many children as possible with a healthy packed lunch every day. After we started in early 2009 with the first school in a pilot project (12 snacks daily) and were able to gain experience, our concept is currently accepted by 33 schools / daycare centers in the cities of Aachen, Alsdorf, Brühl, Eschweiler, Herzogenrath, Cologne and Stolberg. We supply around 1,100 children here every day. \n \nEarly in the morning, long before school starts, several hundred break sandwiches are cut, greased, lovingly topped, hygienically packed and delivered to the elementary schools / daycare centers by other helpers before classes begin. There, the break sandwiches are distributed to the schools / daycare centers, to the individual classes under their own direction. This ensures that all children can have breakfast at break time. \n \nThe demand is reported by the school management to the association, which provides and delivers the corresponding sandwiches free of charge. The helpers do not find out who in the class receives a breakfast4kids sandwich, because no child should feel excluded. The positive side effect of not being hungry is that the children can concentrate better, are more active and communicative, and also learn to share. \n \nA small snack with a big effect. A hearty breakfast is the perfect start to the day. Above all, it gives children the necessary strength and energy to master the challenges of the school day. With a good breakfast and a full belly, they \"simply feel better,\" are more concentrated at work and perform better. However, more and more schools are reporting that many of their students often come to school without breakfast. \n \nFacts: \n \nChildren not bringing breakfast to school or daycare can have a variety of causes. Some children are left on their own in the morning, guardians don't have time or there is simply a lack of money. \n \nOur goal: \n \nOur goal is to feed as many children as possible with a healthy breakfast in the schools. With your help, we can currently guarantee over 1,100 children a snack for at least 1 school year. If necessary, we would like to reach even more children and provide them with a healthy snack.",
