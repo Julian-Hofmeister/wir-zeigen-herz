@@ -67,23 +67,33 @@ export class HerzbotschafterPage implements OnInit {
   async shareVideo() {
     const lang = this.language === "de" ? de : en;
 
-    await Share.share({
-      title: 'Wir Zeigen Herz',
-      text: lang.explainPage.copyMessage,
-      url: lang.explainPage.videoLink,
-      dialogTitle: lang.explainPage.shareMsg,
-    });
+    // await Share.share({
+    //   title: 'Wir Zeigen Herz',
+    //   text: lang.explainPage.copyMessage,
+    //   url: lang.explainPage.videoLink,
+    //   dialogTitle: lang.explainPage.shareMsg,
+    // });
 
-    try {
-      await navigator.share({
+    if (navigator.share) {
+      navigator.share({
         title: 'Wir Zeigen Herz',
         text: lang.explainPage.copyMessage,
         url: lang.explainPage.videoLink,
-        // dialogTitle: lang.explainPage.shareMsg,
-      });
-    } catch (err) {
-      console.warn(err.name, err.message);
+      })
+        .then(() => console.log('Successful share'))
+        .catch((error) => console.log('Error sharing', error));
     }
+
+    // try {
+    //   await navigator.share({
+    //     title: 'Wir Zeigen Herz',
+    //     text: lang.explainPage.copyMessage,
+    //     url: lang.explainPage.videoLink,
+    //     // dialogTitle: lang.explainPage.shareMsg,
+    //   });
+    // } catch (err) {
+    //   console.warn(err.name, err.message);
+    // }
   }
 
   //#endregion

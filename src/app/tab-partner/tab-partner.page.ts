@@ -6,9 +6,8 @@ import {IonModal} from "@ionic/angular";
 import {Category} from './categories';
 import {Partner} from './partner.interface';
 
-import categories from "../../../../wir-zeigen-herz-partner/src/assets/json/categories.json";
+import categories from "../../assets/i18n/categories.json"
 import partnerData from "../../assets/i18n/partner.json";
-import countries from "../../assets/i18n/countries.json";
 import {Country} from "./countries";
 import {Preferences} from "@capacitor/preferences";
 import {animate, state, style, transition, trigger} from "@angular/animations";
@@ -44,7 +43,6 @@ export class TabPartnerPage implements OnInit {
   partner: Partner[];
   loadedPartner: Partner[];
   categories: Category[];
-  countries: Country[];
 
   language: string = this.translateService.currentLang;
   country: Country;
@@ -78,7 +76,6 @@ export class TabPartnerPage implements OnInit {
 
   ngOnInit() {
     this.categories = categories;
-    this.countries = countries;
     this.loadedPartner = partnerData;
 
 
