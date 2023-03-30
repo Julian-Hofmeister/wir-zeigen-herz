@@ -7,7 +7,7 @@
         <ion-searchbar (ionInput)="filterList($event)" [placeholder]="'partnerPage.search' | translate"></ion-searchbar>
         <ion-row class="space-between">
           <ion-col size="4.5" class="region-col">
-            <ion-label  id="country-trigger" (click)="openCountryModal()">{{this.country ? ('partnerPage.'+country.value | translate) : ("partnerPage.selectCountry" | translate)}}</ion-label>
+            <ion-label  id="country-trigger" (click)="openCountryModal()">{{this.country ? ('partnerPage.'+country | translate) : ("partnerPage.selectCountry" | translate)}}</ion-label>
           </ion-col>
           <ion-popover   trigger="country-trigger" triggerAction="context-menu" [isOpen]="isCountryPopoverOpen" (didDismiss)="openCategoryPopover()">
               <ng-template>
@@ -52,19 +52,19 @@
       <ion-col size="12" size-md="10" offset-md="1" size-lg="8" offset-lg="2">
         <div *ngIf="!country && (!searchTerm && !filter)">
           <ion-list *ngFor="let partner of loadedPartner">
-            <app-partner-card (click)="openCountryModal()" [partner]="partner" [country]="country"  [@simpleFadeAnimation]="'in'"></app-partner-card>
+            <app-partner-card (click)="openCountryModal()" [partner]="partner" [country]="country"></app-partner-card>
           </ion-list>
         </div>
 
         <div *ngIf="!searchTerm && !filter">
           <ion-list *ngFor="let partner of partner" >
-            <app-partner-card [partner]="partner" [country]="country" [@simpleFadeAnimation]="'in'"></app-partner-card>
+            <app-partner-card [partner]="partner" [country]="country"></app-partner-card>
           </ion-list>
         </div>
 
         <div  *ngIf="(searchTerm || filter) && country">
           <ion-list *ngFor="let partner of filteredPartner">
-            <app-partner-card [partner]="partner" [country]="country"  [@simpleFadeAnimation]="'in'"></app-partner-card>
+            <app-partner-card [partner]="partner" [country]="country"></app-partner-card>
           </ion-list>
         </div>
 
@@ -89,8 +89,8 @@
 
         <br/>
         <ion-item lines="none">
-          <ion-select interface="popover" [placeholder]="this.country ? ('partnerPage.'+country.value | translate) : ('partnerPage.selectCountry' | translate)" (ionChange)="selectCountry($event)" >
-            <ion-select-option *ngFor="let country of countries" [value]="country">{{this.language == "en" ? country.nameEN : country.nameDE}}</ion-select-option>
+          <ion-select interface="popover" [placeholder]="this.country ? ('partnerPage.'+country | translate) : ('partnerPage.selectCountry' | translate)" (ionChange)="selectCountry($event)" >
+            <ion-select-option *ngFor="let country of countries" [value]="country">{{'partnerPage.'+country | translate}}</ion-select-option>
           </ion-select>
         </ion-item>
 

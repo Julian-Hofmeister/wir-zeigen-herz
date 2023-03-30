@@ -16,12 +16,6 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
   selector: 'app-tab-partner',
   templateUrl: './tab-partner.page.html',
   styleUrls: ['./tab-partner.page.scss'],
-  animations: [
-    trigger('simpleFadeAnimation', [
-      state('in', style({ opacity: 1 })),
-      transition(':enter', [style({ opacity: 0 }), animate(500)]),
-    ]),
-  ],
 })
 export class TabPartnerPage implements OnInit {
   //#region [ BINDINGS ] //////////////////////////////////////////////////////////////////////////
@@ -43,9 +37,10 @@ export class TabPartnerPage implements OnInit {
   partner: Partner[];
   loadedPartner: Partner[];
   categories: Category[];
+  countries: string[];
 
   language: string = this.translateService.currentLang;
-  country: Country;
+  country: string;
   countryName: string;
 
   isModalOpen = false;
@@ -55,6 +50,8 @@ export class TabPartnerPage implements OnInit {
   isCategoryPopoverOpen = false;
 
   notShowAgain = localStorage.getItem('notShowAgain');
+
+  timeout: any = null;
 
   //#endregion
 
@@ -76,21 +73,17 @@ export class TabPartnerPage implements OnInit {
 
   ngOnInit() {
     this.categories = categories;
+    this.countries = ["germany", "austria", "switzerland", "worldwide"];
     this.loadedPartner = partnerData;
-
-
   }
 
   // ----------------------------------------------------------------------------------------------
 
-  ionViewWillEnter() {
-    this.getCountry().then(r =>{
-        this.fillPartner()
-    }
-    )
+  async ionViewDidEnter() {
     this.language = this.translateService.currentLang;
-
-
+    await this.getCountry().then(r =>{
+        this.fillPartner()
+    })
   }
 
   // ----------------------------------------------------------------------------------------------
@@ -110,13 +103,24 @@ export class TabPartnerPage implements OnInit {
 
 
   filterList(evt: any) {
-    this.searchTerm = evt.srcElement.value;
 
-    if (!this.searchTerm) {return;}
+    clearTimeout(this.timeout);
+    const $this = this;
+    this.timeout = setTimeout(function () {
+      if (evt.keyCode != 13) {
+        $this.searchTerm = evt.srcElement.value;
 
-    this.filteredPartner = this.partnerService.filterList(this.searchTerm, this.partner);
+        if (!$this.searchTerm) {return;}
 
-    this.onClearCategoryFilter();
+        $this.filteredPartner = $this.partnerService.filterList($this.searchTerm, $this.partner);
+
+        $this.onClearCategoryFilter();
+      }
+    }, 1000);
+
+
+
+
   }
 
   // ----------------------------------------------------------------------------------------------
@@ -197,13 +201,13 @@ export class TabPartnerPage implements OnInit {
     this.partner = [];
 
     for (let partner of this.loadedPartner) {
-      if (this.country.value === "germany" && partner.linkDE !== "") {
+      if (this.country === "germany" && partner.linkDE !== "") {
         this.partner.push(partner);
-      } else if (this.country.value === "austria" && partner.linkAT !== "") {
+      } else if (this.country === "austria" && partner.linkAT !== "") {
         this.partner.push(partner);
-      } else if (this.country.value === "switzerland" && partner.linkCH !== "") {
+      } else if (this.country === "switzerland" && partner.linkCH !== "") {
         this.partner.push(partner);
-      } else if (this.country.value === "worldwide" && partner.linkWW !== "") {
+      } else if (this.country === "worldwide" && partner.linkWW !== "") {
         this.partner.push(partner);
       }
     }

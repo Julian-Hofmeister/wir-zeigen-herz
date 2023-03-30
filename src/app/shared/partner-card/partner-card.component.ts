@@ -14,7 +14,7 @@ export class PartnerCardComponent implements OnInit {
   //#region [ BINDINGS ] //////////////////////////////////////////////////////////////////////////
 
   @Input() partner: Partner;
-  @Input() country: Country;
+  @Input() country: string;
 
   logo: string;
 
@@ -62,7 +62,7 @@ export class PartnerCardComponent implements OnInit {
 
     if(!this.country) {return}
 
-    this.link = this.country.value === "germany" ?  this.partner.linkDE : this.country.value === "austria" ?  this.partner.linkAT : this.country.value === "switzerland" ?  this.partner.linkCH : this.partner.linkWW
+    this.link = this.country === "germany" ?  this.partner.linkDE : this.country === "austria" ?  this.partner.linkAT : this.country === "switzerland" ?  this.partner.linkCH : this.partner.linkWW
 
     window.open(this.link);
 
