@@ -152,6 +152,7 @@
     "tabName": "Projects",
     "title": "Projekte",
     "pageName": "Hilfsprojekte",
+    "with": "mit",
     "projectCardBtnText": "Mehr Lesen",
 
     "voteTitle": "Deine Stimme zählt!",
@@ -188,7 +189,7 @@
       },
       {
         "description": "Worum geht es in unserem Projekt?\nMehr Raum für Kultur - auch und gerade jetzt: Wir brauchen Deine Unterstützung! Schaffe mit uns ein neues Zentrum für eine freie, lebendige und vielfältige Szene in und für Karlsruhe. Unterstütze unsere kulturelle Arbeit mit Deiner Spende.\n\nWer steht hinter dem Projekt?\nDer Panorama e.V. setzt sich seit über zehn Jahren für eine offene und kreative Kulturszene in und für Karlsruhe ein. Mit Projekten wie der „Halle 14“ und dem „P8“ förderte der gemeinnützige Verein bereits in der Vergangenheit unabhängige sowie unkommerzielle Projekte und Veranstaltungen. Viele Künstler:innen hatten dort ihre ersten Auftritte, viele Menschen organisierten dort ihre ersten Konzerte und Ausstellungen. Dieses Engagement wollen wir fortsetzen und einen neuen Ort schaffen, mit mehr Platz und neuen Möglichkeiten.\n\nWas sind unsere Ziele?\nAktuell sind eine Vielzahl von Kulturarealen in Karlsruhe vom Abriss und Aufkauf bedroht. Wir wollen zumindest für einige Betroffene einen langfristigen und erschwinglichen Ersatz ermöglichen. Wir wollen uns weiterhin mit vielen Menschen für eine lebendige und vielfältige Kulturszene einsetzen. Nach langer Suche nach einem neuen Kulturareal haben wir nun endlich Grund zur Freude: Die freie Kulturszene bekommt ein neues Zuhause in Karlsruhe-Bulach! Auf knapp 3.000 m² Fläche schaffen wir einen Ort für kreative Ideen und Menschen: mit großen Veranstaltungsräumen, zwei Open-Air-Flächen sowie 15 Proberäumen, 12 Ateliers und mehr Platz für kulturelle und künstlerische Initiativen der Stadt.\n\nWarum wir Deine Unterstützung brauchen?\nWir wollen zeigen, dass Kunst und Musik bunt und vielfältig sind, Menschen verbinden und Kreativität den Alltag bereichert. In den kommenden Wochen müssen wir hierfür die bestehenden Räume ausbauen und Neue schaffen. Für das neue Zentrum werden dadurch gut ausgestattete und bezahlbare Räume für über 150 Kreative geschaffen. Zusammen bauen wir an der Grundlage eines offenen kulturellen Zugangs für alle und der gemeinsamen Gestaltung der lokalen Kulturszene. Die Gelegenheit ist günstig und leider selten: Raum für Kultur blieb aufgrund ökonomischer Interessen leider oftmals auf der Strecke. Sei dabei, ein langfristiges und kreatives Kunst- und Kulturzentrum mit aufzubauen! \n\nWas passiert mit dem Geld bei erfolgreicher Unterstützung?\nWir nutzen alle Spenden, um die Rahmenbedingungen für ein neues, unkommerzielles und diverses kulturelles Zentrum zu schaffen, um Kreative und Kulturschaffende zu unterstützen. Um Zugang und Teilhabe für alle zu fördern, zur Gestaltung einer diskriminierungskritischen Kulturszene in und für Karlsruhe. Schaffen wir gemeinsam einen lebendigen Ort der Kultur!\n \np-acht.org\nhttps://www.facebook.com/p8karlsruhe\nhttps://www.instagram.com/p8_karlsruhe/?hl=de",
-        "img": "/assets/imgs/projects/Mehr Raum für Kultur.jpeg",
+        "img": "/assets/imgs/projects/Mehr Raum für Kultur.jpg",
         "title": "Mehr Raum für Kultur",
         "id": "Vi5j75I76MbjNCE2uEuT",
         "organisation": "Ein Projekt von Panorama e.V. - P8 - Soziokulturelles Zentrum in Karlsruhe, Deutschland"
@@ -212,7 +213,7 @@
     "selectCountry": "Land auswählen",
     "selectCountryText": "Bitte wähle das Land aus, in dem du wohnst, damit alle Links richtig funktionieren und die Provision gespendet werden kann.",
     "selectCategoryText": "Für eine bessere Übersicht, haben wir die Partner-Programme in verschiedene Kategorien unterteilt.",
-    "selectCountryTextShort": "Bitte wähle dein Land aus, damit alle Partnerprogramme und Funktionen richtig funktionieren.",
+    "selectCountryTextShort": "Bitte wähle dein Land aus, damit alle Links richtig funktionieren. Für eine bessere Übersicht, haben wir die Partner-Programme in verschiedene Kategorien unterteilt.",
 
     "germany": "Deutschland",
     "austria": "Österreich",

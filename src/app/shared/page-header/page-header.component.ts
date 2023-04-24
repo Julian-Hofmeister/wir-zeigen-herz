@@ -38,9 +38,13 @@ export class PageHeaderComponent implements OnInit {
   ngOnInit()
   {
     console.log(this.with)
-
+    console.log(this.translateService.currentLang)
   }
 
+  ionViewWillEnter() {
+    console.log(this.with)
+    console.log(this.translateService.currentLang)
+  }
   //#endregion
 
   //#region [ EMITTER ] ///////////////////////////////////////////////////////////////////////////

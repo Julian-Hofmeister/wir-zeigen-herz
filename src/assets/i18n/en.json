@@ -145,6 +145,7 @@
     "title": "Projects",
     "tabName": "Projects",
     "pageName": "Aid projects",
+    "with": "with",
     "projectCardBtnText": "Read more",
 
     "voteTitle": "Your vote counts!",
@@ -182,7 +183,7 @@
       },
       {
         "description": "What is our project about?\nMore space for culture - also and especially now: We need your support! Create with us a new center for a free, lively and diverse scene in and for Karlsruhe. Support our cultural work with your donation.\n\nWho is behind the project?\nFor more than ten years, Panorama e.V. has been committed to an open and creative cultural scene in and for Karlsruhe. With projects such as \"Halle 14\" and \"P8\", the non-profit association has already supported independent and non-commercial projects and events in the past. Many artists had their first performances there, many people organized their first concerts and exhibitions there. We want to continue this engagement and create a new place, with more space and new possibilities.\n\nWhat are our goals?\nCurrently, a large number of cultural areas in Karlsruhe are threatened by demolition and buyout. We want to make a long-term and affordable replacement possible for at least some of those affected. We want to continue to work with many people for a lively and diverse cultural scene. After a long search for a new cultural area, we finally have reason to rejoice: The independent cultural scene is getting a new home in Karlsruhe-Bulach! On almost 3,000 m² of space, we are creating a place for creative ideas and people: with large event spaces, two open-air areas as well as 15 rehearsal rooms, 12 studios and more space for cultural and artistic initiatives in the city.\n\nWhy do we need your support?\nWe want to show that art and music are colorful and diverse, connect people and creativity enriches everyday life. In the coming weeks, we need to expand the existing spaces and create new ones for this purpose. For the new center, this will create well-equipped and affordable spaces for over 150 creative people. Together we are building on the foundation of open cultural access for all and the joint shaping of the local cultural scene. The opportunity is favorable and unfortunately rare: Space for culture has unfortunately often fallen by the wayside due to economic interests. Be part of building a long-term and creative arts and culture center! \n\nWhat happens with the money in case of successful support?\nWe use all donations to create the framework for a new, uncommercial and diverse cultural center to support creatives and cultural workers. To promote access and participation for all, to shape a cultural scene in and for Karlsruhe that is critical of discrimination. Let's create a lively place of culture together!\n \np-eight.org\nhttps://www.facebook.com/p8karlsruhe\nhttps://www.instagram.com/p8_karlsruhe/?hl=de",
-        "img": "/assets/imgs/projects/Mehr Raum für Kultur.jpeg",
+        "img": "/assets/imgs/projects/Mehr Raum für Kultur.jpg",
         "title": "More space for culture",
         "id": "Vi5j75I76MbjNCE2uEuT",
         "organisation": "A project by Panorama e.V. - P8 - Sociocultural Center in Karlsruhe, Germany"
@@ -206,7 +207,7 @@
     "selectCountry": "Select Country",
     "selectCountryText": "Please select the country you live in so that all links work properly and the commission can be donated.",
     "selectCategoryText": "For a better overview, we have divided the affiliate programs into different categories.",
-    "selectCountryTextShort": "Please select your country so that all partner programs and features work properly.",
+    "selectCountryTextShort": "Please select your country for all links to work properly. For a better overview, we have divided the partner programs into different categories.",
     "germany": "Germany",
     "austria": "Austria",
     "switzerland": "Switzerland",

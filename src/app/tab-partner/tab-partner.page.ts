@@ -49,7 +49,8 @@ export class TabPartnerPage implements OnInit {
 
   isCategoryPopoverOpen = false;
 
-  notShowAgain = localStorage.getItem('notShowAgain');
+  // notShowAgain = localStorage.getItem('notShowAgain');
+  notShowAgain = false;
 
   timeout: any = null;
 
@@ -176,7 +177,7 @@ export class TabPartnerPage implements OnInit {
 
   showNotAgain() {
     localStorage.setItem('notShowAgain', 'true');
-    this.notShowAgain = 'true';
+    this.notShowAgain = true;
   }
 
   //#endregion
