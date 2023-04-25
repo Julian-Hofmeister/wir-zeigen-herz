@@ -37,7 +37,17 @@ ion-item {
 
 .region-col {
   text-align: start;
+  justify-content: start;
+  align-items: start;
+  margin: 0;
+  ion-select {
+    //margin-left:  -1rem;
+    //padding-left: -1rem;
+  }
 
+  ion-item {
+    margin: 0;
+  }
   p {
     margin-bottom: .5rem;
 
@@ -64,6 +74,7 @@ ion-searchbar.md {
 .space-between {
   justify-content: space-between;
   align-items: center;
+  text-align: start;
   span {
     padding: 0;
     margin: 0 0 .3rem;
@@ -88,7 +99,7 @@ ion-select {
   --placeholder-color: var(--ion-color-primary);
   --placeholder-opacity: 1;
   width: 100%;
-  justify-content: center;
+  //justify-content: center;
 }
 
 ion-select::part(placeholder),
@@ -170,4 +181,14 @@ ion-fab-button{
 ion-list {
   margin: 0;
   padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
+.move-left {
+  padding: -1rem;
+  margin-left: -1rem;
 }

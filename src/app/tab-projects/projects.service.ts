@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {Project} from './project.interface';
-import {Observable} from 'rxjs';
+import {Observable, Subject} from 'rxjs';
 import {FirebaseService} from '../shared/firebase.service';
 import {User} from '../shared/user.interface';
 import {map, shareReplay} from 'rxjs/operators';
@@ -16,6 +16,7 @@ export class ProjectsService {
   selectedProject: Project ;
 
   projectList: Observable<Project[]>;
+
 
 
   //#endregion
@@ -65,6 +66,7 @@ export class ProjectsService {
   }
 
   // ----------------------------------------------------------------------------------------------
+
 
   //#endregion
 

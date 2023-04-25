@@ -114,12 +114,16 @@ export class TabProjectsPage implements OnInit {
 
         if(loadedLikedProjects) {
           this.likedProjectsCount = loadedLikedProjects.length;
+        } else {
+          // console.log("Not found")
+          this.likedProjectsCount = 0;
         }
       }
     );
   }
 
   // ----------------------------------------------------------------------------------------------
+
 
   //#endregion
 }

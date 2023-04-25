@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import {Preferences} from "@capacitor/preferences";
 import {Project} from "./project.interface";
 import {FirebaseService} from "../shared/firebase.service";
+import {ProjectsService} from "./projects.service";
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +15,7 @@ export class ProjectService {
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(private fsService: FirebaseService)
+  constructor(private fsService: FirebaseService, private projectsService: ProjectsService)
   {
   }
 
@@ -28,6 +29,8 @@ export class ProjectService {
     this.fsService.likeProject(!project.isLiked, project).then()
 
     this.updateLikeCount(project);
+
+
   }
   // ----------------------------------------------------------------------------------------------
 
