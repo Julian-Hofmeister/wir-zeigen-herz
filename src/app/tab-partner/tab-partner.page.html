@@ -49,19 +49,19 @@
       <ion-col size="12" size-md="10" offset-md="1" size-lg="8" offset-lg="2">
         <div *ngIf="!country && (!searchTerm && !filter)">
           <ion-list *ngFor="let partner of loadedPartner">
-            <app-partner-card *ngIf="(country === 'germany' && partner.linkDE) || (country === 'austria' && partner.linkAT) || (country === 'switzerland' && partner.linkCH)" (click)="openCountryModal()" [partner]="partner" [country]="country"></app-partner-card>
+            <app-partner-card *ngIf="(country === 'germany' && partner.linkDE) || (country === 'austria' && partner.linkAT) || (country === 'switzerland' && partner.linkCH) || (country === 'worldwide' && partner.linkWW)" (click)="openCountryModal()" [partner]="partner" [country]="country"></app-partner-card>
           </ion-list>
         </div>
 
         <div *ngIf="!searchTerm && !filter">
           <ion-list *ngFor="let partner of partner" >
-            <app-partner-card  *ngIf="(country === 'germany' && partner.linkDE) || (country === 'austria' && partner.linkAT) || (country === 'switzerland' && partner.linkCH)" [partner]="partner" [country]="country"></app-partner-card>
+            <app-partner-card  *ngIf="(country === 'germany' && partner.linkDE) || (country === 'austria' && partner.linkAT) || (country === 'switzerland' && partner.linkCH) || (country === 'worldwide' && partner.linkWW)" [partner]="partner" [country]="country"></app-partner-card>
           </ion-list>
         </div>
 
         <div  *ngIf="(searchTerm || filter) && country">
           <ion-list *ngFor="let partner of filteredPartner">
-            <app-partner-card  *ngIf="(country === 'germany' && partner.linkDE) || (country === 'austria' && partner.linkAT) || (country === 'switzerland' && partner.linkCH)" [partner]="partner" [country]="country"></app-partner-card>
+            <app-partner-card  *ngIf="(country === 'germany' && partner.linkDE) || (country === 'austria' && partner.linkAT) || (country === 'switzerland' && partner.linkCH) || (country === 'worldwide' && partner.linkWW)" [partner]="partner" [country]="country"></app-partner-card>
           </ion-list>
         </div>
 

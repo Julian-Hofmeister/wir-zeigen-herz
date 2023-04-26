@@ -76,7 +76,7 @@ export class SliderPage implements OnInit {
 
     await Share.share({
       title: 'Wir Zeigen Herz',
-      text: lang.explainPage.videoLink + "/n" + lang.explainPage.copyMessage,
+      text: lang.explainPage.copyMessage,
       url: lang.explainPage.videoLink,
       dialogTitle: lang.explainPage.shareMsg,
     });
