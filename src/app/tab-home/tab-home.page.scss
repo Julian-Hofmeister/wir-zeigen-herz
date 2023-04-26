@@ -16,6 +16,7 @@ h4 {
 
 .header-col {
   .upper-container {
+    z-index: 999;
     width: 100%;
     padding: 0 1.5rem 1rem;
     border-bottom-right-radius: 50px;
@@ -51,20 +52,22 @@ h4 {
 
   .lower-container {
     width: 100%;
-    height: 4rem;
+    height: 63px;
     background-color: var(--ion-color-primary);
     position: relative;
   }
 
   .lower-container::after {
     content: "";
+    z-index: 1;
     position: absolute;
     width: 100%;
     height: 4rem;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     background-color: white;
     border-top-left-radius: 50px;
+
   }
 }
 
@@ -124,7 +127,7 @@ h4 {
   .upper-container-reverse {
     position: relative;
     width: 100%;
-    height: 3rem;
+    height: 47px;
     background-color: var(--ion-color-light);
   }
 
@@ -134,7 +137,7 @@ h4 {
     width: 100%;
     height: 3rem;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     border-top-left-radius: 50px;
     background-color: var(--ion-color-primary);
   }

@@ -147,6 +147,7 @@
     "pageName": "Aid projects",
     "with": "with",
     "projectCardBtnText": "Read more",
+    "btnPartner": "Partnerprogrammes",
 
     "voteTitle": "Your vote counts!",
     "voteDesc": "Use the Like button to vote on how the generated donations should be distributed to the partner programs.",
@@ -204,7 +205,7 @@
     "filter": "Categories",
     "cancel": "Cancel",
     "with": "with",
-    "selectCountry": "Select Country",
+    "selectCountry": "Country",
     "selectCountryText": "Please select the country you live in so that all links work properly and the commission can be donated.",
     "selectCategoryText": "For a better overview, we have divided the affiliate programs into different categories.",
     "selectCountryTextShort": "Please select your country for all links to work properly. For a better overview, we have divided the partner programs into different categories.",

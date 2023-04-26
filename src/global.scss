@@ -177,3 +177,9 @@ h4 {
 .card-shadow {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 12px;
 }
+
+body {
+  margin-top: constant(safe-area-inset-top);
+  margin-top: env(safe-area-inset-top);
+  margin-bottom: calc(4px + env(safe-area-inset-top));
+}
