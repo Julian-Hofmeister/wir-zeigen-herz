@@ -30,6 +30,10 @@
   }
 }
 
+ion-grid>ion-row.ios {
+    margin-top: 2rem;
+}
+
 .col {
   flex-direction: column;
 
