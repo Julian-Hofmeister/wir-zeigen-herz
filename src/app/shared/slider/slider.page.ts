@@ -62,22 +62,25 @@ export class SliderPage implements OnInit {
 
     const lang = this.language === "de" ? de : en;
 
-    // await Share.share({
-    //   title: 'Wir Zeigen Herz',
-    //   text: lang.explainPage.copyMessage,
-    //   url: lang.explainPage.videoLink,
-    //   dialogTitle: lang.explainPage.shareMsg,
-    // });
+    //
+    // if (navigator.share) {
+    //   navigator.share({
+    //     title: 'Wir Zeigen Herz',
+    //     text: lang.explainPage.copyMessage,
+    //     url: lang.explainPage.videoLink,
+    //   })
+    //     .then(() => console.log('Successful share'))
+    //     .catch((error) => console.log('Error sharing', error));
+    // }
 
-    if (navigator.share) {
-      navigator.share({
-        title: 'Wir Zeigen Herz',
-        text: lang.explainPage.copyMessage,
-        url: lang.explainPage.videoLink,
-      })
-        .then(() => console.log('Successful share'))
-        .catch((error) => console.log('Error sharing', error));
-    }
+
+    await Share.share({
+      title: 'Wir Zeigen Herz',
+      text: lang.explainPage.videoLink + "/n" + lang.explainPage.copyMessage,
+      url: lang.explainPage.videoLink,
+      dialogTitle: lang.explainPage.shareMsg,
+    });
+
   }
 
   // ----------------------------------------------------------------------------------------------

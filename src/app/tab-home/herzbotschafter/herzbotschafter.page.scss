@@ -9,6 +9,10 @@ ion-fab-button{
   }
 }
 
+ion-fab-button.ios {
+  margin-top: 2rem;
+}
+
 
 .img-container {
   background: url("/assets/imgs/football.jpg");
