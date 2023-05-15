@@ -32,11 +32,13 @@ export class TabProjectsPage implements OnInit {
   //#region [ PROPERTIES ] /////////////////////////////////////////////////////////////////////////
 
   projects: Project[];
+  loadedProjects: Project[];
 
   language: string = this.translateService.currentLang;
 
   likedProjectsCount: number;
 
+  likeCount = 0;
 
   //#endregion
 
@@ -60,12 +62,12 @@ export class TabProjectsPage implements OnInit {
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
   ngOnInit(): void {
-  }
-
-  // ----------------------------------------------------------------------------------------------
-
-  ionViewWillEnter() {
-    this.getLikeCount();
+  //  this.projectsService.getProjects().then(data => {
+  // data.subscribe(x => {
+  //   this.projects = x;
+  //   console.log(x)
+  // })
+  //  });
 
     this.language = this.translateService.currentLang;
 
@@ -74,6 +76,42 @@ export class TabProjectsPage implements OnInit {
     } else {
       this.projects = de.projectPage.projects;
     }
+
+    this.projectsService.getProjects().then((data) => {
+      data.subscribe((projects) => {
+        this.loadedProjects = projects;
+        this.likeCount = 0;
+
+
+        for (let project of this.loadedProjects) {
+          if(project.likes) {
+            this.likeCount = this.likeCount + project.likes.length;
+            console.log(this.likeCount)
+          }
+
+          function compare( a, b ) {
+            if ( a.likes.length < b.likes.length ){
+              return 1;
+            }
+            if ( a.likes.length > b.likes.length ){
+              return -1;
+            }
+            return 0;
+          }
+
+          this.loadedProjects.sort( compare );
+        }
+
+      })
+    })
+  }
+
+  // ----------------------------------------------------------------------------------------------
+
+  ionViewWillEnter() {
+    this.getLikeCount();
+
+
   }
 
   //#endregion

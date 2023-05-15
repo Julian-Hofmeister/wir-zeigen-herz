@@ -4,6 +4,8 @@ import {AuthenticationService} from './shared/authentication.service';
 import { TranslateService } from '@ngx-translate/core';
 import {AndroidFullScreen} from "@awesome-cordova-plugins/android-full-screen";
 import {PartnerService} from "./shared/partner.service";
+import {Router} from "@angular/router";
+import {Preferences} from "@capacitor/preferences";
 // import { AndroidFullScreen } from '@awesome-cordova-plugins/android-full-screen/ngx';
 
 
@@ -27,7 +29,7 @@ export class AppComponent implements OnInit{
 
   //#region [ CONSTRUCTORS ] //////////////////////////////////////////////////////////////////////
 
-  constructor(public authService: AuthenticationService, private translate: TranslateService, private partnerService: PartnerService)
+  constructor(public authService: AuthenticationService, private translate: TranslateService, private partnerService: PartnerService, private router: Router)
   {
     this.initializeApp();
   }
@@ -36,17 +38,24 @@ export class AppComponent implements OnInit{
 
   //#region [ LIFECYCLE ] /////////////////////////////////////////////////////////////////////////
 
-  ngOnInit()
+ async ngOnInit()
   {
-
-
    this.authService.autoAuthentication().then();
 
     this.partnerService.loadPartner().then();
 
-    // AndroidFullScreen.isImmersiveModeSupported()
-    //   .then(() => AndroidFullScreen.immersiveMode())
-    //   .catch(console.warn);
+    Preferences.get({ key: 'firstTimeLoad' }).then(async (data) => {
+      if (data.value !== 'true') {
+        await Preferences.set({
+          key: 'firstTimeLoad',
+          value: 'true',
+        }).then(() => {
+          this.router.navigateByUrl('/welcome')
+
+        });
+
+      }
+    });
   }
 
   //#endregion

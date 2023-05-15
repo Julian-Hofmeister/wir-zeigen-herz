@@ -9,7 +9,11 @@
   </ion-fab>
   <ion-slides pager="true" [options]="slideOpts" #slides >
     <ion-slide class="slide1" (click)="nextPage(slides)">
+      <ion-col>
         <h1>{{"explainPage.mainHeadline" | translate}}</h1>
+        <img (click)="watchVideo()" class="video" src="assets/imgs/video.png" alt="">
+          <p class="video-info">{{"explainPage.video-info" | translate}}</p>
+      </ion-col>
       <div class="swipe">
         <span class="material-icons-outlined">touch_app</span>
         <p>{{"explainPage.swipe" | translate}}</p>

@@ -60,12 +60,15 @@ ion-searchbar {
   margin-top: 1.5rem;
   --border-radius: 50rem;
   --icon-color: var(--ion-color-primary);
+  --background: var(--ion-color-light-shade);
 }
 
 ion-searchbar.md {
   text-align: left;
   --border-radius: 50rem;
   --box-shadow: none;
+  --background: var(--ion-color-light);
+
   --icon-color: var(--ion-color-primary);
   border: 2px var(--ion-color-primary) solid;
   border-radius: 50rem;
@@ -156,6 +159,7 @@ ion-fab-button{
 .country-info-card {
   position: relative;
   background-color: #f1f1f1;
+  background-color: var(--ion-color-light-shade);
   text-align: start;
   border-radius: 15px;
   padding-left: .5rem;

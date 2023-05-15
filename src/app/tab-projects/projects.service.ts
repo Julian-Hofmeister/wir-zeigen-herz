@@ -31,10 +31,6 @@ export class ProjectsService {
   //#region [ PUBLIC ] ////////////////////////////////////////////////////////////////////////////
 
   async getProjects() {
-    const user: User = await this.fsService.getUser();
-
-    console.log(user);
-
     const collection = this.afs.collection('projects');
 
     this.projectList = collection.snapshotChanges().pipe(
@@ -43,7 +39,6 @@ export class ProjectsService {
           const data = item.payload.doc.data() as Project;
           data.id = item.payload.doc.id;
 
-          data.isLiked = user.likedProjects.includes(data.id);
 
           return data;
         })

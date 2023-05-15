@@ -96,6 +96,14 @@ export class SliderPage implements OnInit {
 
   // ----------------------------------------------------------------------------------------------
 
+  watchVideo() {
+    const lang = this.language === "de" ? de : en;
+
+    const url = 'https://www.' + lang.explainPage.videoLink
+
+    window.open(url, "_blank");
+  }
+
   //#endregion
 
   //#region [ PRIVATE ] ///////////////////////////////////////////////////////////////////////////

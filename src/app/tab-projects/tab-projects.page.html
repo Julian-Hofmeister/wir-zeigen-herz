@@ -8,13 +8,24 @@
             <h3>{{'projectPage.voteTitle' | translate}}</h3>
             <p>{{'projectPage.voteDesc' | translate}}</p>
           </div>
-          <ion-list *ngFor="let project of projects">
+<!--          <ion-list *ngFor="let project of projects">
+            <ion-item lines="none">
+&lt;!&ndash;              <ion-checkbox slot="start" mode="ios" [ngModel]="project.isLiked" (ngModelChange)="selectProject(project)"></ion-checkbox>&ndash;&gt;
+              <ion-col>
+                <ion-label class="ion-text-wrap ">{{project.title}}</ion-label>
+                <div class="progress-wrapper">
+                  <ion-progress-bar [value]="project.isLiked ? 1/likedProjectsCount : 0"></ion-progress-bar>
+                </div>
+              </ion-col>
+            </ion-item>
+          </ion-list>-->
+          <ion-list *ngFor="let project of loadedProjects">
             <ion-item lines="none">
 <!--              <ion-checkbox slot="start" mode="ios" [ngModel]="project.isLiked" (ngModelChange)="selectProject(project)"></ion-checkbox>-->
               <ion-col>
                 <ion-label class="ion-text-wrap ">{{project.title}}</ion-label>
                 <div class="progress-wrapper">
-                  <ion-progress-bar [value]="project.isLiked ? 1/likedProjectsCount : 0"></ion-progress-bar>
+                  <ion-progress-bar [value]="project.likes ? project.likes.length/likeCount : 0"></ion-progress-bar>
                 </div>
               </ion-col>
             </ion-item>

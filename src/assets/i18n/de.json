@@ -93,11 +93,13 @@
   },
   "explainPage": {
     "mainHeadline": "Wie du jetzt mit nur 2 einfachen Schritten sehr viel Gutes tun kannst.",
+    "video-info": "Auf Vimeo ansehen",
     "swipe": "Tippen oder wischen",
     "firstStep": "1. Leite einmalig unser Video „Gutes tun durch schmerzfreies Geben“ an alle weiter. Nutze dafür alle deine Social-Media-Kanäle, sowie die Broadcast Liste von WhatsApp, um innerhalb kürzester Zeit jeden zu erreichen. Nachfolgend findest du für Android und iPhone jeweils eine kurze Anleitung.",
     "copyMessage": "Hey. Schau dir bitte unbedingt das Video an. Du wirst begeistert sein versprochen. Es geht darum, Gutes zu tun und das ohne Geld zu spenden oder Zeit zu investieren. Also ich bin definitiv dabei. \n\n video.wirzeigenherz.eu",
     "copyCall": "Zum kopieren klicken",
     "videoLink": "video.wirzeigenherz.eu",
+
     "shareBtn": "Jetzt Video teilen",
     "shareMsg": "Mit Freunden teilen",
     "secondStep": "2. Gehe danach zum Menüpunkt Partnerprogramme. Dort kannst du alle aktuellen und interessanten Partnerprogramme einsehen.",
@@ -144,6 +146,13 @@
         "mail": "info@ju-productions.de",
         "name": "Julian Hofmeister",
         "subtitle": "Software Entwickler"
+      },
+      {
+        "description": "Wir sind Anbieter von hocheffektiven und zugleich kosteneffizienten, benutzerfreundlichen Lösungen für Email-Sicherheit und Email-Management. Seitdem hat Byteplant sein Angebot auch auf die Bereiche Datenqualität und Datenanreicherung ausgeweitet. Wir helfen Unternehmen dabei, die Datenqualität zu verbessern und die Effizienz von Marketing- und Lead-Generierungskampagnen zu maximieren. Heute werden die Softwarelösungen und Dienstleistungen von Byteplant bei Kunden aller Größenordnungen - von kleinen Unternehmen bis hin zu international tätigen börsennotierten Konzernen - weltweit eingesetzt.",
+        "img": "/assets/imgs/team/BytePlant.jpg",
+        "mail": "contact@byteplant.com",
+        "name": "Byteplant GmbH",
+        "subtitle": "Software Solutions & Consulting"
       }
     ]
   },

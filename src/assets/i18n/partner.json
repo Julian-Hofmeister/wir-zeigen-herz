@@ -340,16 +340,6 @@
     "linkWW": ""
   },
   {
-    "name": "Butlers",
-    "category": "WOHNEN, MÖBEL, KÜCHE, BAD UND HAUSHALT",
-    "categoryId": "033",
-    "logoImg": "butlers.png",
-    "linkDE": "https://www.awin1.com/cread.php?awinmid=13886&awinaffid=1219038&ued=https%3A%2F%2Fwww.butlers.com%2F",
-    "linkAT": "https://www.awin1.com/cread.php?awinmid=14621&awinaffid=1219038&ued=https%3A%2F%2Fwww.butlers.at%2F",
-    "linkCH": "https://www.awin1.com/cread.php?awinmid=18440&awinaffid=1219038&ued=https%3A%2F%2Fwww.butlers.ch%2F",
-    "linkWW": ""
-  },
-  {
     "name": "Buttinette",
     "category": "HOBBY, HAUS, KUNST UND HANDWERK",
     "categoryId": "016",
@@ -2238,5 +2228,115 @@
     "linkAT": "https://clk.tradedoubler.com/click?p=283622&a=3292679",
     "linkCH": "https://clk.tradedoubler.com/click?p=283622&a=3292679",
     "linkWW": "https://clk.tradedoubler.com/click?p=283622&a=3292679"
+  },
+  {
+    "name": "Profi1.de",
+    "category": "MARKETING, WERBUNG UND SOFTWARE",
+    "categoryId": "030",
+    "logoImg": "profi1.de.png",
+    "linkDE": "https://t.adcell.com/click.php?bid=126716-104045&param0=http%3A%2F%2Fprofi1.de%2F",
+    "linkAT": "https://t.adcell.com/click.php?bid=126716-104045&param0=http%3A%2F%2Fprofi1.de%2F",
+    "linkCH": "https://t.adcell.com/click.php?bid=126716-104045&param0=http%3A%2F%2Fprofi1.de%2F",
+    "linkWW": ""
+  },
+  {
+    "name": "SKL Klassenlotterie",
+    "category": "LOTTO UND WETTEN",
+    "categoryId": "031",
+    "logoImg": "skl klassenlotterie.png",
+    "linkDE": "https://www.awin1.com/cread.php?awinmid=15085&awinaffid=1219038&ued=https%3A%2F%2Fwww.gloeckle.de%2F",
+    "linkAT": "https://www.awin1.com/cread.php?awinmid=15085&awinaffid=1219038&ued=https%3A%2F%2Fwww.gloeckle.de%2F",
+    "linkCH": "https://www.awin1.com/cread.php?awinmid=15085&awinaffid=1219038&ued=https%3A%2F%2Fwww.gloeckle.de%2F",
+    "linkWW": "https://www.awin1.com/cread.php?awinmid=15085&awinaffid=1219038&ued=https%3A%2F%2Fwww.gloeckle.de%2F"
+  },
+  {
+    "name": "BMA Akademie",
+    "category": "AUSBILDUNG, WEITERBILDUNG UND E-LEARNING",
+    "categoryId": "001",
+    "logoImg": "bma akademie.png",
+    "linkDE": "https://t.adcell.com/click.php?bid=335390-104045&param0=https%3A%2F%2Fwww.business-management-akademie.de%2F",
+    "linkAT": "https://t.adcell.com/click.php?bid=335390-104045&param0=https%3A%2F%2Fwww.business-management-akademie.de%2F",
+    "linkCH": "https://t.adcell.com/click.php?bid=335390-104045&param0=https%3A%2F%2Fwww.business-management-akademie.de%2F",
+    "linkWW": ""
+  },
+  {
+    "name": "ZOOLOGO",
+    "category": "HAUSTIERE UND TIERBEDARF",
+    "categoryId": "015",
+    "logoImg": "zoologo.png",
+    "linkDE": "https://www.awin1.com/cread.php?awinmid=11411&awinaffid=1219038&ued=https%3A%2F%2Fwww.zoologo.de%2F",
+    "linkAT": "https://www.awin1.com/cread.php?awinmid=11411&awinaffid=1219038&ued=https%3A%2F%2Fwww.zoologo.de%2F",
+    "linkCH": "",
+    "linkWW": ""
+  },
+  {
+    "name": "Software-Shop",
+    "category": "MARKETING, WERBUNG UND SOFTWARE",
+    "categoryId": "019",
+    "logoImg": "software-shop.png",
+    "linkDE": "https://t.adcell.com/click.php?bid=117583-104045&param0=https%3A%2F%2Fsoftware-shop.com.de%2F",
+    "linkAT": "https://t.adcell.com/click.php?bid=117583-104045&param0=https%3A%2F%2Fsoftware-shop.com.de%2F",
+    "linkCH": "https://t.adcell.com/click.php?bid=117583-104045&param0=https%3A%2F%2Fsoftware-shop.com.de%2F",
+    "linkWW": ""
+  },
+  {
+    "name": "webgo",
+    "category": "MARKETING, WERBUNG UND SOFTWARE",
+    "categoryId": "019",
+    "logoImg": "webgo.png",
+    "linkDE": "https://t.adcell.com/click.php?bid=108183-104045",
+    "linkAT": "https://t.adcell.com/click.php?bid=108183-104045",
+    "linkCH": "https://t.adcell.com/click.php?bid=108183-104045",
+    "linkWW": ""
+  },
+  {
+    "name": "karlsCORE",
+    "category": "MARKETING, WERBUNG UND SOFTWARE",
+    "categoryId": "019",
+    "logoImg": "karlscore.png",
+    "linkDE": "https://t.adcell.com/click.php?bid=276651-104045&param0=https%3A%2F%2Fwww.online-marketing.net%2Fkarlscore-public%2F",
+    "linkAT": "https://t.adcell.com/click.php?bid=276651-104045&param0=https%3A%2F%2Fwww.online-marketing.net%2Fkarlscore-public%2F",
+    "linkCH": "https://t.adcell.com/click.php?bid=276651-104045&param0=https%3A%2F%2Fwww.online-marketing.net%2Fkarlscore-public%2F",
+    "linkWW": ""
+  },
+  {
+    "name": "flatbooster",
+    "category": "MARKETING, WERBUNG UND SOFTWARE",
+    "categoryId": "019",
+    "logoImg": "flatbooster.png",
+    "linkDE": "https://t.adcell.com/click.php?bid=142390-104045&param0=https%3A%2F%2Fflatbooster.com%2F",
+    "linkAT": "https://t.adcell.com/click.php?bid=142390-104045&param0=https%3A%2F%2Fflatbooster.com%2F",
+    "linkCH": "https://t.adcell.com/click.php?bid=142390-104045&param0=https%3A%2F%2Fflatbooster.com%2F",
+    "linkWW": ""
+  },
+  {
+    "name": "Medientechnik24",
+    "category": "SMART HOME",
+    "categoryId": "025",
+    "logoImg": "medientechnik24.png",
+    "linkDE": "https://t.adcell.com/click.php?bid=226836-104045&param0=https%3A%2F%2Fwww.medientechnik24.eu%2F",
+    "linkAT": "https://t.adcell.com/click.php?bid=226836-104045&param0=https%3A%2F%2Fwww.medientechnik24.eu%2F",
+    "linkCH": "https://t.adcell.com/click.php?bid=226836-104045&param0=https%3A%2F%2Fwww.medientechnik24.eu%2F",
+    "linkWW": "https://t.adcell.com/click.php?bid=226836-104045&param0=https%3A%2F%2Fwww.medientechnik24.eu%2F"
+  },
+  {
+    "name": "VILLATMO",
+    "category": "WOHNEN, MÖBEL, KÜCHE, BAD UND HAUSHALT",
+    "categoryId": "033",
+    "logoImg": "villatmo.png",
+    "linkDE": "https://t.adcell.com/click.php?bid=148162-104045&param0=https%3A%2F%2Fwww.villatmo.de%2F",
+    "linkAT": "https://t.adcell.com/click.php?bid=148162-104045&param0=https%3A%2F%2Fwww.villatmo.de%2F",
+    "linkCH": "https://t.adcell.com/click.php?bid=148162-104045&param0=https%3A%2F%2Fwww.villatmo.de%2F",
+    "linkWW": ""
+  },
+  {
+    "name": "Masson",
+    "category": "WOHNEN, MÖBEL, KÜCHE, BAD UND HAUSHALT",
+    "categoryId": "033",
+    "logoImg": "masson.png",
+    "linkDE": "https://t.adcell.com/click.php?bid=223901-104045&param0=https%3A%2F%2Fwww.masson-moebel.de%2F",
+    "linkAT": "https://t.adcell.com/click.php?bid=223901-104045&param0=https%3A%2F%2Fwww.masson-moebel.de%2F",
+    "linkCH": "https://t.adcell.com/click.php?bid=223901-104045&param0=https%3A%2F%2Fwww.masson-moebel.de%2F",
+    "linkWW": "https://t.adcell.com/click.php?bid=223901-104045&param0=https%3A%2F%2Fwww.masson-moebel.de%2F"
   }
 ]

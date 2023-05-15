@@ -87,6 +87,8 @@
   },
   "explainPage": {
     "mainHeadline": "How you can do a lot of good now with just 2 simple steps!",
+    "video-info": "Watch on Vimeo",
+
     "swipe": "Tap or swipe",
     "firstStep": "1. Forward our video \"Doing good through painless giving\" to everyone once. Use all your social media channels, as well as the WhatsApp broadcast list, to reach everyone in the shortest possible time. Below you will find brief instructions for both Android and iPhone.",
     "copyMessage": "Hey, please make sure you watch the video. You'll be inspired, I promise. It's all about doing good without donating money or time. So I'm definitely in. \n\n video.wirzeigenherz.eu",
@@ -138,6 +140,13 @@
         "mail": "info@ju-productions.de",
         "name": "Julian Hofmeister",
         "subtitle": "Software Developer"
+      },
+      {
+        "description": "\nByteplant was founded in 2003. We are a provider of highly effective yet cost-effective, easy-to-use email security and email management solutions. Since then, Byteplant has expanded its offerings to include data quality and data enrichment. With Email Validator, Phone Validator and Address Validator, we help companies improve data quality and maximize the efficiency of marketing and lead generation campaigns. lead generation campaigns. Today, Byteplant's software solutions and services are used by customers of all sizes - from small businesses to international publicly traded corporations - in more than 240 countries worldwide.",
+        "img": "/assets/imgs/team/BytePlant.jpg",
+        "mail": "contact@byteplant.com",
+        "name": "Byteplant GmbH",
+        "subtitle": "Software Solutions & Consulting"
       }
     ]
   },

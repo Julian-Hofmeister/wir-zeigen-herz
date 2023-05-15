@@ -63,6 +63,8 @@ export class TabHomePage implements OnInit {
     this.questionsEN = en.homePage.QA;
 
     this.getCountry().then();
+
+
   }
 
 

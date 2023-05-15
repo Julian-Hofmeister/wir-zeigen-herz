@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'slider',
     loadChildren: () => import('./shared/slider/slider.module').then( m => m.SliderPageModule)
   },
+  {
+    path: 'welcome',
+    loadChildren: () => import('./welcome/welcome.module').then( m => m.WelcomePageModule)
+  },
 
 ];
 @NgModule({
