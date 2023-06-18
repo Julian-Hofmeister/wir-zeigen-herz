@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Wir zeigen Herz</string>
-    <string name="title_activity_main">Wir zeigen Herz</string>
-    <string name="package_name">com.wirzeigenherz</string>
-    <string name="custom_url_scheme">com.wirzeigenherz</string>
+    <string name="app_name">Wir Zeigen Herz</string>
+    <string name="title_activity_main">Wir Zeigen Herz</string>
+    <string name="package_name">com.wirzeigenherz.app</string>
+    <string name="custom_url_scheme">com.wirzeigenherz.app</string>
 </resources>

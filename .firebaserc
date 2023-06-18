@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "wir-zeigen-herz": {
+      "hosting": {
+        "app": [
+          "wirzeigenherz"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "wir-zeigen-herz"
+  }
+}

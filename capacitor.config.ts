@@ -1,10 +1,27 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.wirzeigenherz',
-  appName: 'Wir zeigen Herz',
+  appId: 'eu.wirzeigenherz.app',
+  appName: 'wir-zeigen-herz',
   webDir: 'www',
-  bundledWebRuntime: false
+  bundledWebRuntime: false,
+  plugins: {
+    SplashScreen: {
+      launchShowDuration: 3000,
+      launchAutoHide: true,
+      // backgroundColor: "#ffffffff",
+      androidSplashResourceName: "splash",
+      // androidScaleType: "CENTER_CROP",
+      showSpinner: false,
+      // androidSpinnerStyle: "large",
+      // iosSpinnerStyle: "small",
+      // spinnerColor: "#999999",
+      splashFullScreen: true,
+      splashImmersive: true,
+      // layoutName: "launch_screen",
+      // useDialog: true,
+    },
+  },
 };
 
 export default config;
