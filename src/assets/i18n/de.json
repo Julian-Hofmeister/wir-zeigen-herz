@@ -2,11 +2,12 @@
   "homePage": {
     "tabName": "Start",
 
-    "subtitle": "„Das Gebot der Nächstenliebe geht uns alle an“",
+    "subtitle": "Jetzt Geld durch deinen Online Einkauf spenden",
     "translationBtn": "EN \uD83C\uDDEC\uD83C\uDDE7",
 
     "explainBtn": "Wie es funktioniert",
-    "partnerBtn": "Partnerprogramme",
+    "projectsBtn": "Spendenprojekte",
+    "partnerBtn": "Online einkaufen",
 
     "lastVisited": "Zuletzt besucht",
 
@@ -71,16 +72,16 @@
         "content": "Aktuell nutzen wir Spendenprojekte, die auf der Spendenplattform Betterplace.org eingestellt werden. Betterplace.org ist eine 2007 gegründete Spendenplattform aus Berlin, die von der gemeinnützigen Aktiengesellschaft gut.org betrieben wird. Nach der Abstimmung werden die Einnahmen prozentual an die unterschiedlichen Spendenprojekte ausbezahlt. In Zukunft werden wir sicherlich auch eigene Spendenprojekte in Betracht ziehen.\n"
       },
       {
+        "title": "Wie hoch sind die Verwaltungskosten",
+        "content": "Ohne Verwaltungskosten ist eine Organisation nicht arbeitsfähig. Was aber sind Verwaltungskosten? Im Sinn einer satzungsgemäßen Mittelverwendung sind Verwaltungskosten alle Aufwendungen, die nicht unmittelbar den steuerbegünstigten Zwecken zugute kommen, sondern durch den allgemeinen Funktionserhalt der Organisation entstehen. Darunter fallen eventuelle Mieten, Personal, Büro- und Kommunikationskosten, Reisekosten oder Werbeausgaben. Zu hohe Verwaltungskosten sind nicht nur für das Image einer gemeinnützigen Organisation schädlich. Man erwartet, dass die Mittel zu einem möglichst großen Teil direkt in die geförderten Zwecke fließen. Auch steuerrechtlich gibt es Obergrenzen, bei deren Überschreitung ein Entzug der Gemeinnützigkeit droht. Für mildtätige Organisationen die sich überwiegend durch Spenden finanzieren, hat der Bundesfinanzhof für Verwaltungskosten eine Obergrenze von 50% definiert. Zur Klarstellung. Um das DZI-Spendensiegel zu erhalten, dürfen die Werbe- und Verwaltungsausgaben einer Organisation höchstens 30 Prozent ihrer jährlichen Gesamtausgaben betragen und an diese Richtlinien halten wir uns."
+      },
+      {
         "title": "Wie kann ich euer Logo nutzen",
         "content": "Wer uns weiterempfiehlt, kann unser Logo „Und wir sind mit dabei“ ungefragt nutzen. Kopieren Sie einfach den folgenden Link und setzen Sie diesen in Ihre Browserzeile zum Download ein.\n\nhttps://mega.nz/file/9cIAxAQC#g9KTLWdTZWHg9ee0glg3TE3icfNqgSITX6CATK0ea_o"
       },
       {
         "title": "Wer ist Betterplace.org",
         "content": "Betterplace.org ist Deutschlands größte Spendenplattform. 120 Unternehmenspartner tun seit 14 Jahren schon Gutes. Stand heute hat Betterplace.org 47.262 Projekte in 185 Länder gestartet und dabei ca. 198 Millionen € an Spenden gesammelt. Betterplace.org ist gemeinnützig und arbeitet nicht profitorientiert. Transparenz ist eine der Grundideen von Betterplace.org. Alle sozialen Projekte, die über Betterplace.org Spenden sammeln, werden aufgefordert, der Gemeinschaft zu sagen, wie diese Spenden verwendet werden."
-      },
-      {
-        "title": "Wie hoch sind die Verwaltungskosten bei euch",
-        "content": "Ohne Verwaltungskosten ist eine Organisation nicht arbeitsfähig. \nWas aber sind Verwaltungskosten? Im Sinn einer satzungsgemäßen Mittelverwendung sind Verwaltungskosten alle Aufwendungen, die nicht unmittelbar den steuerbegünstigten Zwecken zugute kommen, sondern durch den allgemeinen Funktionserhalt der Organisation entstehen. Darunter fallen eventuelle Mieten, Personal, Büro- und Kommunikationskosten, Reisekosten oder Werbeausgaben.\nZu hohe Verwaltungskosten sind nicht nur für das Image einer gemeinnützigen Organisation schädlich. Man erwartet, dass die Mittel zu einem möglichst großen Teil direkt in die geförderten Zwecke fließen. Auch steuerrechtlich gibt es Obergrenzen, bei deren Überschreitung ein Entzug der Gemeinnützigkeit droht. Für mildtätige Organisationen die sich überwiegend durch Spenden finanzieren, hat der Bundesfinanzhof für Verwaltungskosten eine Obergrenze von 50% definiert. Zur Klarstellung. Um das DZI-Spendensiegel zu erhalten, dürfen die Werbe- und Verwaltungsausgaben einer Organisation höchstens 30 Prozent ihrer jährlichen Gesamtausgaben betragen und an diese Richtlinien halten wir uns."
       }
     ]
   },
@@ -128,11 +129,18 @@
     "teamCardBtnText": "E-mail",
     "members": [
       {
-        "description": "Rechtsanwalt/Fachanwalt für Steuerrecht Prof. Dr. Florian Haase ist als Partner im Bereich Steuerrecht am Standort Hamburg tätig. Die Tätigkeitsschwerpunkte von Prof. Dr. Florian Haase liegen in der Steuerstrukturberatung bei internationalen M&A-Transaktionen, Umstrukturierungen, Konzernreorganisationen, Unternehmenssanierungen, Private Equity- und Immobilientransaktionen sowie komplexen Finanzierungen, in der Konzernsteuerplanung und im internationalen und europäischen Steuerrecht.",
-        "img": "/assets/imgs/team/LogoRoedl.jpg",
-        "mail": "florian.haase@roedl.com",
-        "name": "Prof. Dr. Florian Haase",
-        "subtitle": "Rechts- & Fachanwalt für Steuerrecht"
+        "description": "Klassische Medienarbeit mit dem Ziel, Ihre Präsenz in regionalen und überregionalen Medien sowie bei relevanten Fachmedien im Pint- und Online-Bereich zu erhöhen, bei Bedarf Radio und TV-Präsenzinklusive. Organisation und Konzeption von Veranstaltungen und Events. Päsenz in und Kommunikation über für Sie in allen relevanten Social Media-Kanälen. Optimierung ihrer Verkaufsräumlichkeiten und ihres Web-Auftritts, Entwicklung eines Dramaturgiekonzepts. Online und klassische Werbung. Dokumentation und Reporting über unsere Aktivitäten. ",
+        "img": "/assets/imgs/team/wmpr-Logo.jpg",
+        "mail": "info@wm-pr.at",
+        "name": "WM-PR Agentur OG",
+        "subtitle": "Michael Stadlinger – Geschäftsführer"
+      },
+      {
+        "description": "Als Buchhaltungs- und Lohnbüro haben wir uns darauf spezialisiert, für kleine und mittlere Unternehmen die Buchführung und Eingabe der laufenden Geschäftsvorfälle zu tätigen. Somit entlastet Sie ein kompetenter Partner und schafft den Raum und die Zeit, die für Sie wichtig ist, um sich Ihrem Hauptgeschäft zu widmen. Zu unseren Dienstleistungen gehören die Erfassung laufender Geschäftsvorfälle Ihrer Buchhaltung, Fertigung von Lohn- und Baulohnabrechnungen, mit den dazugehörigen Meldungen an die Kassen, Unternehmens- und Gründungsberatung, sowie die Erstellung von Businessplänen. ",
+        "img": "/assets/imgs/team/schreiber-Logo.jpg",
+        "mail": "schreiber@fsc-wob.de",
+        "name": "Schreiber Consulting",
+        "subtitle": "Frank Schreiber – Steuerberater"
       },
       {
         "description": "Versicherungsmakler seit 1989 nach §93 HGB. Unabhängige Versicherungsvergleiche. Abwicklung und Überwachung von Verträgen. Schadenservice und Rundum-sorglos-Pakete für die Mandanten. Verwaltungssystem für Mandanten. Führung und Verwaltung von Silberdepots. Umsatzsteuerfreie Auszahlungen durch Einlagerung in Frankfurt möglich. Erstellen von Anlageempfehlungen und deren Umsetzung. Monatliche Fondskaufempfehlung im Dax möglich. Immobilen Ankauf und Verkauf für Mandanten. Sonderverwaltung von Immobilien und Hausverwaltung. Vielseitige Schulungen und Seminare, im Verkauf und der Unternehmensführung.",
@@ -143,7 +151,7 @@
       },
       {
         "description": "Design und Erstellung von visuellen Produkten und Werbemitteln. Ich bin seit über 25 Jahren Mediengestalterin mit Leib und Seele und seit 2019 zertifizierte Zentangle®-Lehrerin.",
-        "img": "/assets/imgs/team/LogoSchoenfelder.jpg",
+        "img": "/assets/imgs/team/schoenfeld-Logo.jpg",
         "mail": "info@schoenfelder-anja.de",
         "name": "Anja Schönfelder",
         "subtitle": "Mediengestalterin"
@@ -154,13 +162,6 @@
         "mail": "info@ju-productions.de",
         "name": "Julian Hofmeister",
         "subtitle": "Software Entwickler"
-      },
-      {
-        "description": "Wir sind Anbieter von hocheffektiven und zugleich kosteneffizienten, benutzerfreundlichen Lösungen für Email-Sicherheit und Email-Management. Seitdem hat Byteplant sein Angebot auch auf die Bereiche Datenqualität und Datenanreicherung ausgeweitet. Wir helfen Unternehmen dabei, die Datenqualität zu verbessern und die Effizienz von Marketing- und Lead-Generierungskampagnen zu maximieren. Heute werden die Softwarelösungen und Dienstleistungen von Byteplant bei Kunden aller Größenordnungen - von kleinen Unternehmen bis hin zu international tätigen börsennotierten Konzernen - weltweit eingesetzt.",
-        "img": "/assets/imgs/team/BytePlant.jpg",
-        "mail": "contact@byteplant.com",
-        "name": "Byteplant GmbH",
-        "subtitle": "Software Solutions & Consulting"
       }
     ]
   },
@@ -171,10 +172,10 @@
     "pageName": "Hilfsprojekte",
     "with": "mit",
     "projectCardBtnText": "Mehr Lesen",
-    "btnPartner": "Partnerprogramme",
+    "btnPartner": "Online einkaufen",
 
     "voteTitle": "Deine Stimme zählt!",
-    "voteDesc": "Stimme über die Like Button ab, wie die generierten Spendengelder auf die Partnerprogramme verteilt werden sollen.",
+    "voteDesc": "Stimme über die Like Button ab, wie die generierten Spendengelder verteilt werden sollen. Du kannst auch für mehrere Spendenprojekte stimmen.",
 
     "projects": [
       {
@@ -223,15 +224,16 @@
   },
   "partnerPage": {
     "tabName": "Shops",
-    "pageName": "Unsere Partner",
+    "pageName": "Online Einkaufen",
     "search": "Onlineshop Suchen",
     "cancel": "Abbrechen",
     "filter": "Kategorien",
     "with": "mit",
     "selectCountry": "Land",
     "selectCountryText": "Bitte wähle das Land aus, in dem du wohnst, damit alle Links richtig funktionieren und die Provision gespendet werden kann.",
-    "selectCategoryText": "Für eine bessere Übersicht, haben wir die Partner-Programme in verschiedene Kategorien unterteilt.",
-    "selectCountryTextShort": "Bitte wähle dein Land aus, damit alle Links richtig funktionieren. Für eine bessere Übersicht, haben wir die Partner-Programme in verschiedene Kategorien unterteilt.",
+    "selectCategoryText": "Für eine bessere Übersicht, haben wir die Online Shops in verschiedene Kategorien unterteilt. Leider erfolgt nach ihrem Einkauf noch keine Meldung über Ihre Spende. Sie können jedoch sicher sein, dass das Geld nach der Abstimmung, bei den Spendenprojekten gutgeschrieben wird.",
+    "selectCountryTextShort": "Bitte wähle dein Land aus, damit alle Links richtig funktionieren. Für eine bessere Übersicht, haben wir die online Shops in verschiedene Kategorien unterteilt.",
+    "moneyText": " Leider erfolgt nach ihrem Einkauf noch keine Meldung über Ihre Spende. Sie können jedoch sicher sein, dass das Geld nach der Abstimmung, bei den Spendenprojekten gutgeschrieben wird.",
 
     "germany": "Deutschland",
     "austria": "Österreich",

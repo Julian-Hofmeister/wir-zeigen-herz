@@ -1,10 +1,12 @@
 {
   "homePage": {
     "tabName": "Start",
-    "subtitle": "The commandment \"love your neighbour as you love yourself\" concerns us all.",
+    "subtitle": "Donate money now by shopping online",
     "translationBtn": "DE \uD83C\uDDE9\uD83C\uDDEA",
     "explainBtn": "How does it work?",
-    "partnerBtn": "Partner Programmes",
+    "projectsBtn": "Fundraising projects",
+
+    "partnerBtn": "Shop online",
     "lastVisited": "Last Visited",
     "aboutUsTitle": "About us",
     "aboutUs": "The \"We Show Heart Community\" is a non-profit organisation and an independent and free platform where every person with a heart, whether an individual or an entrepreneur, can do good without investing time or donating money. We are committed to local and national projects of all topics and allow every member to vote for the donation project of their choice.",
@@ -65,17 +67,18 @@
         "content": "Currently we use donation projects that are posted on the Betterplace.org donation platform. Betterplace.org is a donation platform from Berlin, founded in 2007 and operated by the non-profit corporation gut.org. After voting, the income is paid out to the various donation projects on a percentage basis. In the future, we will certainly consider our own donation projects."
       },
       {
+        "title": "How high are your administrative costs?",
+        "content": "Without administrative costs, an organization cannot function. \nBut what are administrative costs? In the sense of a statutory use of funds, administrative costs are all expenses that do not directly benefit the tax-privileged purposes, but arise from the general function maintenance of the organization. This includes possible rent, personnel, office and communication costs, travel expenses or advertising expenses.\nExcessive administrative costs are not only harmful to the image of a non-profit organization. It is expected that as much of the funds as possible go directly to the purposes supported. There are also upper limits under tax law which, if exceeded, threaten to result in the withdrawal of charitable status. For charitable organizations that are predominantly financed by donations, the Federal Fiscal Court has defined an upper limit of 50% for administrative costs. For clarification. In order to receive the DZI donation seal, an organization's advertising and administrative expenses may not exceed 30 percent of its total annual expenses, and we adhere to these guidelines."
+      },
+      {
         "title": "How can I use your logo?",
         "content": "Anyone who recommends us can use our logo “And we are there” without asking. Simply copy the following link and paste it into your browser bar to download.\n\nhttps://mega.nz/file/9cIAxAQC#g9KTLWdTZWHg9ee0glg3TE3icfNqgSITX6CATK0ea_o"
       },
       {
         "title": "Who is Betterplace.org",
         "content": "Betterplace.org is Germany's largest donation platform. One hundred twenty corporate partners have been doing good for 14 years. As of today, Betterplace.org has launched 47,262 projects in 185 countries and collected approximately €198 million in donations. Betterplace.org is a non-profit and does not work for a profit. Transparency is one of the basic ideas of Betterplace.org. Therefore, all social projects that collect donations through Betterplace.org are encouraged to tell the community how these donations are used."
-      },
-      {
-        "title": "How high are your administrative costs?",
-        "content": "Without administrative costs, an organization cannot function. \nBut what are administrative costs? In the sense of a statutory use of funds, administrative costs are all expenses that do not directly benefit the tax-privileged purposes, but arise from the general function maintenance of the organization. This includes possible rent, personnel, office and communication costs, travel expenses or advertising expenses.\nExcessive administrative costs are not only harmful to the image of a non-profit organization. It is expected that as much of the funds as possible go directly to the purposes supported. There are also upper limits under tax law which, if exceeded, threaten to result in the withdrawal of charitable status. For charitable organizations that are predominantly financed by donations, the Federal Fiscal Court has defined an upper limit of 50% for administrative costs. For clarification. In order to receive the DZI donation seal, an organization's advertising and administrative expenses may not exceed 30 percent of its total annual expenses, and we adhere to these guidelines."
       }
+
     ]
   },
   "ambassadorPage": {
@@ -122,6 +125,20 @@
     "teamCardBtnText": "E-mail contact",
     "members": [
       {
+        "description": "Classic media work with the aim of increasing your presence in regional and national media as well as relevant trade media in the pint and online area, including radio and TV presence if required. Organization and conception of events. Presence in and communication about for you in all relevant social media channels. Optimization of your sales premises and web presence, development of a dramaturgy concept. Online and classic advertising. Documentation and reporting on our activities.",
+        "img": "/assets/imgs/team/wmpr-Logo.jpg",
+        "mail": "info@wm-pr.at",
+        "name": "WM-PR Agentur OG",
+        "subtitle": "Michael Stadlinger - Managing Director"
+      },
+      {
+        "description": "As an accounting and payroll office, we specialize in doing the bookkeeping and entering current business transactions for small and medium-sized companies. Thus, a competent partner relieves you and creates the space and time that is important for you to devote to your main business. Our services include the entry of current business transactions of your bookkeeping, production of wage and construction wage statements, with the associated reports to the cash registers, business and start-up consulting, as well as the preparation of business plans.\n",
+        "img": "/assets/imgs/team/schreiber-Logo.jpg",
+        "mail": "schreiber@fsc-wob.de",
+        "name": "Schreiber Consulting",
+        "subtitle": "Frank Schreiber – Tax consultant"
+      },
+      {
         "description": "Lawyer/ specialist lawyer for tax law Prof. Dr Florian Haase works as a partner in the field of tax law at the Hamburg office. Prof. Dr Florian Haase's practice focuses on tax structure consulting in international M&A transactions, restructurings, group reorganisations, corporate reorganisations, private equity and real estate transactions, as well as complex financing, group tax planning and international and European tax law.",
         "img": "/assets/imgs/team/LogoRoedl.jpg",
         "mail": "florian.haase@roedl.com",
@@ -164,10 +181,10 @@
     "pageName": "Aid projects",
     "with": "with",
     "projectCardBtnText": "Read more",
-    "btnPartner": "Partner Programmes",
+    "btnPartner": "Shop online",
 
     "voteTitle": "Your vote counts!",
-    "voteDesc": "Use the Like button to vote on how the generated donations should be distributed to the partner programs.",
+    "voteDesc": "Use the Like button to vote on how the donations generated should be distributed. You can also vote for multiple fundraising projects.",
 
     "projects": [
       {
@@ -217,15 +234,16 @@
   },
   "partnerPage": {
     "tabName": "Shops",
-    "pageName": "Our Partner",
+    "pageName": "Shop online",
     "search": "Search",
     "filter": "Categories",
     "cancel": "Cancel",
     "with": "with",
     "selectCountry": "Country",
     "selectCountryText": "Please select the country you live in so that all links work properly and the commission can be donated.",
-    "selectCategoryText": "For a better overview, we have divided the affiliate programs into different categories.",
-    "selectCountryTextShort": "Please select your country for all links to work properly. For a better overview, we have divided the partner programs into different categories.",
+    "selectCategoryText": "For a better overview, we have divided the online shops into different categories.",
+    "selectCountryTextShort": "Please select your country for all links to work properly. For a better overview, we have divided the online Shops into different categories. ",
+    "moneyText": "Unfortunately, there will be no notification of your donation after your purchase. However, you can be sure that the money will be credited to the donation projects after the vote.",
     "germany": "Germany",
     "austria": "Austria",
     "switzerland": "Switzerland",
