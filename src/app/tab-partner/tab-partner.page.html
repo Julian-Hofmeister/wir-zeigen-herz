@@ -7,13 +7,13 @@
         <ion-searchbar (ionInput)="filterList($event)" [placeholder]="'partnerPage.search' | translate"></ion-searchbar>
         <ion-row class="space-between">
           <ion-col size="4.5" class="no-margin">
-            <ion-select class="move-left" interface="popover" [placeholder]="this.country ? ('partnerPage.'+country | translate) : ('partnerPage.selectCountry' | translate)" (ionChange)="selectCountry($event)" >
+            <ion-select class="move-left" [placeholder]="this.country ? ('partnerPage.'+country | translate) : ('partnerPage.selectCountry' | translate)" (ionChange)="selectCountry($event)" >
               <ion-select-option *ngFor="let country of countries" [value]="country">{{'partnerPage.'+country | translate}}</ion-select-option>
             </ion-select>
           </ion-col>
 
             <ion-item id="category-trigger" *ngIf="!filter" lines="none" class="filter-co">
-              <ion-select interface="action-sheet" mode="md" okText="Okay" [cancelText]="'partnerPage.cancel' | translate"
+              <ion-select interface="action-sheet" mode="ios" okText="Okay" [cancelText]="'partnerPage.cancel' | translate"
                           [placeholder]="'partnerPage.filter' | translate" (ionChange)="filterCategories($event)"
                           #selectCategory>
                 <ion-list *ngFor="let option of categories">
