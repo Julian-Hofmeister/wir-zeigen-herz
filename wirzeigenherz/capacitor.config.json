@@ -1,0 +1,11 @@
+{
+  "appId": "com.wirzeigenherz.app",
+  "appName": "wirzeigenherz",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
